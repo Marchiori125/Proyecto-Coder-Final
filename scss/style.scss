@@ -1,0 +1,33 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+    @keyframes float {
+        0%, 100% {
+            transform: translate(-10px, -10px);
+        }
+        50% {
+            transform: translate(5px, 10px);
+        }
+    }
+// Include any default variable overrides here (though functions won't be available)
+@import "./complements/variables";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here //
+@import "./complements/mixins";
+
+@import "./components/navbar";
+
+@import "./pages/index";
+
+@import "./pages/mercado-cripto";
+
+@import "./pages/mercado-nfts";
+
+@import "./pages/mis-ganancias";
+
+@import "./pages/amigos";
+
+

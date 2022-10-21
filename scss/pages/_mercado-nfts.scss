@@ -1,0 +1,429 @@
+.mercado__nfts__rectangulo{
+    position: absolute;
+    width: 355px;
+    height: 400px;
+    margin: 20vw 0 0 2vw;
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    overflow: scroll;
+    &::-webkit-scrollbar {
+        width: 0;
+    }
+    &__title{
+        font-size: 15px;
+        margin: 1vw 0 0 0;
+    }
+    &__btn{
+        margin-top: 2vw;
+        background-color: $primary;
+        border-style: hidden;
+        border-radius: 20px;
+        color: #FFFFFF;
+        transition: all 0.20s linear;
+        -webkit-transition: all 0.20s linear;
+        -moz-transition: all 0.20s linear;
+        position: relative;
+        bottom: 0;
+        box-shadow: 0px 5px 0 #005ba0;
+        &:active{
+            bottom: -5px;
+            box-shadow:0 0 0 $primary, inset 0 0 5px rgba(0, 0, 0, 0.4);
+        }
+    }
+    &__cards{
+        display: grid;
+        grid-template-areas:
+        "card01 card02"
+        "card03 card04"
+        "card05 card06"
+        "card07 card08"
+        ;
+        margin: 4vw 0 0 4vw;
+        row-gap: 2vw;
+        &__card-1{
+            display: grid;
+            justify-content: center;
+            grid-template-rows: 1fr 1fr 1fr;
+            width: 150px;
+            height: 210px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 22px;
+            grid-area: card01;
+        }
+        &__card-2{
+            display: grid;
+            justify-content: center;
+            grid-template-rows: 1fr 1fr 1fr;
+            width: 150px;
+            height: 210px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 22px;
+            grid-area: card02;
+        }
+        &__card-3{
+            display: grid;
+            justify-content: center;
+            grid-template-rows: 1fr 1fr 1fr;
+            width: 150px;
+            height: 210px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 22px;
+            grid-area: card03;
+        }
+        &__card-4{
+            display: grid;
+            justify-content: center;
+            grid-template-rows: 1fr 1fr 1fr;
+            width: 150px;
+            height: 210px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 22px;
+            grid-area: card04;
+        }
+        &__card-5{
+            display: grid;
+            justify-content: center;
+            grid-template-rows: 1fr 1fr 1fr;
+            width: 150px;
+            height: 210px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 22px;
+            grid-area: card05;
+        }
+        &__card-6{
+            display: grid;
+            justify-content: center;
+            grid-template-rows: 1fr 1fr 1fr;
+            width: 150px;
+            height: 210px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 22px;
+            grid-area: card06;
+        }
+        &__card-7{
+            display: grid;
+            justify-content: center;
+            grid-template-rows: 1fr 1fr 1fr;
+            width: 150px;
+            height: 210px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 22px;
+            grid-area: card07;
+        }&__card-8{
+            display: grid;
+            justify-content: center;
+            grid-template-rows: 1fr 1fr 1fr;
+            width: 150px;
+            height: 210px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 22px;
+            grid-area: card08;
+        }
+        &__card__image{
+            margin: 1vw 0 0 0;
+            width: 150px;
+            height: 150px;
+        }
+        &__card__info{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            &__title{
+                display: grid;
+                margin: 0.5vw 0 0 0.5vw;
+                font-size: 15px;
+            }
+            &__price{
+                display: grid;
+                justify-content: end;
+                margin: 0.5vw 1vw 0 0;
+                font-size: 15px;
+            }
+        }
+        &__card__button{
+            display: grid;
+            margin: -0.5vw 0 0 9vw;
+            width: 85px;
+            height: 20px;
+            border-radius: 20px;
+            background: linear-gradient(97.86deg, #89C6FF -38.38%, #3633D0 71.88%);
+            color: #FFFFFF;
+            font-size: 15px;
+            border-style: hidden;
+            transition: all 0.20s linear;
+        -webkit-transition: all 0.20s linear;
+        -moz-transition: all 0.20s linear;
+        position: relative;
+        bottom: 0;
+        box-shadow: 0px 5px 0 #3633D0;
+        &:active{
+            bottom: -5px;
+            box-shadow:0 0 0 #3633D0, inset 0 0 5px rgba(0, 0, 0, 0.4);
+        }
+        }
+    }
+}
+
+/* Empieza Pie de Pagina Mercado Cripto*/
+.main__footer__3{
+    margin: 140vw 0 0 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 200px;
+    height: 100px;
+    &__rectangulo{
+        position: absolute;
+        width: 375px;
+        height: 200px;
+        margin: 8vw 0 0 0;
+        background: conic-gradient(from 180deg at 50% 50%, #000000 -1.95deg, #C37B1D 11.07deg, #000000 40deg, #DB8A21 97.79deg, #000000 166.91deg, #C37B1D 205.98deg, #000000 269.61deg, #0174CD 337.3deg, #000000 358.05deg, #C37B1D 371.07deg);
+        border-radius: 35px 35px 0px 0px;
+    
+    &__logo{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        margin: 14vw 0 0 3vw;
+        z-index: 1;
+    }
+    &__menu__nav{
+        position: absolute;
+        width: 240px;
+        height: 130px;
+        background: #212121;
+        border-radius: 25px;
+        margin: 8vw 0 0 32vw;
+        &__nav{
+            position: absolute;
+            width: 180px;
+            height: 130px;
+            font-size: 15px;
+            margin: 1vw 0 0 0;
+            ul{
+                list-style-type: none;
+                a{
+                    text-decoration: none;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+}
+}
+// Termina pie de Pagina Mercado Cripto
+
+@media (min-width: 992px){  
+/* Empieza Mercado NFTs */  
+.mercado__nfts__rectangulo{
+    position: absolute;
+    width: 1400px;
+    height: 1000px;
+    margin: -5vw 0 0 4vw;
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    
+    padding-top: 5%;
+    overflow: scroll;
+    &::-webkit-scrollbar {
+        width: 0;
+    }
+    &__title{
+        font-size: 30px;
+        margin: -4vw 0 0 0;
+    }
+    &__btn{
+        width: 160px;
+        height: 40px;
+        margin-top: 2vw;
+        background-color: $primary;
+        border-style: hidden;
+        border-radius: 20px;
+        color: #FFFFFF;
+        transition: all 0.20s linear;
+        -webkit-transition: all 0.20s linear;
+        -moz-transition: all 0.20s linear;
+        position: relative;
+        bottom: 0;
+        box-shadow: 0px 5px 0 #005ba0;
+        &:active{
+            bottom: -5px;
+            box-shadow:0 0 0 #0086ec, inset 0 0 5px rgba(0, 0, 0, 0.4);
+        }
+    }
+    &__cards{
+        display: grid;
+        grid-template-areas:
+        "card01 card02 card03 card04"
+        "card05 card06 card07 card08"
+        ;
+        margin: 2vw 0 0 3vw;
+        row-gap: 1vw;
+        &__card-1{
+            display: grid;
+            justify-content: center;
+            grid-template-rows: 1fr 1fr 1fr;
+            width: 300px;
+            height: 420px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 22px;
+            grid-area: card01;
+        }
+        &__card-2{
+            display: grid;
+            justify-content: center;
+            grid-template-rows: 1fr 1fr 1fr;
+            width: 300px;
+            height: 420px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 22px;
+            grid-area: card02;
+        }
+        &__card-3{
+            display: grid;
+            justify-content: center;
+            grid-template-rows: 1fr 1fr 1fr;
+            width: 300px;
+            height: 420px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 22px;
+            grid-area: card03;
+        }
+        &__card-4{
+            display: grid;
+            justify-content: center;
+            grid-template-rows: 1fr 1fr 1fr;
+            width: 300px;
+            height: 420px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 22px;
+            grid-area: card04;
+        }
+        &__card-5{
+            display: grid;
+            justify-content: center;
+            grid-template-rows: 1fr 1fr 1fr;
+            width: 300px;
+            height: 420px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 22px;
+            grid-area: card05;
+        }
+        &__card-6{
+            display: grid;
+            justify-content: center;
+            grid-template-rows: 1fr 1fr 1fr;
+            width: 300px;
+            height: 420px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 22px;
+            grid-area: card06;
+        }
+        &__card-7{
+            display: grid;
+            justify-content: center;
+            grid-template-rows: 1fr 1fr 1fr;
+            width: 300px;
+            height: 420px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 22px;
+            grid-area: card07;
+        }&__card-8{
+            display: grid;
+            justify-content: center;
+            grid-template-rows: 1fr 1fr 1fr;
+            width: 300px;
+            height: 420px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 22px;
+            grid-area: card08;
+        }
+        &__card__image{
+            margin: 1vw 0 0 0;
+            width: 300px;
+            height: 300px;
+        }
+        &__card__info{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            &__title{
+                display: grid;
+                margin: 0.5vw 0 0 0.5vw;
+                font-size: 25px;
+            }
+            &__price{
+                display: grid;
+                justify-content: end;
+                margin: 0.5vw 1vw 0 0;
+                font-size: 25px;
+            }
+        }
+        &__card__button{
+            display: grid;
+            margin: 0.5vw 0 0 5vw;
+            width: 150px;
+            height: 30px;
+            border-radius: 20px;
+            background: linear-gradient(97.86deg, #89C6FF -38.38%, $primary 71.88%);
+            color: #FFFFFF;
+            font-size: 20px;
+            border-style: hidden;
+            transition: all 0.20s linear;
+        -webkit-transition: all 0.20s linear;
+        -moz-transition: all 0.20s linear;
+        position: relative;
+        bottom: 0;
+        box-shadow: 0px 5px 0 #3633D0;
+        &:active{
+            bottom: -5px;
+            box-shadow:0 0 0 #3633D0, inset 0 0 5px rgba(0, 0, 0, 0.4);
+        }
+        }
+    }
+}
+
+/* Termina Mercado NFTs */
+/* Empieza Pie de Pagina Mercado Cripto*/
+.main__footer__3{
+    margin: 65vw 0 0 0;
+    &__rectangulo{
+        position: absolute;
+        width: 100%;
+        height: 370px;
+        margin: 0 0 0 0;
+        background: conic-gradient(from 180deg at 50% 50%, #000000 -1.95deg, #C37B1D 11.07deg, #000000 40deg, #DB8A21 97.79deg, #000000 166.91deg, #C37B1D 205.98deg, #000000 269.61deg, #0174CD 337.3deg, #000000 358.05deg, #C37B1D 371.07deg);
+        border-radius: 35px 35px 0px 0px;
+        &__logo{
+            position: absolute;
+            width: 265.33px;
+            height: 256px;
+            margin: 3vw 0 0 4vw;
+        }
+        &__menu__nav{
+            position: absolute;
+            width: 478px;
+            height: 254px;
+            background: #212121;
+            border-radius: 25px;
+            margin: 3vw 0 0 25vw;
+            &__nav{
+                position: absolute;
+                width: 300px;
+                height: 211px;
+                font-size: 30px;
+                margin: 0.5vw 0 0 0;
+                ul{
+                    list-style-type: none;
+                    a{
+                        text-decoration: none;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+        }
+    } 
+}
+}
+/* Termina Pie de Pagina Mercado Cripto*/

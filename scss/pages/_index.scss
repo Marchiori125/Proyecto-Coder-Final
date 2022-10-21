@@ -1,0 +1,1077 @@
+#menu__inicio{
+    background-color: #2750aa;
+    color: #FFFFFF;
+    }
+    
+    
+    /* Empieza Menu Home */
+
+    .main__home{
+        display: grid;
+        width: 360px;
+        height: 45vw;
+        margin-top: 0;
+        grid-template-columns: 1fr 1fr;
+        &__leftside{
+            &__fondo-1{
+                position: absolute;
+                width: 12rem;
+                height: 12rem;
+                margin: 15vw 0 0 0;
+            }
+            &__frase{
+                position: absolute;
+                width: 200px;
+                height: 100px;
+                font-size: 15px;
+                line-height: 25px;
+                margin: 30vw 0 0 10vw;
+                z-index: 1;
+            }
+            &__nombre{
+                position: absolute;
+                width: 120px;
+                height: 18px;
+                color: #FFFFFF;
+                font-size: 10px;
+                padding-top: 1vw;
+                text-align: center;
+                border-radius: 22px;
+                margin: 45vw 0 0 18vw;
+                background-color: $secondary;
+                z-index: 1;
+            }
+            &__tabladecriptos{
+                display: none;
+            }
+        }
+        &__rightside{
+            width: 180px;
+            margin: 0 0 0 -6vw;
+            &__robotcripto{
+                width: 180px;
+                height: 180px;
+                margin: 8vw 0 0 10vw;
+            }
+            &__fondo-2{
+                position: absolute;
+                width: 180px;
+                height: 180px;
+                margin:13vw 0 0 8vw;
+                z-index: -1;
+            }
+        }
+    }
+    /* termina menu home */
+/* empieza contenido principal */
+.main__content{
+    position: absolute;
+    display: grid;
+    width: 100%;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-top: 40vw;
+&__mercadonfts__rectangulo{
+    display: grid;
+    grid-template-areas:
+    "title"
+    "card01"
+    "card02"
+    "card03"
+    "card04"
+    ;
+    width: 300px;
+    height: 300px;
+    background: rgba(0, 0, 0, 0.76);
+    @include box-shadow (4);
+    border-radius: 22px;
+    overflow: scroll;
+    margin: 2vw 0 0 10vw;
+    padding: 0 0 0 12vw;
+    &__title{
+        width: 100px;
+        height: 65px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 73px;
+        margin: -2vw 0 0 14vw;
+        grid-area: title;
+    }
+    &__card-1{
+        display: grid;
+        justify-content: center;
+        grid-template-rows: 1fr 1fr 1fr;
+        width: 200px;
+        height: 200px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 22px;
+        margin: -1vw 0 0 3vw;
+        grid-area: card01;
+    }
+    &__card-2{
+        display: grid;
+        justify-content: center;
+        grid-template-rows: 1fr 1fr 1fr;
+        width: 200px;
+        height: 200px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 22px;
+        margin: 3vw 0 0 2vw;
+        grid-area: card02;
+    }
+    &__card-3{
+        display: grid;
+        justify-content: center;
+        grid-template-rows: 1fr 1fr 1fr;
+        width: 200px;
+        height: 200px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 22px;
+        margin: 3vw 0 0 3vw;
+        grid-area: card03;
+    }
+    &__card-4{
+        display: grid;
+        justify-content: center;
+        grid-template-rows: 1fr 1fr 1fr;
+        width: 200px;
+        height: 200px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 22px;
+        margin: 3vw 0 0 2vw;
+        grid-area: card04;
+    }
+    &__card__image{
+        margin: 1vw 0 0 0;
+        width: 160px;
+        height: 160px;
+    }
+    &__card__info{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        &__title{
+            display: grid;
+            margin: 0.5vw 0 0 0.5vw;
+            font-size: 15px;
+        }
+        &__price{
+            display: grid;
+            justify-content: end;
+            margin: 0.5vw 0 0 0.5vw;
+            font-size: 15px;
+        }
+    }
+    &__card__button{
+        display: grid;
+        margin: 0.5vw 0 0 15vw;
+        width: 15vw;
+        height: 3vw;
+        border-radius: 20px;
+        background-color: rgba(0, 0, 0, 0.76);
+        color: #FFFFFF;
+        border-width: 0;
+        font-size: 8px;
+    }
+    :-webkit-scrollbar{
+        width: 0;
+    }
+}
+}
+.main__content__rightside{
+    margin: -30vw 0 0 0;
+    &__mercadocripto{
+        width: 300px;
+        height: 220px;
+        background: rgba(0, 0, 0, 0.76);
+        @include box-shadow (4);
+        border-radius: 22px;   
+        margin: 2vw 0 0 10vw;
+        &__title{
+            position: absolute;
+            width: 150px;
+            height: 80px;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 73px;
+            margin: -3vw 0 0 25vw;
+        }
+        &__tablacripto{
+            width: 80vw;
+            height: 50vw;
+            margin: 10vw 0 0 2vw;
+        }
+    }
+    &__amigos{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        width: 300px;
+        height: 300px;
+        background: rgba(0, 0, 0, 0.76);
+        @include box-shadow (4);
+        border-radius: 22px;  
+        margin: 3vw 0 0 10vw;
+        &__title{
+            margin: -4vw 0 0 30vw;
+            width: 100px;
+            height: 98px;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 73px;
+        }
+        &__cards{
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            width: 250px;
+            height: 65px;
+            background: linear-gradient(180deg, rgba(106, 185, 236, 0.7) 27.43%, rgba(255, 255, 255, 0) 171.71%);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            transform: matrix(1, 0, -0.08, 1, 0, 0);
+            margin: -8vw 0 0 6vw;
+            &__image{
+                margin: 2vw 0 0 4vw;
+                width: 50px;
+                height: 50px;
+            }
+            
+            &__info{
+                display: grid;
+                grid-template-rows: 1fr 1fr;
+                font-size: 15px;
+            }
+        }
+    }
+}
+    /* termina contenido principal */
+    /* empieza menu ganancias */
+
+    .menu__ganancias{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        margin-top: 270vw;
+        width: 100%;
+        height: 900px;
+    }
+    
+    .ganancias__cripto{
+        display: grid;
+        grid-template-areas:
+        "title"
+        "card1"
+        "card2"
+        "card3"
+        "card4"
+        "card5";
+        margin: 18vw 0 0 10vw;
+        width: 300px;
+        height: 500px;
+        background: rgba(0, 0, 0, 0.76);
+        @include box-shadow (4);
+        border-radius: 22px;
+        z-index: 1;
+        overflow: scroll;
+        &__title{
+            width: 150px;
+            height: 98px;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 73px;
+            margin: -3vw 0 0 23vw;
+            grid-area: title;
+        }
+        &__card-1{
+            display: grid;
+            grid-template-areas:
+            "logo logo"
+            "currency margin"
+            "quantity quantity"
+            "graph graph";
+            width: 225px;
+            height: 145px;
+            background: linear-gradient(180.23deg, rgba(117, 191, 240, 0.76) 36.57%, rgba(255, 0, 0, 0.516) 117.01%);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            border-radius: 20px;
+            grid-area: card1;
+            margin: 0 0 0 10vw;
+        }
+        &__card-2{
+            display: grid;
+            grid-template-areas:
+            "logo logo"
+            "currency margin"
+            "quantity quantity"
+            "graph graph";
+            width: 225px;
+            height: 145px;
+            background: linear-gradient(180deg, rgba(117, 191, 240, 0.6) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            border-radius: 20px;
+            grid-area: card2;
+            margin: 8vw 0 0 10vw;
+        }
+        &__card-3{
+            display: grid;
+            grid-template-areas:
+            "logo logo"
+            "currency margin"
+            "quantity quantity"
+            "graph graph";
+            width: 225px;
+            height: 145px;
+            background: linear-gradient(180.23deg, rgba(117, 191, 240, 0.76) 36.57%, rgba(255, 0, 0, 0.516) 117.01%);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            border-radius: 20px;
+            grid-area: card3;
+            margin: 8vw 0 0 10vw;
+        }
+        &__card-4{
+            display: grid;
+            grid-template-areas:
+            "logo logo"
+            "currency margin"
+            "quantity quantity"
+            "graph graph";
+            width: 225px;
+            height: 145px;
+            background: linear-gradient(180deg, rgba(117, 191, 240, 0.6) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            border-radius: 20px;
+            grid-area: card4;
+            margin: 8vw 0 0 10vw;
+        }
+        &__card-5{
+            display: grid;
+            grid-template-areas:
+            "logo logo"
+            "currency margin"
+            "quantity quantity"
+            "graph graph";
+            width: 225px;
+            height: 145px;
+            background: linear-gradient(180deg, rgba(117, 191, 240, 0.6) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            border-radius: 20px;
+            grid-area: card5;
+            margin: 8vw 0 0 10vw;
+        }
+        &__currency{
+            display: grid;
+            grid-area: currency;
+            margin: 0 0 0 2vw;
+        }
+        &__margin{
+            display: grid;
+            grid-area: margin;
+        }
+        &__quantity{
+            display: grid;
+            grid-area: quantity;
+            margin: 0 0 0 1vw;
+        }
+        &__graph{
+            display: grid;
+            grid-area: graph;
+            margin: -8vw 0 0 6vw;
+        }
+        &__logo__token{
+            margin: -6vw 0 0 22vw;
+        }
+        
+    }
+    .ganancias__nfts{
+        display: grid;
+        grid-template-areas: 
+        "title"
+        "card-nft1"
+        "card-nft2"
+        "card-nft3"
+        ;
+        margin: 10vw 0 0 10vw;
+        width: 300px;
+        height: 450px;
+        background: rgba(0, 0, 0, 0.76);
+        @include box-shadow (4);
+        border-radius: 22px;
+        overflow: scroll;
+        z-index: 1;
+        &:-webkit-scrollbar{
+            width: 0;
+        }
+        &__title{
+            display: grid;
+            margin: -3vw 0 0 25vw;
+            width: 150px;
+            height: 70px;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 73px;
+            grid-area: title;
+        }
+        &__card-1{
+            display: grid;
+            grid-area: card-nft1;
+            grid-template-areas: 
+            "image-nft image-nft"
+            "name-nft price-nft"
+            ;
+            justify-content: center;
+            width: 280px;
+            height: 200px;
+            background: linear-gradient(180deg, rgba(90, 150, 187, 0.6) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
+            border: 1px solid #E5E5E5;
+            box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.05);
+            border-radius: 10px;
+            margin: 0 0 0 2.5vw;
+        }
+        &__card-2{
+            display: grid;
+            grid-area: card-nft2;
+            grid-template-areas: 
+            "image-nft image-nft"
+            "name-nft price-nft"
+            ;
+            justify-content: center;
+            width: 280px;
+            height: 200px;
+            background: linear-gradient(180deg, rgba(90, 150, 187, 0.6) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
+            border: 1px solid #E5E5E5;
+            box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.05);
+            border-radius: 10px;
+            margin: 2.5vw 0 0 2.5vw;
+        }
+        &__card-3{
+            display: grid;
+            grid-area: card-nft3;
+            grid-template-areas: 
+            "image-nft image-nft"
+            "name-nft price-nft"
+            ;
+            justify-content: center;
+            width: 280px;
+            height: 200px;
+            background: linear-gradient(180deg, rgba(90, 150, 187, 0.6) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
+            border: 1px solid #E5E5E5;
+            box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.05);
+            border-radius: 10px;
+            margin: 2.5vw 0 0 2.5vw;
+        }
+        &__image{
+            display: grid;
+            grid-area: image-nft;
+            margin: -10vw 0 0 0;
+            width: 250px;
+            height: 250px;
+        }
+        &__name{
+            display: grid;
+            grid-area: name-nft;
+            font-size: medium;
+            margin: -12vw 0 0 0;
+        }
+        &__price{
+            display: grid;
+            grid-area: price-nft;
+            margin: -12vw 0 0 6vw;
+            font-size: medium;
+        }
+    }
+/* termina menu ganancias */
+/* Empieza Pie de Pagina */
+
+.main__footer{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 200px;
+    height: 100px;
+    &__rectangulo{
+        position: absolute;
+        width: 375px;
+        height: 200px;
+        margin: 50vw 0 0 0;
+        background: conic-gradient(from 180deg at 50% 50%, #000000 -1.95deg, #C37B1D 11.07deg, #000000 40deg, #DB8A21 97.79deg, #000000 166.91deg, #C37B1D 205.98deg, #000000 269.61deg, #0174CD 337.3deg, #000000 358.05deg, #C37B1D 371.07deg);
+        border-radius: 35px 35px 0px 0px;
+    
+    &__logo{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        margin: 14vw 0 0 3vw;
+        z-index: 1;
+    }
+    &__menu__nav{
+        position: absolute;
+        width: 240px;
+        height: 130px;
+        background: #212121;
+        border-radius: 25px;
+        margin: 8vw 0 0 32vw;
+        &__nav{
+            position: absolute;
+            width: 180px;
+            height: 130px;
+            font-size: 15px;
+            margin: 1vw 0 0 0;
+            ul{
+                list-style-type: none;
+                a{
+                    text-decoration: none;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+}
+}
+/* Termina Pie de Pagina */
+
+@media (min-width: 992px){    
+    #menu__inicio{
+        background-color: $primary;
+        color: #FFFFFF;
+    }
+    
+    
+    /* Empieza Menu Home */
+    
+    .main__home{
+        display: grid;
+        width: 100%;
+        height: 45vw;
+        margin-top: -3vw;
+        grid-template-columns: 1fr 1fr;
+        &__leftside{
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            &__fondo-1{
+                position: absolute;
+                width: 55rem;
+                height: 55rem;
+                margin: -12vw 0 0 0;
+            }
+            &__frase{
+                position: absolute;
+                width: 619px;
+                height: 228px;
+                font-size: 40px;
+                line-height: 73px;
+                margin: 3vw 0 0 15vw;
+            }
+            &__nombre{
+                position: absolute;
+                width: 350px;
+                height: 45px;
+                color: #FFFFFF;
+                padding-top: 0;
+                font-size: 30px;
+                text-align: center;
+                border-radius: 22px;
+                margin: 13vw 0 0 21vw;
+                background: $secondary;
+                z-index: 1;
+                &:hover{
+                    background-color: #c9150f;
+                    transition: all 1s;
+                }
+            }
+            &__tabladecriptos{
+                display: grid;
+                margin: -2vw 0 0 32vw;
+                width: 450px;
+                height: 237.75px;
+                background: rgba(0, 0, 0, 0.83);
+                @include box-shadow (4);
+                border-radius: 22px;
+                transform: matrix(1, 0, -0.08, 1, 0, 0);    
+                z-index: 2;
+                &__tokens{
+                    margin: 0.8vw 0 0 3vw;
+                    width: 350px;
+                }
+            }
+        }
+        &__rightside{
+            margin: 0 0 0 0;
+            &__robotcripto{
+                margin: -2vw 0 0 2vw;
+                animation-name: float;
+                animation-iteration-count: infinite;
+                animation-timing-function: ease-in;
+                animation-duration: 10s;
+                width: 30rem;
+                height: 30rem;
+            }
+            &__fondo-2{
+                position: absolute;
+                width: 35rem;
+                height: 35rem;
+                margin:0 0 5vw 0;
+            }
+        }
+    }
+    /* Termina Menu Home */
+    
+    /* Empieza contenido principal */
+    .main__content{
+        position: absolute;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        background-image: url(https://cdn.shopify.com/s/files/1/2642/6578/t/28/assets/Header-Mori.jpg?v=138821603627941983301650295023);
+        height: 65vw;
+        background-size: cover;
+        background-position: center;
+        margin: -4.3vw 0 0 0;
+    
+    &__mercadonfts__rectangulo{
+        display: grid;
+        grid-template-areas:
+        "title title"
+        "card01 card02"
+        "card03 card04";
+        width: 720px;
+        height: 850px;
+        background: rgba(0, 0, 0, 0.76);
+        @include box-shadow (4);
+        border-radius: 22px;
+        overflow: scroll;
+        margin: 5vw 0 0 5vw;
+        padding: 0 0 0 0;
+        &::-webkit-scrollbar {
+            width: 0;
+        }
+        &__title{
+            width: 424px;
+            height: 98px;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 73px;
+            margin: 1vw 0 0 18vw;
+            grid-area: title;
+        }
+        &__card-1{
+            display: grid;
+            justify-content: center;
+            grid-template-rows: 1fr 1fr 1fr;
+            width: 300px;
+            height: 420px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 22px;
+            margin: -1vw 0 0 3vw;
+            grid-area: card01;
+        }
+        &__card-2{
+            display: grid;
+            justify-content: center;
+            grid-template-rows: 1fr 1fr 1fr;
+            width: 300px;
+            height: 420px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 22px;
+            margin: -1vw 0 0 2vw;
+            grid-area: card02;
+        }
+        &__card-3{
+            display: grid;
+            justify-content: center;
+            grid-template-rows: 1fr 1fr 1fr;
+            width: 300px;
+            height: 420px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 22px;
+            margin: 3vw 0 0 3vw;
+            grid-area: card03;
+        }
+        &__card-4{
+            display: grid;
+            justify-content: center;
+            grid-template-rows: 1fr 1fr 1fr;
+            width: 300px;
+            height: 420px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 22px;
+            margin: 3vw 0 0 2vw;
+            grid-area: card04;
+        }
+        &__card__image{
+            margin: 1vw 0 0 0;
+            width: 300px;
+            height: 300px;
+        }
+        &__card__info{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            &__title{
+                display: grid;
+                margin: 0.5vw 0 0 1.5vw;
+                font-size: 25px;
+            }
+            &__price{
+                display: grid;
+                justify-content: end;
+                margin: 0.5vw 2vw 0 0;
+                font-size: 25px;
+            }
+        }
+        &__card__button{
+            display: grid;
+            margin: 0.5vw 0 0 4.5vw;
+            width: 150px;
+            height: 35px;
+            border-radius: 20px;
+            background-color: rgba(0, 0, 0, 0.76);
+            color: #FFFFFF;
+            border-width: 0;
+            font-size: 20px;
+        }
+        
+    }
+}
+    
+    .main__content__rightside{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 1fr;
+        margin: 2vw 0 0 0;
+        &__mercadocripto{
+            width: 580px;
+            height: 400px;
+            background: rgba(0, 0, 0, 0.76);
+            @include box-shadow (4);
+            border-radius: 22px;   
+            margin: 3vw 0 0 5vw;
+            &__title{
+                padding: 1vw 0 0 11.5vw;
+                width: 500px;
+                height: 98px;
+                font-weight: 400;
+                font-size: 32px;
+                line-height: 73px;
+                margin: -1vw 0 0 0;
+            }
+            &__tablacripto{
+                width: 38vw;
+                height: 38vw;
+                margin: -3vw 0 0 1.5vw;
+            }
+        }
+        &__amigos{
+            display: grid;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            width: 580px;
+            height: 400px;
+            background: rgba(0, 0, 0, 0.76);
+            @include box-shadow (4);
+            border-radius: 22px;  
+            margin: 2vw 0 0 5vw;
+            &__title{
+                margin: 0 0 0 15vw;
+                width: 300px;
+                height: 98px;
+                font-weight: 400;
+                font-size: 32px;
+                line-height: 73px;
+            }
+            &__cards{
+                display: grid;
+                grid-template-columns: 1fr 2fr;
+                width: 480px;
+                height: 71px;
+                background: linear-gradient(180deg, rgba(106, 185, 236, 0.7) 27.43%, rgba(255, 255, 255, 0) 171.71%);
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                transform: matrix(1, 0, -0.08, 1, 0, 0);
+                margin: -1vw 0 0 2.8vw;
+                &__image{
+                    margin: -0.1vw 0 0 2.5vw;
+                    width: 75px;
+                    height: 75px;
+                }
+                &__info{
+                    display: grid;
+                    grid-template-rows: 1fr 1fr;
+                }
+            }
+        }
+    }
+    /* Termina Contenido Principal */
+    /* Empieza Contenido Ganancias */
+    .menu__ganancias{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 55vw;
+        width: 100%;
+        height: 900px;
+    }
+    
+    .ganancias__cripto{
+        display: grid;
+        grid-template-areas:
+        "title title"
+        "card1 card2"
+        "card3 card4"
+        "card5 card5";
+        grid-template-rows: 1fr 1fr;
+        margin: 8vw 0 0 5vw;
+        width: 664.81px;
+        height: 756.4px;
+        background: rgba(0, 0, 0, 0.76);
+        @include box-shadow (4);
+        border-radius: 22px;
+        z-index: 1;
+        overflow: none;
+        &::-webkit-scrollbar{
+            width: 0;
+        }
+        &__title{
+            width: 500px;
+            height: 98px;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 73px;
+            margin: 1vw 0 0 13.5vw;
+            grid-area: title;
+        }
+        &__card-1{
+            display: grid;
+            grid-template-areas:
+            "logo logo"
+            "currency margin"
+            "quantity quantity"
+            "graph graph";
+            width: 225px;
+            height: 145px;
+            background: linear-gradient(180.23deg, rgba(117, 191, 240, 0.76) 36.57%, rgba(255, 0, 0, 0.516) 117.01%);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            border-radius: 20px;
+            grid-area: card1;
+            margin: -15vw 0 0 5vw;
+        }
+        &__card-2{
+            display: grid;
+            grid-template-areas:
+            "logo logo"
+            "currency margin"
+            "quantity quantity"
+            "graph graph";
+            width: 225px;
+            height: 145px;
+            background: linear-gradient(180deg, rgba(117, 191, 240, 0.6) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            border-radius: 20px;
+            grid-area: card2;
+            margin: -15vw 0 0 -1vw;
+        }
+        &__card-3{
+            display: grid;
+            grid-template-areas:
+            "logo logo"
+            "currency margin"
+            "quantity quantity"
+            "graph graph";
+            width: 225px;
+            height: 145px;
+            background: linear-gradient(180.23deg, rgba(117, 191, 240, 0.76) 36.57%, rgba(255, 0, 0, 0.516) 117.01%);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            border-radius: 20px;
+            grid-area: card3;
+            margin: -25vw 0 0 5vw;
+        }
+        &__card-4{
+            display: grid;
+            grid-template-areas:
+            "logo logo"
+            "currency margin"
+            "quantity quantity"
+            "graph graph";
+            width: 225px;
+            height: 145px;
+            background: linear-gradient(180deg, rgba(117, 191, 240, 0.6) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            border-radius: 20px;
+            grid-area: card4;
+            margin: -25vw 0 0 -1vw;
+        }
+        &__card-5{
+            display: grid;
+            grid-template-areas:
+            "logo logo"
+            "currency margin"
+            "quantity quantity"
+            "graph graph";
+            width: 225px;
+            height: 145px;
+            background: linear-gradient(180deg, rgba(117, 191, 240, 0.6) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            border-radius: 20px;
+            grid-area: card5;
+            margin: -12vw 0 0 15vw;
+        }
+        &__currency{
+            display: grid;
+            grid-area: currency;
+            margin: 0 0 0 1vw;
+        }
+        &__margin{
+            display: grid;
+            grid-area: margin;
+        }
+        &__quantity{
+            display: grid;
+            grid-area: quantity;
+            margin: 0 0 0 1vw;
+        }
+        &__graph{
+            display: grid;
+            grid-area: graph;
+            margin: -1vw 0 0 1vw;
+        }
+        &__logo__token{
+            margin: -1.3vw 0 0 5.6vw;
+        }
+    }
+
+    .ganancias__nfts{
+        display: grid;
+        grid-template-areas: 
+        "title"
+        "card-nft1"
+        "card-nft2"
+        "card-nft3"
+        ;
+        margin: 8vw 0 0 4vw;
+        width: 640px;
+        height: 756.4px;
+        background: rgba(0, 0, 0, 0.76);
+        @include box-shadow (4);
+        border-radius: 22px;
+        overflow: scroll;
+        z-index: 1;
+        &::-webkit-scrollbar{
+            width: 0;
+        }
+        &__title{
+            display: grid;
+            margin: 0 0 0 13vw;
+            width: 500px;
+            height: 98px;
+            font-weight: 400;
+            font-size: 2rem;
+            line-height: 73px;
+            grid-area: title;
+        }
+        &__card-1{
+            display: grid;
+            grid-area: card-nft1;
+            grid-template-areas: 
+            "image-nft image-nft"
+            "name-nft price-nft"
+            ;
+            justify-content: center;
+            width: 318px;
+            height: 208px;
+            background: linear-gradient(180deg, rgba(90, 150, 187, 0.6) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
+            border: 1px solid #E5E5E5;
+            box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.05);
+            border-radius: 10px;
+            margin: -1vw 0 0 10vw;
+        }
+        &__card-2{
+            display: grid;
+            grid-area: card-nft2;
+            grid-template-areas: 
+            "image-nft image-nft"
+            "name-nft price-nft"
+            ;
+            justify-content: center;
+            width: 318px;
+            height: 208px;
+            background: linear-gradient(180deg, rgba(90, 150, 187, 0.6) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
+            border: 1px solid #E5E5E5;
+            box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.05);
+            border-radius: 10px;
+            margin: 2.5vw 0 0 10vw;
+        }
+        &__card-3{
+            display: grid;
+            grid-area: card-nft3;
+            grid-template-areas: 
+            "image-nft image-nft"
+            "name-nft price-nft"
+            ;
+            justify-content: center;
+            width: 318px;
+            height: 208px;
+            background: linear-gradient(180deg, rgba(90, 150, 187, 0.6) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
+            border: 1px solid #E5E5E5;
+            box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.05);
+            border-radius: 10px;
+            margin: 2.5vw 0 0 10vw;
+        }
+        &__image{
+            display: grid;
+            grid-area: image-nft;
+            margin: -3vw 0 0 0;
+            width: 280px;
+            height: 280px;
+        }
+        &__name{
+            display: grid;
+            grid-area: name-nft;
+            font-size: medium;
+            margin: -3vw 0 0 0;
+        }
+        &__price{
+            display: grid;
+            grid-area: price-nft;
+            margin: -3vw 0 0 3vw;
+            font-size: medium;
+        }
+    }
+    /* Termina Contenido Ganancias */
+    /* Empieza Pie de Pagina */
+    .main__footer{
+        margin: 0 0 0 0;
+        &__rectangulo{
+            position: absolute;
+            width: 100%;
+            height: 370px;
+            margin: 5vw 0 0 0;
+            background: conic-gradient(from 180deg at 50% 50%, #000000 -1.95deg, #C37B1D 11.07deg, #000000 40deg, #DB8A21 97.79deg, #000000 166.91deg, #C37B1D 205.98deg, #000000 269.61deg, #0174CD 337.3deg, #000000 358.05deg, #C37B1D 371.07deg);
+            border-radius: 35px 35px 0px 0px;
+            &__logo{
+                position: absolute;
+                width: 265.33px;
+                height: 256px;
+                margin: 3vw 0 0 4vw;
+            }
+            &__menu__nav{
+                position: absolute;
+                width: 478px;
+                height: 254px;
+                background: #212121;
+                border-radius: 25px;
+                margin: 3vw 0 0 25vw;
+                &__nav{
+                    position: absolute;
+                    width: 300px;
+                    height: 211px;
+                    font-size: 30px;
+                    margin: 0.5vw 0 0 0;
+                    ul{
+                        list-style-type: none;
+                        a{
+                            text-decoration: none;
+                            color: #FFFFFF;
+                        }
+                    }
+                }
+            }
+        } 
+    }
+    /* Termina Pie de Pagina */
+    
+    @keyframes float {
+        0%, 100% {
+            transform: translate(-10px, -10px);
+        }
+        50% {
+            transform: translate(5px, 10px);
+        }
+}
+}
