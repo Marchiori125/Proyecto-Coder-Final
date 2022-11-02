@@ -2,10 +2,7 @@
     background-color: #2750aa;
     color: #FFFFFF;
     }
-    
-    
     /* Empieza Menu Home */
-
     .main__home{
         display: grid;
         width: 360px;
@@ -194,10 +191,13 @@
             line-height: 73px;
             margin: -3vw 0 0 25vw;
         }
-        &__tablacripto{
+        &__tablacripto__mobile{
             width: 80vw;
             height: 50vw;
             margin: 10vw 0 0 2vw;
+        }
+        &__tablacripto{
+            display: none;
         }
     }
     &__amigos{
@@ -484,7 +484,7 @@
     &__rectangulo{
         position: absolute;
         width: 375px;
-        height: 200px;
+        height: 250px;
         margin: 50vw 0 0 0;
         background: conic-gradient(from 180deg at 50% 50%, #000000 -1.95deg, #C37B1D 11.07deg, #000000 40deg, #DB8A21 97.79deg, #000000 166.91deg, #C37B1D 205.98deg, #000000 269.61deg, #0174CD 337.3deg, #000000 358.05deg, #C37B1D 371.07deg);
         border-radius: 35px 35px 0px 0px;
@@ -518,6 +518,36 @@
             }
         }
     }
+}
+&__formulario__nav{
+    margin: 45vw 0 0 12vw;
+    li{
+    margin: 2vw 0 0 0;
+    text-align: center;
+    list-style-type: none;
+    width: 250px;
+    height: 25px;
+    border-radius: 20px;
+    background: linear-gradient(97.86deg, rgb(184, 77, 0) -38.38%, rgb(185, 78, 2) 71.88%);
+    color: #FFFFFF;
+    font-size: 20px;
+    border-style: hidden;
+    transition: all 0.20s linear;
+    -webkit-transition: all 0.20s linear;
+    -moz-transition: all 0.20s linear;
+    position: relative;
+    bottom: 0;
+    box-shadow: 0px 5px 0 rgba(216, 50, 0, 0.6);
+    &:active{
+        bottom: -5px;
+        box-shadow:0 0 0 rgba(216, 50, 0, 0.6), inset 0 0 5px rgba(0, 0, 0, 0.4);
+    }
+    a{
+        text-decoration: none;
+        color: #FFFFFF;
+        font-size: 15px;
+    }
+}
 }
 }
 /* Termina Pie de Pagina */
@@ -626,12 +656,11 @@
         "card01 card02"
         "card03 card04";
         width: 720px;
-        height: 850px;
+        height: 970px;
         background: rgba(0, 0, 0, 0.76);
         @include box-shadow (4);
         border-radius: 22px;
-        overflow: scroll;
-        margin: 5vw 0 0 5vw;
+        margin: 1.5vw 0 0 5vw;
         padding: 0 0 0 0;
         &::-webkit-scrollbar {
             width: 0;
@@ -642,7 +671,7 @@
             font-weight: 400;
             font-size: 32px;
             line-height: 73px;
-            margin: 1vw 0 0 18vw;
+            margin: 0.5vw 0 0 18vw;
             grid-area: title;
         }
         &__card-1{
@@ -653,7 +682,7 @@
             height: 420px;
             background: rgba(255, 255, 255, 0.1);
             border-radius: 22px;
-            margin: -1vw 0 0 3vw;
+            margin: -1.5vw 0 0 3vw;
             grid-area: card01;
         }
         &__card-2{
@@ -664,7 +693,7 @@
             height: 420px;
             background: rgba(255, 255, 255, 0.1);
             border-radius: 22px;
-            margin: -1vw 0 0 2vw;
+            margin: -1.5vw 0 0 2vw;
             grid-area: card02;
         }
         &__card-3{
@@ -675,7 +704,7 @@
             height: 420px;
             background: rgba(255, 255, 255, 0.1);
             border-radius: 22px;
-            margin: 3vw 0 0 3vw;
+            margin: 1.5vw 0 0 3vw;
             grid-area: card03;
         }
         &__card-4{
@@ -686,7 +715,7 @@
             height: 420px;
             background: rgba(255, 255, 255, 0.1);
             border-radius: 22px;
-            margin: 3vw 0 0 2vw;
+            margin: 1.5vw 0 0 2vw;
             grid-area: card04;
         }
         &__card__image{
@@ -746,9 +775,12 @@
                 margin: -1vw 0 0 0;
             }
             &__tablacripto{
-                width: 38vw;
-                height: 38vw;
-                margin: -3vw 0 0 1.5vw;
+                width: 37vw;
+                height: 20vw;
+                margin: 4vw 0 0 1vw;
+            }
+            &__tablacripto__mobile{
+                display: none;
             }
         }
         &__amigos{
@@ -809,7 +841,7 @@
         grid-template-rows: 1fr 1fr;
         margin: 8vw 0 0 5vw;
         width: 664.81px;
-        height: 756.4px;
+        height: 825px;
         background: rgba(0, 0, 0, 0.76);
         @include box-shadow (4);
         border-radius: 22px;
@@ -936,7 +968,7 @@
         ;
         margin: 8vw 0 0 4vw;
         width: 640px;
-        height: 756.4px;
+        height: 825px;
         background: rgba(0, 0, 0, 0.76);
         @include box-shadow (4);
         border-radius: 22px;
@@ -1063,6 +1095,37 @@
                 }
             }
         } 
+        &__formulario__nav{
+            margin: 8vw 0 0 63vw;
+            li{
+            position: absolute;
+            margin: 2vw 0 0 0;
+            text-align: center;
+            list-style-type: none;
+            width: 400px;
+            height: 45px;
+            border-radius: 20px;
+            background: linear-gradient(97.86deg, rgb(184, 77, 0) -38.38%, rgb(185, 78, 2) 71.88%);
+            color: #FFFFFF;
+            font-size: 20px;
+            border-style: hidden;
+            transition: all 0.20s linear;
+            -webkit-transition: all 0.20s linear;
+            -moz-transition: all 0.20s linear;
+            position: relative;
+            bottom: 0;
+            box-shadow: 0px 5px 0 rgba(216, 50, 0, 0.6);
+            &:active{
+                bottom: -5px;
+                box-shadow:0 0 0 rgba(216, 50, 0, 0.6), inset 0 0 5px rgba(0, 0, 0, 0.4);
+            }
+            a{
+                text-decoration: none;
+                color: #FFFFFF;
+                font-size: 30px;
+            }
+        }
+        }
     }
     /* Termina Pie de Pagina */
     

@@ -8617,10 +8617,12 @@ textarea.form-control-lg {
       font-size: 15px;
       line-height: 73px;
       margin: -3vw 0 0 25vw; }
-    .main__content__rightside__mercadocripto__tablacripto {
+    .main__content__rightside__mercadocripto__tablacripto__mobile {
       width: 80vw;
       height: 50vw;
       margin: 10vw 0 0 2vw; }
+    .main__content__rightside__mercadocripto__tablacripto {
+      display: none; }
   .main__content__rightside__amigos {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -8836,7 +8838,7 @@ textarea.form-control-lg {
   .main__footer__rectangulo {
     position: absolute;
     width: 375px;
-    height: 200px;
+    height: 250px;
     margin: 50vw 0 0 0;
     background: conic-gradient(from 180deg at 50% 50%, #000000 -1.95deg, #C37B1D 11.07deg, #000000 40deg, #DB8A21 97.79deg, #000000 166.91deg, #C37B1D 205.98deg, #000000 269.61deg, #0174CD 337.3deg, #000000 358.05deg, #C37B1D 371.07deg);
     border-radius: 35px 35px 0px 0px; }
@@ -8864,6 +8866,32 @@ textarea.form-control-lg {
           .main__footer__rectangulo__menu__nav__nav ul a {
             text-decoration: none;
             color: #FFFFFF; }
+  .main__footer__formulario__nav {
+    margin: 45vw 0 0 12vw; }
+    .main__footer__formulario__nav li {
+      margin: 2vw 0 0 0;
+      text-align: center;
+      list-style-type: none;
+      width: 250px;
+      height: 25px;
+      border-radius: 20px;
+      background: linear-gradient(97.86deg, #b84d00 -38.38%, #b94e02 71.88%);
+      color: #FFFFFF;
+      font-size: 20px;
+      border-style: hidden;
+      transition: all 0.20s linear;
+      -webkit-transition: all 0.20s linear;
+      -moz-transition: all 0.20s linear;
+      position: relative;
+      bottom: 0;
+      box-shadow: 0px 5px 0 rgba(216, 50, 0, 0.6); }
+      .main__footer__formulario__nav li:active {
+        bottom: -5px;
+        box-shadow: 0 0 0 rgba(216, 50, 0, 0.6), inset 0 0 5px rgba(0, 0, 0, 0.4); }
+      .main__footer__formulario__nav li a {
+        text-decoration: none;
+        color: #FFFFFF;
+        font-size: 15px; }
 
 /* Termina Pie de Pagina */
 @media (min-width: 992px) {
@@ -8950,12 +8978,11 @@ textarea.form-control-lg {
       display: grid;
       grid-template-areas: "title title" "card01 card02" "card03 card04";
       width: 720px;
-      height: 850px;
+      height: 970px;
       background: rgba(0, 0, 0, 0.76);
       box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
       border-radius: 22px;
-      overflow: scroll;
-      margin: 5vw 0 0 5vw;
+      margin: 1.5vw 0 0 5vw;
       padding: 0 0 0 0; }
       .main__content__mercadonfts__rectangulo::-webkit-scrollbar {
         width: 0; }
@@ -8965,7 +8992,7 @@ textarea.form-control-lg {
         font-weight: 400;
         font-size: 32px;
         line-height: 73px;
-        margin: 1vw 0 0 18vw;
+        margin: 0.5vw 0 0 18vw;
         grid-area: title; }
       .main__content__mercadonfts__rectangulo__card-1 {
         display: grid;
@@ -8975,7 +9002,7 @@ textarea.form-control-lg {
         height: 420px;
         background: rgba(255, 255, 255, 0.1);
         border-radius: 22px;
-        margin: -1vw 0 0 3vw;
+        margin: -1.5vw 0 0 3vw;
         grid-area: card01; }
       .main__content__mercadonfts__rectangulo__card-2 {
         display: grid;
@@ -8985,7 +9012,7 @@ textarea.form-control-lg {
         height: 420px;
         background: rgba(255, 255, 255, 0.1);
         border-radius: 22px;
-        margin: -1vw 0 0 2vw;
+        margin: -1.5vw 0 0 2vw;
         grid-area: card02; }
       .main__content__mercadonfts__rectangulo__card-3 {
         display: grid;
@@ -8995,7 +9022,7 @@ textarea.form-control-lg {
         height: 420px;
         background: rgba(255, 255, 255, 0.1);
         border-radius: 22px;
-        margin: 3vw 0 0 3vw;
+        margin: 1.5vw 0 0 3vw;
         grid-area: card03; }
       .main__content__mercadonfts__rectangulo__card-4 {
         display: grid;
@@ -9005,7 +9032,7 @@ textarea.form-control-lg {
         height: 420px;
         background: rgba(255, 255, 255, 0.1);
         border-radius: 22px;
-        margin: 3vw 0 0 2vw;
+        margin: 1.5vw 0 0 2vw;
         grid-area: card04; }
       .main__content__mercadonfts__rectangulo__card__image {
         margin: 1vw 0 0 0;
@@ -9054,9 +9081,11 @@ textarea.form-control-lg {
         line-height: 73px;
         margin: -1vw 0 0 0; }
       .main__content__rightside__mercadocripto__tablacripto {
-        width: 38vw;
-        height: 38vw;
-        margin: -3vw 0 0 1.5vw; }
+        width: 37vw;
+        height: 20vw;
+        margin: 4vw 0 0 1vw; }
+      .main__content__rightside__mercadocripto__tablacripto__mobile {
+        display: none; }
     .main__content__rightside__amigos {
       display: grid;
       grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -9103,7 +9132,7 @@ textarea.form-control-lg {
     grid-template-rows: 1fr 1fr;
     margin: 8vw 0 0 5vw;
     width: 664.81px;
-    height: 756.4px;
+    height: 825px;
     background: rgba(0, 0, 0, 0.76);
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     border-radius: 22px;
@@ -9191,7 +9220,7 @@ textarea.form-control-lg {
     grid-template-areas: "title" "card-nft1" "card-nft2" "card-nft3";
     margin: 8vw 0 0 4vw;
     width: 640px;
-    height: 756.4px;
+    height: 825px;
     background: rgba(0, 0, 0, 0.76);
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     border-radius: 22px;
@@ -9294,6 +9323,33 @@ textarea.form-control-lg {
             .main__footer__rectangulo__menu__nav__nav ul a {
               text-decoration: none;
               color: #FFFFFF; }
+    .main__footer__formulario__nav {
+      margin: 8vw 0 0 63vw; }
+      .main__footer__formulario__nav li {
+        position: absolute;
+        margin: 2vw 0 0 0;
+        text-align: center;
+        list-style-type: none;
+        width: 400px;
+        height: 45px;
+        border-radius: 20px;
+        background: linear-gradient(97.86deg, #b84d00 -38.38%, #b94e02 71.88%);
+        color: #FFFFFF;
+        font-size: 20px;
+        border-style: hidden;
+        transition: all 0.20s linear;
+        -webkit-transition: all 0.20s linear;
+        -moz-transition: all 0.20s linear;
+        position: relative;
+        bottom: 0;
+        box-shadow: 0px 5px 0 rgba(216, 50, 0, 0.6); }
+        .main__footer__formulario__nav li:active {
+          bottom: -5px;
+          box-shadow: 0 0 0 rgba(216, 50, 0, 0.6), inset 0 0 5px rgba(0, 0, 0, 0.4); }
+        .main__footer__formulario__nav li a {
+          text-decoration: none;
+          color: #FFFFFF;
+          font-size: 30px; }
   /* Termina Pie de Pagina */
   @keyframes float {
     0%, 100% {
@@ -9602,7 +9658,7 @@ textarea.form-control-lg {
   .mercado__nfts__rectangulo {
     position: absolute;
     width: 1400px;
-    height: 1000px;
+    height: 1050px;
     margin: -5vw 0 0 4vw;
     background: rgba(0, 0, 0, 0.75);
     border-radius: 22px;
@@ -10800,3 +10856,232 @@ textarea.form-control-lg {
             .main__footer__5__rectangulo__menu__nav__nav ul a {
               text-decoration: none;
               color: #FFFFFF; } }
+
+.formulario__registro__name {
+  position: absolute;
+  width: 160px;
+  height: 40px;
+  margin: 10vw 0 0 5vw;
+  color: #FFFFFF;
+  background: rgba(0, 0, 0, 0.93);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  text-align: center; }
+
+.formulario__registro__surname {
+  position: absolute;
+  width: 160px;
+  height: 40px;
+  margin: 10vw 0 0 50vw;
+  color: #FFFFFF;
+  background: rgba(0, 0, 0, 0.93);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  text-align: center; }
+
+.formulario__registro__username {
+  position: absolute;
+  width: 240px;
+  height: 40px;
+  margin: 25vw 0 0 17vw;
+  color: #FFFFFF;
+  background: rgba(0, 0, 0, 0.93);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  text-align: center; }
+
+.formulario__registro__email {
+  position: absolute;
+  width: 320px;
+  height: 40px;
+  margin: 40vw 0 0 7vw;
+  color: #FFFFFF;
+  background: rgba(0, 0, 0, 0.93);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  text-align: center; }
+
+.formulario__registro__password {
+  position: absolute;
+  width: 240px;
+  height: 40px;
+  margin: 55vw 0 0 17vw;
+  color: #FFFFFF;
+  background: rgba(0, 0, 0, 0.93);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  text-align: center; }
+
+.formulario__registro__boton__registrarse {
+  position: absolute;
+  width: 200px;
+  height: 45px;
+  margin: 75vw 0 0 23vw;
+  border-radius: 20px;
+  background: linear-gradient(97.86deg, rgba(184, 77, 0, 0.6) -38.38%, #b94e02 71.88%);
+  color: #FFFFFF;
+  font-size: 20px;
+  border-style: hidden;
+  transition: all 0.20s linear;
+  -webkit-transition: all 0.20s linear;
+  -moz-transition: all 0.20s linear;
+  position: relative;
+  bottom: 0;
+  box-shadow: 0px 5px 0 rgba(216, 50, 0, 0.6); }
+  .formulario__registro__boton__registrarse:active {
+    bottom: -5px;
+    box-shadow: 0 0 0 rgba(216, 50, 0, 0.6), inset 0 0 5px rgba(0, 0, 0, 0.4); }
+
+@media (min-width: 992px) {
+  .formulario__registro__name {
+    position: absolute;
+    width: 240px;
+    height: 40px;
+    margin: 0 0 0 34vw;
+    color: #FFFFFF;
+    background: rgba(0, 0, 0, 0.93);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    text-align: center; }
+  .formulario__registro__surname {
+    position: absolute;
+    width: 240px;
+    height: 40px;
+    margin: 0 0 0 52vw;
+    color: #FFFFFF;
+    background: rgba(0, 0, 0, 0.93);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    text-align: center; }
+  .formulario__registro__username {
+    position: absolute;
+    width: 240px;
+    height: 40px;
+    margin: 5vw 0 0 43vw;
+    color: #FFFFFF;
+    background: rgba(0, 0, 0, 0.93);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    text-align: center; }
+  .formulario__registro__email {
+    position: absolute;
+    width: 320px;
+    height: 40px;
+    margin: 10vw 0 0 40.5vw;
+    color: #FFFFFF;
+    background: rgba(0, 0, 0, 0.93);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    text-align: center; }
+  .formulario__registro__password {
+    position: absolute;
+    width: 240px;
+    height: 40px;
+    margin: 15vw 0 0 43vw;
+    color: #FFFFFF;
+    background: rgba(0, 0, 0, 0.93);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    text-align: center; }
+  .formulario__registro__boton__registrarse {
+    position: absolute;
+    width: 200px;
+    height: 45px;
+    margin: 20vw 0 0 44.5vw;
+    border-radius: 20px;
+    background: linear-gradient(97.86deg, rgba(184, 77, 0, 0.6) -38.38%, #b94e02 71.88%);
+    color: #FFFFFF;
+    font-size: 20px;
+    border-style: hidden;
+    transition: all 0.20s linear;
+    -webkit-transition: all 0.20s linear;
+    -moz-transition: all 0.20s linear;
+    position: relative;
+    bottom: 0;
+    box-shadow: 0px 5px 0 rgba(216, 50, 0, 0.6); }
+    .formulario__registro__boton__registrarse:active {
+      bottom: -5px;
+      box-shadow: 0 0 0 rgba(216, 50, 0, 0.6), inset 0 0 5px rgba(0, 0, 0, 0.4); } }
+
+.formulario__micuenta__email {
+  position: absolute;
+  width: 320px;
+  height: 40px;
+  margin: 8vw 0 0 8vw;
+  color: #FFFFFF;
+  background: rgba(0, 0, 0, 0.93);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  text-align: center; }
+
+.formulario__micuenta__password {
+  position: absolute;
+  width: 240px;
+  height: 40px;
+  margin: 25vw 0 0 18vw;
+  color: #FFFFFF;
+  background: rgba(0, 0, 0, 0.93);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  text-align: center; }
+
+.formulario__micuenta__iniciar-sesion {
+  position: absolute;
+  width: 200px;
+  height: 45px;
+  margin: 40vw 0 0 25vw;
+  border-radius: 20px;
+  background: linear-gradient(97.86deg, rgba(184, 77, 0, 0.6) -38.38%, #b94e02 71.88%);
+  color: #FFFFFF;
+  font-size: 20px;
+  border-style: hidden;
+  transition: all 0.20s linear;
+  -webkit-transition: all 0.20s linear;
+  -moz-transition: all 0.20s linear;
+  position: relative;
+  bottom: 0;
+  box-shadow: 0px 5px 0 rgba(216, 50, 0, 0.6); }
+  .formulario__micuenta__iniciar-sesion:active {
+    bottom: -5px;
+    box-shadow: 0 0 0 rgba(216, 50, 0, 0.6), inset 0 0 5px rgba(0, 0, 0, 0.4); }
+
+@media (min-width: 992px) {
+  .formulario__micuenta__email {
+    position: absolute;
+    width: 320px;
+    height: 40px;
+    margin: 0 0 0 28vw;
+    color: #FFFFFF;
+    background: rgba(0, 0, 0, 0.93);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    text-align: center; }
+  .formulario__micuenta__password {
+    position: absolute;
+    width: 240px;
+    height: 40px;
+    margin: 0 0 0 52vw;
+    color: #FFFFFF;
+    background: rgba(0, 0, 0, 0.93);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    text-align: center; }
+  .formulario__micuenta__iniciar-sesion {
+    position: absolute;
+    width: 200px;
+    height: 45px;
+    margin: 8vw 0 0 43vw;
+    border-radius: 20px;
+    background: linear-gradient(97.86deg, rgba(184, 77, 0, 0.6) -38.38%, #b94e02 71.88%);
+    color: #FFFFFF;
+    font-size: 20px;
+    border-style: hidden;
+    transition: all 0.20s linear;
+    -webkit-transition: all 0.20s linear;
+    -moz-transition: all 0.20s linear;
+    position: relative;
+    bottom: 0;
+    box-shadow: 0px 5px 0 rgba(216, 50, 0, 0.6); }
+    .formulario__micuenta__iniciar-sesion:active {
+      bottom: -5px;
+      box-shadow: 0 0 0 rgba(216, 50, 0, 0.6), inset 0 0 5px rgba(0, 0, 0, 0.4); } }

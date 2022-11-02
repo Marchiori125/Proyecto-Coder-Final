@@ -1,0 +1,160 @@
+.formulario__registro{
+    &__name{
+        position: absolute;
+        width: 160px;
+        height: 40px;
+        margin: 10vw 0 0 5vw;
+        color: #FFFFFF;
+        background: rgba(0, 0, 0, 0.93);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 25px;
+        text-align: center;
+    }
+    &__surname{
+        position: absolute;
+        width: 160px;
+        height: 40px;
+        margin: 10vw 0 0 50vw;
+        color: #FFFFFF;
+        background: rgba(0, 0, 0, 0.93);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 25px;
+        text-align: center;
+    }
+    &__username{
+        position: absolute;
+        width: 240px;
+        height: 40px;
+        margin: 25vw 0 0 17vw;
+        color: #FFFFFF;
+        background: rgba(0, 0, 0, 0.93);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 25px;
+        text-align: center;
+    }
+    &__email{
+        position: absolute;
+        width: 320px;
+        height: 40px;
+        margin: 40vw 0 0 7vw;
+        color: #FFFFFF;
+        background: rgba(0, 0, 0, 0.93);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 25px;
+        text-align: center;
+    }
+    &__password{
+        position: absolute;
+        width: 240px;
+        height: 40px;
+        margin: 55vw 0 0 17vw;
+        color: #FFFFFF;
+        background: rgba(0, 0, 0, 0.93);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 25px;
+        text-align: center;
+    }
+    &__boton__registrarse{
+        position: absolute;
+        width: 200px;
+        height: 45px;
+        margin: 75vw 0 0 23vw;
+        border-radius: 20px;
+        background: linear-gradient(97.86deg, rgba(184, 77, 0, 0.6) -38.38%, rgb(185, 78, 2) 71.88%);
+        color: #FFFFFF;
+        font-size: 20px;
+        border-style: hidden;
+        transition: all 0.20s linear;
+        -webkit-transition: all 0.20s linear;
+        -moz-transition: all 0.20s linear;
+        position: relative;
+        bottom: 0;
+        box-shadow: 0px 5px 0 rgba(216, 50, 0, 0.6);
+        &:active{
+            bottom: -5px;
+            box-shadow:0 0 0 rgba(216, 50, 0, 0.6), inset 0 0 5px rgba(0, 0, 0, 0.4);
+        }
+    }
+}
+
+
+@media (min-width: 992px){
+    .formulario__registro{
+        &__name{
+            position: absolute;
+            width: 240px;
+            height: 40px;
+            margin: 0 0 0 34vw;
+            color: #FFFFFF;
+            background: rgba(0, 0, 0, 0.93);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 25px;
+            text-align: center;
+        }
+        &__surname{
+            position: absolute;
+            width: 240px;
+            height: 40px;
+            margin: 0 0 0 52vw;
+            color: #FFFFFF;
+            background: rgba(0, 0, 0, 0.93);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 25px;
+            text-align: center;
+        }
+        &__username{
+            position: absolute;
+            width: 240px;
+            height: 40px;
+            margin: 5vw 0 0 43vw;
+            color: #FFFFFF;
+            background: rgba(0, 0, 0, 0.93);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 25px;
+            text-align: center;
+        }
+        &__email{
+            position: absolute;
+            width: 320px;
+            height: 40px;
+            margin: 10vw 0 0 40.5vw;
+            color: #FFFFFF;
+            background: rgba(0, 0, 0, 0.93);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 25px;
+            text-align: center;
+        }
+        &__password{
+            position: absolute;
+            width: 240px;
+            height: 40px;
+            margin: 15vw 0 0 43vw;
+            color: #FFFFFF;
+            background: rgba(0, 0, 0, 0.93);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 25px;
+            text-align: center;
+        }
+        &__boton__registrarse{
+            position: absolute;
+            width: 200px;
+            height: 45px;
+            margin: 20vw 0 0 44.5vw;
+            border-radius: 20px;
+            background: linear-gradient(97.86deg, rgba(184, 77, 0, 0.6) -38.38%, rgb(185, 78, 2) 71.88%);
+            color: #FFFFFF;
+            font-size: 20px;
+            border-style: hidden;
+            transition: all 0.20s linear;
+            -webkit-transition: all 0.20s linear;
+            -moz-transition: all 0.20s linear;
+            position: relative;
+            bottom: 0;
+            box-shadow: 0px 5px 0 rgba(216, 50, 0, 0.6);
+            &:active{
+                bottom: -5px;
+                box-shadow:0 0 0 rgba(216, 50, 0, 0.6), inset 0 0 5px rgba(0, 0, 0, 0.4);
+            }
+        }
+    }
+}
