@@ -8621,7 +8621,7 @@ textarea.form-control-lg {
       width: 80vw;
       height: 50vw;
       margin: 10vw 0 0 2vw; }
-    .main__content__rightside__mercadocripto__tablacripto {
+    .main__content__rightside__mercadocripto__criptotabla {
       display: none; }
   .main__content__rightside__amigos {
     display: grid;
@@ -9080,9 +9080,10 @@ textarea.form-control-lg {
         font-size: 32px;
         line-height: 73px;
         margin: -1vw 0 0 0; }
-      .main__content__rightside__mercadocripto__tablacripto {
-        width: 37vw;
-        height: 20vw;
+      .main__content__rightside__mercadocripto__criptotabla {
+        display: table;
+        width: 565px;
+        height: 300px;
         margin: 4vw 0 0 1vw; }
       .main__content__rightside__mercadocripto__tablacripto__mobile {
         display: none; }

@@ -196,7 +196,7 @@
             height: 50vw;
             margin: 10vw 0 0 2vw;
         }
-        &__tablacripto{
+        &__criptotabla{
             display: none;
         }
     }
@@ -774,9 +774,10 @@
                 line-height: 73px;
                 margin: -1vw 0 0 0;
             }
-            &__tablacripto{
-                width: 37vw;
-                height: 20vw;
+            &__criptotabla{
+                display: table;
+                width: 565px;
+                height: 300px;
                 margin: 4vw 0 0 1vw;
             }
             &__tablacripto__mobile{
