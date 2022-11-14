@@ -157,15 +157,14 @@
 }
 }
 
-
-@media (min-width: 992px){
+@media (min-width: 576px){
     /* Empieza Menu Amigos */
     
     .menu__amigos{
         position: absolute;
-        width: 1300px;
-        height: 800px;
-        margin: -3vw 0 0 8vw;
+        width: 750px;
+        height: 830px;
+        margin: 5vw 0 0 5vw;
         background: rgba(0, 0, 0, 0.75);
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 22px;
@@ -173,7 +172,7 @@
             margin: 3vw 0 0 7vw;
             width: 190px;
             height: 60px;
-            background: linear-gradient(97.86deg, $secondary -38.38%, rgb(185, 78, 2) 71.88%);
+            background: linear-gradient(97.86deg, rgba(184, 77, 0, 0.6) -38.38%, rgb(185, 78, 2) 71.88%);
             border-style: hidden;
             border-radius: 20px;
             color: #FFFFFF;
@@ -182,17 +181,17 @@
             -moz-transition: all 0.20s linear;
             position: relative;
             bottom: 0;
-            box-shadow: 0px 5px 0 $secondary;
+            box-shadow: 0px 5px 0 rgba(216, 50, 0, 0.6);
             &:active{
                 bottom: -5px;
-                box-shadow:0 0 0 $secondary, inset 0 0 5px rgba(0, 0, 0, 0.4);
+                box-shadow:0 0 0 rgba(216, 50, 0, 0.6), inset 0 0 5px rgba(0, 0, 0, 0.4);
             }   
         }
         &__mensajes{
-            margin: 0 0 0 15vw;
+            margin: 0 0 0 5vw;
             width: 190px;
             height: 60px;
-            background: linear-gradient(97.86deg, $secondary -38.38%, rgb(185, 78, 2) 71.88%);
+            background: linear-gradient(97.86deg, rgba(184, 77, 0, 0.6) -38.38%, rgb(185, 78, 2) 71.88%);
             border-style: hidden;
             border-radius: 20px;
             color: #FFFFFF;
@@ -201,17 +200,17 @@
             -moz-transition: all 0.20s linear;
             position: relative;
             bottom: 0;
-            box-shadow: 0px 5px 0 $secondary;
+            box-shadow: 0px 5px 0 rgba(216, 50, 0, 0.6);
             &:active{
                 bottom: -5px;
-                box-shadow:0 0 0 $secondary, inset 0 0 5px rgba(0, 0, 0, 0.4);
+                box-shadow:0 0 0 rgba(216, 50, 0, 0.6), inset 0 0 5px rgba(0, 0, 0, 0.4);
             }
         }
         &__solicitudes{
-            margin: 0 0 0 15vw;
+            margin: 0 0 0 5vw;
             width: 190px;
             height: 60px;
-            background: linear-gradient(97.86deg, $secondary -38.38%, rgb(185, 78, 2) 71.88%);
+            background: linear-gradient(97.86deg, rgba(184, 77, 0, 0.6) -38.38%, rgb(185, 78, 2) 71.88%);
             border-style: hidden;
             border-radius: 20px;
             color: #FFFFFF;
@@ -220,31 +219,31 @@
             -moz-transition: all 0.20s linear;
             position: relative;
             bottom: 0;
-            box-shadow: 0px 5px 0 $secondary;
+            box-shadow: 0px 5px 0 rgba(216, 50, 0, 0.6);
             &:active{
                 bottom: -5px;
-                box-shadow:0 0 0 $secondary, inset 0 0 5px rgba(0, 0, 0, 0.4);
+                box-shadow:0 0 0 rgba(216, 50, 0, 0.6), inset 0 0 5px rgba(0, 0, 0, 0.4);
             }
         }
         &__cards{
             &__card-1{
-                width: 350px;
+                width: 280px;
                 height: 71px;
-                background: linear-gradient(180deg, $secondary 27.43%, rgba(255, 255, 255, 0) 171.71%);
+                background: linear-gradient(180deg, rgba(216, 50, 0, 0.6) 27.43%, rgba(255, 255, 255, 0) 171.71%);
                 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-                margin: 8vw 0 0 2.8vw;
+                margin: 15vw 0 0 2.8vw;
             }
             &__card-2{
-                width: 350px;
+                width: 280px;
                 height: 71px;
-                background: linear-gradient(180deg, $secondary 27.43%, rgba(255, 255, 255, 0) 171.71%);
+                background: linear-gradient(180deg, rgba(216, 50, 0, 0.6) 27.43%, rgba(255, 255, 255, 0) 171.71%);
                 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
                 margin: 2vw 0 0 0;
             }
             &__card-3{
-                width: 350px;
+                width: 280px;
                 height: 71px;
-                background: linear-gradient(180deg, $secondary 27.43%, rgba(255, 255, 255, 0) 171.71%);
+                background: linear-gradient(180deg, rgba(216, 50, 0, 0.6) 27.43%, rgba(255, 255, 255, 0) 171.71%);
                 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
                 margin: 2vw 0 0 0;
             }
@@ -254,27 +253,187 @@
                 height: 75px;
             }
             &__card__info{
-                margin: -5vw 0 0 6.5vw;
+                margin: -9vw 0 0 12vw;
             }
         }
         &__separador{
             position: absolute;
-            margin: 9vw 0 0 8vw;
+            margin: 20vw 0 0 6vw;
             width: 600px;
             height: 0px;
-            border: 5px solid $secondary;
+            border: 5px solid rgba(216, 50, 0, 0.6);
             transform: rotate(89.85deg);
         }
         &__mensaje{
             position: absolute;
-            width: 580px;
+            width: 350px;
             height: 50px;
-            margin: 22vw 0 0 38vw;
+            margin: 50vw 0 0 46vw;
             color: #FFFFFF;
             background: rgba(0, 0, 0, 0.93);
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
             border-radius: 25px;
-            text-align: center;
+        }
+    }
+    
+    /* Termina Menu Amigos */
+    .main__footer__5{
+        margin: 140vw 0 0 0;
+        &__rectangulo{
+            position: absolute;
+            width: 100%;
+            height: 250px;
+            margin: 0 0 0 0;
+            background: conic-gradient(from 180deg at 50% 50%, #000000 -1.95deg, #C37B1D 11.07deg, #000000 40deg, #DB8A21 97.79deg, #000000 166.91deg, #C37B1D 205.98deg, #000000 269.61deg, #0174CD 337.3deg, #000000 358.05deg, #C37B1D 371.07deg);
+            border-radius: 35px 35px 0px 0px;
+            &__logo{
+                position: absolute;
+                width: 180px;
+                height: 180px;
+                margin: 5vw 0 0 4vw;
+            }
+            &__menu__nav{
+                position: absolute;
+                width: 400px;
+                height: 225px;
+                background: #212121;
+                border-radius: 25px;
+                margin: 2vw 0 0 35vw;
+                &__nav{
+                    position: absolute;
+                    width: 300px;
+                    height: 211px;
+                    font-size: 25px;
+                    margin: 0.5vw 0 0 0;
+                    ul{
+                        list-style-type: none;
+                        a{
+                            text-decoration: none;
+                            color: #FFFFFF;
+                        }
+                    }
+                }
+            }
+        } 
+    }
+}
+
+@media (min-width: 992px){
+    /* Empieza Menu Amigos */
+    
+    .menu__amigos{
+        position: absolute;
+        width: 1450px;
+        height: 830px;
+        margin: 0 0 0 12vw;
+        background: rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 22px;
+        &__contactos{
+            margin: 3vw 0 0 7vw;
+            width: 190px;
+            height: 60px;
+            background: linear-gradient(97.86deg, rgba(184, 77, 0, 0.6) -38.38%, rgb(185, 78, 2) 71.88%);
+            border-style: hidden;
+            border-radius: 20px;
+            color: #FFFFFF;
+            transition: all 0.20s linear;
+            -webkit-transition: all 0.20s linear;
+            -moz-transition: all 0.20s linear;
+            position: relative;
+            bottom: 0;
+            box-shadow: 0px 5px 0 rgba(216, 50, 0, 0.6);
+            &:active{
+                bottom: -5px;
+                box-shadow:0 0 0 rgba(216, 50, 0, 0.6), inset 0 0 5px rgba(0, 0, 0, 0.4);
+            }   
+        }
+        &__mensajes{
+            margin: 0 0 0 15vw;
+            width: 190px;
+            height: 60px;
+            background: linear-gradient(97.86deg, rgba(184, 77, 0, 0.6) -38.38%, rgb(185, 78, 2) 71.88%);
+            border-style: hidden;
+            border-radius: 20px;
+            color: #FFFFFF;
+            transition: all 0.20s linear;
+            -webkit-transition: all 0.20s linear;
+            -moz-transition: all 0.20s linear;
+            position: relative;
+            bottom: 0;
+            box-shadow: 0px 5px 0 rgba(216, 50, 0, 0.6);
+            &:active{
+                bottom: -5px;
+                box-shadow:0 0 0 rgba(216, 50, 0, 0.6), inset 0 0 5px rgba(0, 0, 0, 0.4);
+            }
+        }
+        &__solicitudes{
+            margin: 0 0 0 15vw;
+            width: 190px;
+            height: 60px;
+            background: linear-gradient(97.86deg, rgba(184, 77, 0, 0.6) -38.38%, rgb(185, 78, 2) 71.88%);
+            border-style: hidden;
+            border-radius: 20px;
+            color: #FFFFFF;
+            transition: all 0.20s linear;
+            -webkit-transition: all 0.20s linear;
+            -moz-transition: all 0.20s linear;
+            position: relative;
+            bottom: 0;
+            box-shadow: 0px 5px 0 rgba(216, 50, 0, 0.6);
+            &:active{
+                bottom: -5px;
+                box-shadow:0 0 0 rgba(216, 50, 0, 0.6), inset 0 0 5px rgba(0, 0, 0, 0.4);
+            }
+        }
+        &__cards{
+            &__card-1{
+                width: 350px;
+                height: 71px;
+                background: linear-gradient(180deg, rgba(216, 50, 0, 0.6) 27.43%, rgba(255, 255, 255, 0) 171.71%);
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                margin: 5vw 0 0 2.8vw;
+            }
+            &__card-2{
+                width: 350px;
+                height: 71px;
+                background: linear-gradient(180deg, rgba(216, 50, 0, 0.6) 27.43%, rgba(255, 255, 255, 0) 171.71%);
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                margin: 2vw 0 0 0;
+            }
+            &__card-3{
+                width: 350px;
+                height: 71px;
+                background: linear-gradient(180deg, rgba(216, 50, 0, 0.6) 27.43%, rgba(255, 255, 255, 0) 171.71%);
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                margin: 2vw 0 0 0;
+            }
+            &__card__image{
+                margin: 0 0 0 1vw;
+                width: 75px;
+                height: 75px;
+            }
+            &__card__info{
+                margin: -4vw 0 0 6.5vw;
+            }
+        }
+        &__separador{
+            position: absolute;
+            margin: 8vw 0 0 8vw;
+            width: 600px;
+            height: 0px;
+            border: 5px solid rgba(216, 50, 0, 0.6);
+            transform: rotate(89.85deg);
+        }
+        &__mensaje{
+            position: absolute;
+            width: 500px;
+            height: 50px;
+            margin: 20vw 0 0 35vw;
+            color: #FFFFFF;
+            background: rgba(0, 0, 0, 0.93);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 25px;
         }
     }
     

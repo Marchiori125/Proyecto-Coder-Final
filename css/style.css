@@ -8424,6 +8424,37 @@ textarea.form-control-lg {
 
 /* termina menu navegacion */
 /* Empieza Menu de Navegacion */
+@media (min-width: 576px) {
+  .main__header {
+    display: grid;
+    justify-content: space-around;
+    align-items: center; }
+    .main__header .menu__nav__burguer {
+      margin: 0 0 0 88vw; }
+    .main__header .menu__nav {
+      padding-bottom: 8vw; }
+      .main__header .menu__nav li {
+        font-weight: 400;
+        font-size: 1.5rem;
+        line-height: 22px;
+        text-align: center;
+        list-style-type: none;
+        z-index: 1;
+        margin-left: 40px; }
+        .main__header .menu__nav li a {
+          color: #FFFFFF;
+          background: rgba(255, 108, 3, 0.904);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          text-decoration: none;
+          border-radius: 22px;
+          width: 200px;
+          height: 40px; }
+          .main__header .menu__nav li a:hover {
+            background-color: #c9150f;
+            transition: all 1s; } }
+
+/* Termina Menu de Navegacion */
+/* Empieza Menu de Navegacion */
 @media (min-width: 992px) {
   .main__header {
     display: grid;
@@ -8894,6 +8925,452 @@ textarea.form-control-lg {
         font-size: 15px; }
 
 /* Termina Pie de Pagina */
+@media (min-width: 576px) {
+  #menu__inicio {
+    background-color: #2750aa;
+    color: #FFFFFF; }
+  /* Empieza Menu Home */
+  .main__home {
+    display: grid;
+    width: 360px;
+    height: 45vw;
+    margin-top: 0;
+    grid-template-columns: 1fr 1fr; }
+    .main__home__leftside__fondo-1 {
+      position: absolute;
+      width: 30rem;
+      height: 30rem;
+      margin: 8vw 0 0 0; }
+    .main__home__leftside__frase {
+      position: absolute;
+      width: 400px;
+      height: 100px;
+      font-size: 30px;
+      line-height: 30px;
+      margin: 28vw 0 0 10vw;
+      z-index: 1; }
+    .main__home__leftside__nombre {
+      position: absolute;
+      width: 220px;
+      height: 33px;
+      color: #FFFFFF;
+      font-size: 20px;
+      padding-top: 1vw;
+      text-align: center;
+      border-radius: 22px;
+      margin: 40vw 0 0 18vw;
+      background-color: rgba(255, 108, 3, 0.904);
+      z-index: 1; }
+    .main__home__leftside__tabladecriptos {
+      display: none; }
+    .main__home__rightside {
+      width: 180px;
+      margin: 0 0 0 -6vw; }
+      .main__home__rightside__robotcripto {
+        width: 20rem;
+        animation-name: float;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        animation-duration: 10s;
+        height: 20rem;
+        margin: 8vw 0 0 40vw; }
+      .main__home__rightside__fondo-2 {
+        position: absolute;
+        width: 23rem;
+        height: 23rem;
+        margin: 10vw 0 0 36.5vw;
+        z-index: -1; }
+  /* termina menu home */
+  /* empieza contenido principal */
+  .main__content {
+    position: absolute;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 40vw; }
+    .main__content__mercadonfts__rectangulo {
+      display: grid;
+      grid-template-areas: "title title" "card01 card02" "card03 card04";
+      width: 400px;
+      height: 600px;
+      background: rgba(0, 0, 0, 0.76);
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+      border-radius: 22px;
+      overflow: scroll;
+      margin: 2vw 0 0 2.5vw;
+      padding: 0 0 0 0; }
+      .main__content__mercadonfts__rectangulo__title {
+        width: 200px;
+        height: 65px;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 73px;
+        margin: -2vw 0 0 15vw;
+        grid-area: title; }
+      .main__content__mercadonfts__rectangulo__card-1 {
+        display: grid;
+        justify-content: center;
+        grid-template-rows: 1fr 1fr 1fr;
+        width: 180px;
+        height: 230px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 22px;
+        margin: -1vw 0 0 2vw;
+        grid-area: card01; }
+      .main__content__mercadonfts__rectangulo__card-2 {
+        display: grid;
+        justify-content: center;
+        grid-template-rows: 1fr 1fr 1fr;
+        width: 180px;
+        height: 230px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 22px;
+        margin: -1vw 0 0 2vw;
+        grid-area: card02; }
+      .main__content__mercadonfts__rectangulo__card-3 {
+        display: grid;
+        justify-content: center;
+        grid-template-rows: 1fr 1fr 1fr;
+        width: 180px;
+        height: 230px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 22px;
+        margin: 3vw 0 0 2vw;
+        grid-area: card03; }
+      .main__content__mercadonfts__rectangulo__card-4 {
+        display: grid;
+        justify-content: center;
+        grid-template-rows: 1fr 1fr 1fr;
+        width: 180px;
+        height: 230px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 22px;
+        margin: 3vw 0 0 2vw;
+        grid-area: card04; }
+      .main__content__mercadonfts__rectangulo__card__image {
+        margin: 1vw 0 0 1vw;
+        width: 150px;
+        height: 150px; }
+      .main__content__mercadonfts__rectangulo__card__info {
+        display: grid;
+        grid-template-columns: 1fr 1fr; }
+        .main__content__mercadonfts__rectangulo__card__info__title {
+          display: grid;
+          margin: 1vw 0 0 1vw;
+          font-size: 18px; }
+        .main__content__mercadonfts__rectangulo__card__info__price {
+          display: grid;
+          justify-content: end;
+          margin: 1vw 0 0 0;
+          font-size: 18px; }
+      .main__content__mercadonfts__rectangulo__card__button {
+        display: grid;
+        margin: 0 0 0 2.5vw;
+        width: 15vw;
+        height: 3vw;
+        border-radius: 20px;
+        background-color: rgba(0, 0, 0, 0.76);
+        color: #FFFFFF;
+        border-width: 0;
+        font-size: 8px; }
+      .main__content__mercadonfts__rectangulo :-webkit-scrollbar {
+        width: 0; }
+  .main__content__rightside {
+    margin: 0 0 0 0; }
+    .main__content__rightside__mercadocripto {
+      width: 350px;
+      height: 280px;
+      background: rgba(0, 0, 0, 0.76);
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+      border-radius: 22px;
+      margin: 2.5vw 0 0 5vw; }
+      .main__content__rightside__mercadocripto__title {
+        position: absolute;
+        width: 150px;
+        height: 80px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 73px;
+        margin: -1vw 0 0 13.5vw; }
+      .main__content__rightside__mercadocripto__tablacripto__mobile {
+        width: 60vw;
+        height: 30vw;
+        margin: 5vw 0 0 -7vw; }
+      .main__content__rightside__mercadocripto__criptotabla {
+        display: none; }
+    .main__content__rightside__amigos {
+      display: grid;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      row-gap: 35px;
+      width: 350px;
+      height: 300px;
+      background: rgba(0, 0, 0, 0.76);
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+      border-radius: 22px;
+      margin: 3vw 0 0 5vw; }
+      .main__content__rightside__amigos__title {
+        margin: 0 0 0 18vw;
+        width: 100px;
+        height: 98px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 73px; }
+      .main__content__rightside__amigos__cards {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        width: 300px;
+        height: 65px;
+        background: linear-gradient(180deg, rgba(106, 185, 236, 0.7) 27.43%, rgba(255, 255, 255, 0) 171.71%);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        transform: matrix(1, 0, -0.08, 1, 0, 0);
+        margin: -8vw 0 0 3vw; }
+        .main__content__rightside__amigos__cards__image {
+          margin: 1vw 0 0 2vw;
+          width: 50px;
+          height: 50px; }
+        .main__content__rightside__amigos__cards__info {
+          display: grid;
+          grid-template-rows: 1fr 1fr;
+          font-size: 15px; }
+  /* termina contenido principal */
+  /* empieza menu ganancias */
+  .menu__ganancias {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 125vw;
+    width: 100%;
+    height: 900px; }
+  .ganancias__cripto {
+    display: grid;
+    grid-template-areas: "title title" "card1 card2" "card3 card4" "card5 card5";
+    margin: 18vw 0 0 1vw;
+    width: 400px;
+    height: 600px;
+    background: rgba(0, 0, 0, 0.76);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    border-radius: 22px;
+    z-index: 1; }
+    .ganancias__cripto__title {
+      width: 200px;
+      height: 98px;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 73px;
+      margin: -1vw 0 0 16vw;
+      grid-area: title; }
+    .ganancias__cripto__card-1 {
+      display: grid;
+      grid-template-areas: "logo logo" "currency margin" "quantity quantity" "graph graph";
+      width: 180px;
+      height: 125px;
+      background: linear-gradient(180.23deg, rgba(117, 191, 240, 0.76) 36.57%, rgba(255, 0, 0, 0.516) 117.01%);
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      border-radius: 20px;
+      grid-area: card1;
+      margin: -2vw 0 0 2.5vw; }
+    .ganancias__cripto__card-2 {
+      display: grid;
+      grid-template-areas: "logo logo" "currency margin" "quantity quantity" "graph graph";
+      width: 180px;
+      height: 125px;
+      background: linear-gradient(180deg, rgba(117, 191, 240, 0.6) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      border-radius: 20px;
+      grid-area: card2;
+      margin: -2vw 0 0 1vw; }
+    .ganancias__cripto__card-3 {
+      display: grid;
+      grid-template-areas: "logo logo" "currency margin" "quantity quantity" "graph graph";
+      width: 180px;
+      height: 125px;
+      background: linear-gradient(180.23deg, rgba(117, 191, 240, 0.76) 36.57%, rgba(255, 0, 0, 0.516) 117.01%);
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      border-radius: 20px;
+      grid-area: card3;
+      margin: 2vw 0 0 2.5vw; }
+    .ganancias__cripto__card-4 {
+      display: grid;
+      grid-template-areas: "logo logo" "currency margin" "quantity quantity" "graph graph";
+      width: 180px;
+      height: 125px;
+      background: linear-gradient(180deg, rgba(117, 191, 240, 0.6) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      border-radius: 20px;
+      grid-area: card4;
+      margin: 2vw 0 0 1vw; }
+    .ganancias__cripto__card-5 {
+      display: grid;
+      grid-template-areas: "logo logo" "currency margin" "quantity quantity" "graph graph";
+      width: 180px;
+      height: 125px;
+      background: linear-gradient(180deg, rgba(117, 191, 240, 0.6) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      border-radius: 20px;
+      grid-area: card5;
+      margin: 2.5vw 0 0 15vw; }
+    .ganancias__cripto__currency {
+      display: grid;
+      grid-area: currency;
+      margin: 0 0 0 2vw; }
+    .ganancias__cripto__margin {
+      display: grid;
+      grid-area: margin; }
+    .ganancias__cripto__quantity {
+      display: grid;
+      grid-area: quantity;
+      margin: 0 0 0 1vw; }
+    .ganancias__cripto__graph {
+      display: grid;
+      grid-area: graph;
+      margin: -8vw 0 0 2vw;
+      width: 150px;
+      height: 150px; }
+    .ganancias__cripto__logo__token {
+      margin: -3vw 0 0 8vw; }
+  .ganancias__nfts {
+    display: grid;
+    grid-template-areas: "title" "card-nft1" "card-nft2" "card-nft3";
+    margin: 18vw 0 0 1vw;
+    width: 400px;
+    height: 600px;
+    background: rgba(0, 0, 0, 0.76);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    border-radius: 22px;
+    z-index: 1; }
+    .ganancias__nfts:-webkit-scrollbar {
+      width: 0; }
+    .ganancias__nfts__title {
+      display: grid;
+      margin: -1vw 0 0 16vw;
+      width: 150px;
+      height: 70px;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 73px;
+      grid-area: title; }
+    .ganancias__nfts__card-1 {
+      display: grid;
+      grid-area: card-nft1;
+      grid-template-areas: "image-nft image-nft" "name-nft price-nft";
+      justify-content: center;
+      width: 250px;
+      height: 160px;
+      background: linear-gradient(180deg, rgba(90, 150, 187, 0.6) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
+      border: 1px solid #E5E5E5;
+      box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.05);
+      border-radius: 10px;
+      margin: 0 0 0 10vw; }
+    .ganancias__nfts__card-2 {
+      display: grid;
+      grid-area: card-nft2;
+      grid-template-areas: "image-nft image-nft" "name-nft price-nft";
+      justify-content: center;
+      width: 250px;
+      height: 160px;
+      background: linear-gradient(180deg, rgba(90, 150, 187, 0.6) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
+      border: 1px solid #E5E5E5;
+      box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.05);
+      border-radius: 10px;
+      margin: 2.5vw 0 0 10vw; }
+    .ganancias__nfts__card-3 {
+      display: grid;
+      grid-area: card-nft3;
+      grid-template-areas: "image-nft image-nft" "name-nft price-nft";
+      justify-content: center;
+      width: 250px;
+      height: 160px;
+      background: linear-gradient(180deg, rgba(90, 150, 187, 0.6) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
+      border: 1px solid #E5E5E5;
+      box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.05);
+      border-radius: 10px;
+      margin: 2.5vw 0 0 10vw; }
+    .ganancias__nfts__image {
+      display: grid;
+      grid-area: image-nft;
+      margin: -4.5vw 0 0 2.5vw;
+      width: 200px;
+      height: 200px; }
+    .ganancias__nfts__name {
+      display: grid;
+      grid-area: name-nft;
+      font-size: medium;
+      margin: -5vw 0 0 1.5vw; }
+    .ganancias__nfts__price {
+      display: grid;
+      grid-area: price-nft;
+      margin: -5vw 0 0 6vw;
+      font-size: medium; }
+  /* termina menu ganancias */
+  /* Empieza Pie de Pagina */
+  .main__footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 200px;
+    height: 100px; }
+    .main__footer__rectangulo {
+      position: absolute;
+      width: 100%;
+      height: 250px;
+      margin: 5vw 0 0 0;
+      background: conic-gradient(from 180deg at 50% 50%, #000000 -1.95deg, #C37B1D 11.07deg, #000000 40deg, #DB8A21 97.79deg, #000000 166.91deg, #C37B1D 205.98deg, #000000 269.61deg, #0174CD 337.3deg, #000000 358.05deg, #C37B1D 371.07deg);
+      border-radius: 35px 35px 0px 0px; }
+      .main__footer__rectangulo__logo {
+        position: absolute;
+        width: 180px;
+        height: 180px;
+        margin: 5vw 0 0 3vw;
+        z-index: 1; }
+      .main__footer__rectangulo__menu__nav {
+        position: absolute;
+        width: 320px;
+        height: 225px;
+        background: #212121;
+        border-radius: 25px;
+        margin: 2vw 0 0 28vw; }
+        .main__footer__rectangulo__menu__nav__nav {
+          position: absolute;
+          width: 300px;
+          height: 211px;
+          font-size: 25px;
+          margin: 0.5vw 0 0 0; }
+          .main__footer__rectangulo__menu__nav__nav ul {
+            list-style-type: none; }
+            .main__footer__rectangulo__menu__nav__nav ul a {
+              text-decoration: none;
+              color: #FFFFFF; }
+    .main__footer__formulario__nav {
+      margin: 12vw 0 0 67vw; }
+      .main__footer__formulario__nav li {
+        margin: 2vw 0 0 0;
+        text-align: center;
+        list-style-type: none;
+        width: 220px;
+        height: 25px;
+        border-radius: 20px;
+        background: linear-gradient(97.86deg, #b84d00 -38.38%, #b94e02 71.88%);
+        color: #FFFFFF;
+        font-size: 20px;
+        border-style: hidden;
+        transition: all 0.20s linear;
+        -webkit-transition: all 0.20s linear;
+        -moz-transition: all 0.20s linear;
+        position: relative;
+        bottom: 0;
+        box-shadow: 0px 5px 0 rgba(216, 50, 0, 0.6); }
+        .main__footer__formulario__nav li:active {
+          bottom: -5px;
+          box-shadow: 0 0 0 rgba(216, 50, 0, 0.6), inset 0 0 5px rgba(0, 0, 0, 0.4); }
+        .main__footer__formulario__nav li a {
+          text-decoration: none;
+          color: #FFFFFF;
+          font-size: 15px; }
+  /* Termina Pie de Pagina */
+  @keyframes float {
+    0%, 100% {
+      transform: translate(-10px, -10px); }
+    50% {
+      transform: translate(5px, 10px); } } }
+
 @media (min-width: 992px) {
   #menu__inicio {
     background-color: #2750aa;
@@ -8910,16 +9387,16 @@ textarea.form-control-lg {
       grid-template-rows: 1fr 1fr; }
       .main__home__leftside__fondo-1 {
         position: absolute;
-        width: 55rem;
-        height: 55rem;
-        margin: -12vw 0 0 0; }
+        width: 65rem;
+        height: 65rem;
+        margin: -10vw 0 0 0; }
       .main__home__leftside__frase {
         position: absolute;
         width: 619px;
         height: 228px;
-        font-size: 40px;
+        font-size: 45px;
         line-height: 73px;
-        margin: 3vw 0 0 15vw; }
+        margin: 5vw 0 0 20vw; }
       .main__home__leftside__nombre {
         position: absolute;
         width: 350px;
@@ -8929,7 +9406,7 @@ textarea.form-control-lg {
         font-size: 30px;
         text-align: center;
         border-radius: 22px;
-        margin: 13vw 0 0 21vw;
+        margin: 15vw 0 0 25vw;
         background: rgba(255, 108, 3, 0.904);
         z-index: 1; }
         .main__home__leftside__nombre:hover {
@@ -8937,7 +9414,7 @@ textarea.form-control-lg {
           transition: all 1s; }
       .main__home__leftside__tabladecriptos {
         display: grid;
-        margin: -2vw 0 0 32vw;
+        margin: 2vw 0 0 35vw;
         width: 450px;
         height: 237.75px;
         background: rgba(0, 0, 0, 0.83);
@@ -8956,12 +9433,12 @@ textarea.form-control-lg {
         animation-iteration-count: infinite;
         animation-timing-function: ease-in;
         animation-duration: 10s;
-        width: 30rem;
-        height: 30rem; }
+        width: 40rem;
+        height: 40rem; }
       .main__home__rightside__fondo-2 {
         position: absolute;
-        width: 35rem;
-        height: 35rem;
+        width: 45rem;
+        height: 45rem;
         margin: 0 0 5vw 0; }
   /* Termina Menu Home */
   /* Empieza contenido principal */
@@ -8970,19 +9447,19 @@ textarea.form-control-lg {
     display: grid;
     grid-template-columns: 1fr 2fr;
     background-image: url(https://cdn.shopify.com/s/files/1/2642/6578/t/28/assets/Header-Mori.jpg?v=138821603627941983301650295023);
-    height: 65vw;
+    height: 55vw;
     background-size: cover;
     background-position: center;
     margin: -4.3vw 0 0 0; }
     .main__content__mercadonfts__rectangulo {
       display: grid;
       grid-template-areas: "title title" "card01 card02" "card03 card04";
-      width: 720px;
+      width: 762px;
       height: 970px;
       background: rgba(0, 0, 0, 0.76);
       box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
       border-radius: 22px;
-      margin: 1.5vw 0 0 5vw;
+      margin: 2.5vw 0 0 5vw;
       padding: 0 0 0 0; }
       .main__content__mercadonfts__rectangulo::-webkit-scrollbar {
         width: 0; }
@@ -8992,7 +9469,7 @@ textarea.form-control-lg {
         font-weight: 400;
         font-size: 32px;
         line-height: 73px;
-        margin: 0.5vw 0 0 18vw;
+        margin: 0 0 0 15vw;
         grid-area: title; }
       .main__content__mercadonfts__rectangulo__card-1 {
         display: grid;
@@ -9066,15 +9543,15 @@ textarea.form-control-lg {
     row-gap: 1fr;
     margin: 2vw 0 0 0; }
     .main__content__rightside__mercadocripto {
-      width: 580px;
-      height: 400px;
+      width: 667px;
+      height: 434px;
       background: rgba(0, 0, 0, 0.76);
       box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
       border-radius: 22px;
-      margin: 3vw 0 0 5vw; }
+      margin: 3vw 0 0 8vw; }
       .main__content__rightside__mercadocripto__title {
         padding: 1vw 0 0 11.5vw;
-        width: 500px;
+        width: 800px;
         height: 98px;
         font-weight: 400;
         font-size: 32px;
@@ -9082,486 +9559,23 @@ textarea.form-control-lg {
         margin: -1vw 0 0 0; }
       .main__content__rightside__mercadocripto__criptotabla {
         display: table;
-        width: 565px;
-        height: 300px;
+        width: 650px;
+        height: 345px;
         margin: 4vw 0 0 1vw; }
       .main__content__rightside__mercadocripto__tablacripto__mobile {
         display: none; }
     .main__content__rightside__amigos {
       display: grid;
       grid-template-rows: 1fr 1fr 1fr 1fr;
-      width: 580px;
-      height: 400px;
+      width: 667px;
+      height: 434px;
       background: rgba(0, 0, 0, 0.76);
       box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
       border-radius: 22px;
-      margin: 2vw 0 0 5vw; }
+      margin: 2vw 0 0 8vw; }
       .main__content__rightside__amigos__title {
         margin: 0 0 0 15vw;
         width: 300px;
-        height: 98px;
-        font-weight: 400;
-        font-size: 32px;
-        line-height: 73px; }
-      .main__content__rightside__amigos__cards {
-        display: grid;
-        grid-template-columns: 1fr 2fr;
-        width: 480px;
-        height: 71px;
-        background: linear-gradient(180deg, rgba(106, 185, 236, 0.7) 27.43%, rgba(255, 255, 255, 0) 171.71%);
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        transform: matrix(1, 0, -0.08, 1, 0, 0);
-        margin: -1vw 0 0 2.8vw; }
-        .main__content__rightside__amigos__cards__image {
-          margin: -0.1vw 0 0 2.5vw;
-          width: 75px;
-          height: 75px; }
-        .main__content__rightside__amigos__cards__info {
-          display: grid;
-          grid-template-rows: 1fr 1fr; }
-  /* Termina Contenido Principal */
-  /* Empieza Contenido Ganancias */
-  .menu__ganancias {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-top: 55vw;
-    width: 100%;
-    height: 900px; }
-  .ganancias__cripto {
-    display: grid;
-    grid-template-areas: "title title" "card1 card2" "card3 card4" "card5 card5";
-    grid-template-rows: 1fr 1fr;
-    margin: 8vw 0 0 5vw;
-    width: 664.81px;
-    height: 825px;
-    background: rgba(0, 0, 0, 0.76);
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-    border-radius: 22px;
-    z-index: 1;
-    overflow: none; }
-    .ganancias__cripto::-webkit-scrollbar {
-      width: 0; }
-    .ganancias__cripto__title {
-      width: 500px;
-      height: 98px;
-      font-weight: 400;
-      font-size: 32px;
-      line-height: 73px;
-      margin: 1vw 0 0 13.5vw;
-      grid-area: title; }
-    .ganancias__cripto__card-1 {
-      display: grid;
-      grid-template-areas: "logo logo" "currency margin" "quantity quantity" "graph graph";
-      width: 225px;
-      height: 145px;
-      background: linear-gradient(180.23deg, rgba(117, 191, 240, 0.76) 36.57%, rgba(255, 0, 0, 0.516) 117.01%);
-      border: 1px solid rgba(255, 255, 255, 0.5);
-      border-radius: 20px;
-      grid-area: card1;
-      margin: -15vw 0 0 5vw; }
-    .ganancias__cripto__card-2 {
-      display: grid;
-      grid-template-areas: "logo logo" "currency margin" "quantity quantity" "graph graph";
-      width: 225px;
-      height: 145px;
-      background: linear-gradient(180deg, rgba(117, 191, 240, 0.6) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
-      border: 1px solid rgba(255, 255, 255, 0.5);
-      border-radius: 20px;
-      grid-area: card2;
-      margin: -15vw 0 0 -1vw; }
-    .ganancias__cripto__card-3 {
-      display: grid;
-      grid-template-areas: "logo logo" "currency margin" "quantity quantity" "graph graph";
-      width: 225px;
-      height: 145px;
-      background: linear-gradient(180.23deg, rgba(117, 191, 240, 0.76) 36.57%, rgba(255, 0, 0, 0.516) 117.01%);
-      border: 1px solid rgba(255, 255, 255, 0.5);
-      border-radius: 20px;
-      grid-area: card3;
-      margin: -25vw 0 0 5vw; }
-    .ganancias__cripto__card-4 {
-      display: grid;
-      grid-template-areas: "logo logo" "currency margin" "quantity quantity" "graph graph";
-      width: 225px;
-      height: 145px;
-      background: linear-gradient(180deg, rgba(117, 191, 240, 0.6) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
-      border: 1px solid rgba(255, 255, 255, 0.5);
-      border-radius: 20px;
-      grid-area: card4;
-      margin: -25vw 0 0 -1vw; }
-    .ganancias__cripto__card-5 {
-      display: grid;
-      grid-template-areas: "logo logo" "currency margin" "quantity quantity" "graph graph";
-      width: 225px;
-      height: 145px;
-      background: linear-gradient(180deg, rgba(117, 191, 240, 0.6) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
-      border: 1px solid rgba(255, 255, 255, 0.5);
-      border-radius: 20px;
-      grid-area: card5;
-      margin: -12vw 0 0 15vw; }
-    .ganancias__cripto__currency {
-      display: grid;
-      grid-area: currency;
-      margin: 0 0 0 1vw; }
-    .ganancias__cripto__margin {
-      display: grid;
-      grid-area: margin; }
-    .ganancias__cripto__quantity {
-      display: grid;
-      grid-area: quantity;
-      margin: 0 0 0 1vw; }
-    .ganancias__cripto__graph {
-      display: grid;
-      grid-area: graph;
-      margin: -1vw 0 0 1vw; }
-    .ganancias__cripto__logo__token {
-      margin: -1.3vw 0 0 5.6vw; }
-  .ganancias__nfts {
-    display: grid;
-    grid-template-areas: "title" "card-nft1" "card-nft2" "card-nft3";
-    margin: 8vw 0 0 4vw;
-    width: 640px;
-    height: 825px;
-    background: rgba(0, 0, 0, 0.76);
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-    border-radius: 22px;
-    overflow: scroll;
-    z-index: 1; }
-    .ganancias__nfts::-webkit-scrollbar {
-      width: 0; }
-    .ganancias__nfts__title {
-      display: grid;
-      margin: 0 0 0 13vw;
-      width: 500px;
-      height: 98px;
-      font-weight: 400;
-      font-size: 2rem;
-      line-height: 73px;
-      grid-area: title; }
-    .ganancias__nfts__card-1 {
-      display: grid;
-      grid-area: card-nft1;
-      grid-template-areas: "image-nft image-nft" "name-nft price-nft";
-      justify-content: center;
-      width: 318px;
-      height: 208px;
-      background: linear-gradient(180deg, rgba(90, 150, 187, 0.6) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
-      border: 1px solid #E5E5E5;
-      box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.05);
-      border-radius: 10px;
-      margin: -1vw 0 0 10vw; }
-    .ganancias__nfts__card-2 {
-      display: grid;
-      grid-area: card-nft2;
-      grid-template-areas: "image-nft image-nft" "name-nft price-nft";
-      justify-content: center;
-      width: 318px;
-      height: 208px;
-      background: linear-gradient(180deg, rgba(90, 150, 187, 0.6) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
-      border: 1px solid #E5E5E5;
-      box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.05);
-      border-radius: 10px;
-      margin: 2.5vw 0 0 10vw; }
-    .ganancias__nfts__card-3 {
-      display: grid;
-      grid-area: card-nft3;
-      grid-template-areas: "image-nft image-nft" "name-nft price-nft";
-      justify-content: center;
-      width: 318px;
-      height: 208px;
-      background: linear-gradient(180deg, rgba(90, 150, 187, 0.6) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
-      border: 1px solid #E5E5E5;
-      box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.05);
-      border-radius: 10px;
-      margin: 2.5vw 0 0 10vw; }
-    .ganancias__nfts__image {
-      display: grid;
-      grid-area: image-nft;
-      margin: -3vw 0 0 0;
-      width: 280px;
-      height: 280px; }
-    .ganancias__nfts__name {
-      display: grid;
-      grid-area: name-nft;
-      font-size: medium;
-      margin: -3vw 0 0 0; }
-    .ganancias__nfts__price {
-      display: grid;
-      grid-area: price-nft;
-      margin: -3vw 0 0 3vw;
-      font-size: medium; }
-  /* Termina Contenido Ganancias */
-  /* Empieza Pie de Pagina */
-  .main__footer {
-    margin: 0 0 0 0; }
-    .main__footer__rectangulo {
-      position: absolute;
-      width: 100%;
-      height: 370px;
-      margin: 5vw 0 0 0;
-      background: conic-gradient(from 180deg at 50% 50%, #000000 -1.95deg, #C37B1D 11.07deg, #000000 40deg, #DB8A21 97.79deg, #000000 166.91deg, #C37B1D 205.98deg, #000000 269.61deg, #0174CD 337.3deg, #000000 358.05deg, #C37B1D 371.07deg);
-      border-radius: 35px 35px 0px 0px; }
-      .main__footer__rectangulo__logo {
-        position: absolute;
-        width: 265.33px;
-        height: 256px;
-        margin: 3vw 0 0 4vw; }
-      .main__footer__rectangulo__menu__nav {
-        position: absolute;
-        width: 478px;
-        height: 254px;
-        background: #212121;
-        border-radius: 25px;
-        margin: 3vw 0 0 25vw; }
-        .main__footer__rectangulo__menu__nav__nav {
-          position: absolute;
-          width: 300px;
-          height: 211px;
-          font-size: 30px;
-          margin: 0.5vw 0 0 0; }
-          .main__footer__rectangulo__menu__nav__nav ul {
-            list-style-type: none; }
-            .main__footer__rectangulo__menu__nav__nav ul a {
-              text-decoration: none;
-              color: #FFFFFF; }
-    .main__footer__formulario__nav {
-      margin: 8vw 0 0 63vw; }
-      .main__footer__formulario__nav li {
-        position: absolute;
-        margin: 2vw 0 0 0;
-        text-align: center;
-        list-style-type: none;
-        width: 400px;
-        height: 45px;
-        border-radius: 20px;
-        background: linear-gradient(97.86deg, #b84d00 -38.38%, #b94e02 71.88%);
-        color: #FFFFFF;
-        font-size: 20px;
-        border-style: hidden;
-        transition: all 0.20s linear;
-        -webkit-transition: all 0.20s linear;
-        -moz-transition: all 0.20s linear;
-        position: relative;
-        bottom: 0;
-        box-shadow: 0px 5px 0 rgba(216, 50, 0, 0.6); }
-        .main__footer__formulario__nav li:active {
-          bottom: -5px;
-          box-shadow: 0 0 0 rgba(216, 50, 0, 0.6), inset 0 0 5px rgba(0, 0, 0, 0.4); }
-        .main__footer__formulario__nav li a {
-          text-decoration: none;
-          color: #FFFFFF;
-          font-size: 30px; }
-  /* Termina Pie de Pagina */
-  @keyframes float {
-    0%, 100% {
-      transform: translate(-10px, -10px); }
-    50% {
-      transform: translate(5px, 10px); } } }
-
-@media (min-width: 1200px) {
-  #menu__inicio {
-    background-color: #2750aa;
-    font-family: 'Quicksand', sans-serif;
-    color: #FFFFFF; }
-  /* Empieza Menu Home */
-  .main__home {
-    display: grid;
-    width: 99.1vw;
-    height: 45vw;
-    margin-top: -3vw;
-    grid-template-columns: 1fr 1fr; }
-    .main__home__leftside {
-      display: grid;
-      grid-template-rows: 1fr 1fr; }
-      .main__home__leftside__fondo-1 {
-        position: absolute;
-        width: 65rem;
-        height: 65rem;
-        margin: -10vw 0 0 0; }
-      .main__home__leftside__frase {
-        position: absolute;
-        width: 619px;
-        height: 228px;
-        font-size: 45px;
-        line-height: 73px;
-        margin: 5vw 0 0 20vw; }
-      .main__home__leftside__nombre {
-        position: absolute;
-        width: 350px;
-        height: 45px;
-        color: #FFFFFF;
-        padding-top: 0;
-        font-size: 30px;
-        text-align: center;
-        border-radius: 22px;
-        margin: 18rem 0 0 25vw;
-        background: rgba(255, 109, 3, 0.6);
-        z-index: 1; }
-        .main__home__leftside__nombre:hover {
-          background-color: #c9150f;
-          transition: all 1s; }
-      .main__home__leftside__tabladecriptos {
-        display: grid;
-        margin: 2vw 0 0 35vw;
-        width: 450px;
-        height: 237.75px;
-        background: rgba(0, 0, 0, 0.83);
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 22px;
-        transform: matrix(1, 0, -0.08, 1, 0, 0);
-        z-index: 2; }
-        .main__home__leftside__tabladecriptos__tokens {
-          margin: 0.8vw 0 0 3vw;
-          width: 350px; }
-    .main__home__rightside {
-      margin: 0 0 0 0; }
-      .main__home__rightside__robotcripto {
-        margin: -2vw 0 0 2vw;
-        animation-name: float;
-        animation-iteration-count: infinite;
-        animation-timing-function: ease-in;
-        animation-duration: 10s;
-        width: 40rem;
-        height: 40rem; }
-      .main__home__rightside__fondo-2 {
-        position: absolute;
-        width: 45rem;
-        height: 45rem;
-        margin: 0 0 5vw 0; }
-  /* Termina Menu Home */
-  /* Empieza contenido principal */
-  .main__content {
-    position: absolute;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    background-image: url(https://cdn.shopify.com/s/files/1/2642/6578/t/28/assets/Header-Mori.jpg?v=138821603627941983301650295023);
-    height: 55vw;
-    background-size: cover;
-    background-position: center;
-    margin: -4.3vw 0 0 0; }
-    .main__content__mercadonfts__rectangulo {
-      display: grid;
-      grid-template-areas: "title title" "card01 card02" "card03 card04";
-      width: 762.38px;
-      height: 905px;
-      background: rgba(0, 0, 0, 0.76);
-      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-      border-radius: 22px;
-      overflow: scroll;
-      margin: 5vw 0 0 5vw;
-      padding: 0 0 0 0; }
-      .main__content__mercadonfts__rectangulo::-webkit-scrollbar {
-        width: 0; }
-      .main__content__mercadonfts__rectangulo__title {
-        width: 424px;
-        height: 98px;
-        font-weight: 400;
-        font-size: 32px;
-        line-height: 73px;
-        margin: 1vw 0 0 15vw;
-        grid-area: title; }
-      .main__content__mercadonfts__rectangulo__card-1 {
-        display: grid;
-        justify-content: center;
-        grid-template-rows: 1fr 1fr 1fr;
-        width: 300px;
-        height: 420px;
-        background: rgba(255, 255, 255, 0.1);
-        border-radius: 22px;
-        margin: -1vw 0 0 3vw;
-        grid-area: card01; }
-      .main__content__mercadonfts__rectangulo__card-2 {
-        display: grid;
-        justify-content: center;
-        grid-template-rows: 1fr 1fr 1fr;
-        width: 300px;
-        height: 420px;
-        background: rgba(255, 255, 255, 0.1);
-        border-radius: 22px;
-        margin: -1vw 0 0 2vw;
-        grid-area: card02; }
-      .main__content__mercadonfts__rectangulo__card-3 {
-        display: grid;
-        justify-content: center;
-        grid-template-rows: 1fr 1fr 1fr;
-        width: 300px;
-        height: 420px;
-        background: rgba(255, 255, 255, 0.1);
-        border-radius: 22px;
-        margin: 3vw 0 0 3vw;
-        grid-area: card03; }
-      .main__content__mercadonfts__rectangulo__card-4 {
-        display: grid;
-        justify-content: center;
-        grid-template-rows: 1fr 1fr 1fr;
-        width: 300px;
-        height: 420px;
-        background: rgba(255, 255, 255, 0.1);
-        border-radius: 22px;
-        margin: 3vw 0 0 2vw;
-        grid-area: card04; }
-      .main__content__mercadonfts__rectangulo__card__image {
-        margin: 1vw 0 0 0;
-        width: 300px;
-        height: 300px; }
-      .main__content__mercadonfts__rectangulo__card__info {
-        display: grid;
-        grid-template-columns: 1fr 1fr; }
-        .main__content__mercadonfts__rectangulo__card__info__title {
-          display: grid;
-          margin: 0.5vw 0 0 0.5vw;
-          font-size: 30px; }
-        .main__content__mercadonfts__rectangulo__card__info__price {
-          display: grid;
-          justify-content: end;
-          margin: 0.5vw 1vw 0 0;
-          font-size: 30px; }
-      .main__content__mercadonfts__rectangulo__card__button {
-        display: grid;
-        margin: 0.5vw 0 0 4.5vw;
-        width: 6vw;
-        height: 1.5vw;
-        border-radius: 20px;
-        background-color: rgba(0, 0, 0, 0.76);
-        color: #FFFFFF;
-        border-width: 0;
-        font-size: 20px; }
-  .main__content__rightside {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    row-gap: 1fr;
-    margin: 2vw 0 0 0; }
-    .main__content__rightside__mercadocripto {
-      width: 667.08px;
-      height: 434.05px;
-      background: rgba(0, 0, 0, 0.76);
-      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-      border-radius: 22px;
-      margin: 3vw 0 0 8vw; }
-      .main__content__rightside__mercadocripto__title {
-        padding: 1vw 0 0 11.5vw;
-        width: 500px;
-        height: 98px;
-        font-weight: 400;
-        font-size: 32px;
-        line-height: 73px;
-        margin: -1vw 0 0 0; }
-      .main__content__rightside__mercadocripto__tablacripto {
-        width: 35vw;
-        height: 35vw;
-        margin: -4vw 0 0 1.5vw; }
-    .main__content__rightside__amigos {
-      display: grid;
-      grid-template-rows: 1fr 1fr 1fr 1fr;
-      width: 667.08px;
-      height: 434.05px;
-      background: rgba(0, 0, 0, 0.76);
-      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-      border-radius: 22px;
-      margin: 2vw 0 0 8vw; }
-      .main__content__rightside__amigos__title {
-        margin: 0 0 0 14vw;
-        width: 424px;
         height: 98px;
         font-weight: 400;
         font-size: 32px;
@@ -9596,7 +9610,7 @@ textarea.form-control-lg {
     grid-template-rows: 1fr 1fr;
     margin: 0 0 0 10vw;
     width: 664.81px;
-    height: 756.4px;
+    height: 790px;
     background: rgba(0, 0, 0, 0.76);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 22px;
@@ -9676,7 +9690,9 @@ textarea.form-control-lg {
     .ganancias__cripto__graph {
       display: grid;
       grid-area: graph;
-      margin: -1vw 0 0 1vw; }
+      margin: -4vw 0 0 1vw;
+      width: 200px;
+      height: 200px; }
     .ganancias__cripto__logo__token {
       margin: -1.3vw 0 0 4.8vw; }
   .ganancias__nfts {
@@ -9684,11 +9700,10 @@ textarea.form-control-lg {
     grid-template-areas: "title" "card-nft1" "card-nft2" "card-nft3";
     margin: 0 0 0 7vw;
     width: 664.81px;
-    height: 756.4px;
+    height: 790px;
     background: rgba(0, 0, 0, 0.76);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 22px;
-    overflow: scroll;
     z-index: 1; }
     .ganancias__nfts::-webkit-scrollbar {
       width: 0; }
@@ -9724,7 +9739,7 @@ textarea.form-control-lg {
       border: 1px solid #E5E5E5;
       box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.05);
       border-radius: 10px;
-      margin: 2.5vw 0 0 9vw; }
+      margin: 1vw 0 0 9vw; }
     .ganancias__nfts__card-3 {
       display: grid;
       grid-area: card-nft3;
@@ -9736,7 +9751,7 @@ textarea.form-control-lg {
       border: 1px solid #E5E5E5;
       box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.05);
       border-radius: 10px;
-      margin: 2.5vw 0 0 9vw; }
+      margin: 1vw 0 0 9vw; }
     .ganancias__nfts__image {
       display: grid;
       grid-area: image-nft;
@@ -9787,6 +9802,33 @@ textarea.form-control-lg {
             .main__footer__rectangulo__menu__nav__nav ul a {
               text-decoration: none;
               color: #FFFFFF; }
+    .main__footer__formulario__nav {
+      margin: 6.5vw 0 0 63vw; }
+      .main__footer__formulario__nav li {
+        position: absolute;
+        margin: 2vw 0 0 0;
+        text-align: center;
+        list-style-type: none;
+        width: 400px;
+        height: 45px;
+        border-radius: 20px;
+        background: linear-gradient(97.86deg, #b84d00 -38.38%, #b94e02 71.88%);
+        color: #FFFFFF;
+        font-size: 20px;
+        border-style: hidden;
+        transition: all 0.20s linear;
+        -webkit-transition: all 0.20s linear;
+        -moz-transition: all 0.20s linear;
+        position: relative;
+        bottom: 0;
+        box-shadow: 0px 5px 0 rgba(216, 50, 0, 0.6); }
+        .main__footer__formulario__nav li:active {
+          bottom: -5px;
+          box-shadow: 0 0 0 rgba(216, 50, 0, 0.6), inset 0 0 5px rgba(0, 0, 0, 0.4); }
+        .main__footer__formulario__nav li a {
+          text-decoration: none;
+          color: #FFFFFF;
+          font-size: 30px; }
   /* Termina Pie de Pagina */
   @keyframes float {
     0%, 100% {
@@ -9794,6 +9836,7 @@ textarea.form-control-lg {
     50% {
       transform: translate(5px, 10px); } } }
 
+/* Empieza Mercado Cripto */
 .mercado__cripto__rectangulo {
   width: 355px;
   height: 400px;
@@ -9851,13 +9894,71 @@ textarea.form-control-lg {
             text-decoration: none;
             color: #FFFFFF; }
 
+@media (min-width: 576px) {
+  /* Empieza Mercado Cripto */
+  .mercado__cripto__rectangulo {
+    width: 700px;
+    height: 550px;
+    margin: 20vw 0 0 7vw;
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 22px;
+    text-align: center;
+    overflow: none;
+    color: #FFFFFF; }
+    .mercado__cripto__rectangulo__title {
+      font-size: 22px;
+      margin: 2vw 0 0 5vw; }
+    .mercado__cripto__rectangulo__tabla__de__criptos {
+      width: 650px;
+      height: 450px;
+      margin: 2vw 0 0 3vw;
+      color: #FFFFFF; }
+  /* Termina Mercado Cripto */
+  /* Empieza Pie de Pagina Mercado Cripto*/
+  .main__footer__2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    height: 100px; }
+    .main__footer__2__rectangulo {
+      position: absolute;
+      width: 100%;
+      height: 250px;
+      margin: 20vw 0 0 0;
+      background: conic-gradient(from 180deg at 50% 50%, #000000 -1.95deg, #C37B1D 11.07deg, #000000 40deg, #DB8A21 97.79deg, #000000 166.91deg, #C37B1D 205.98deg, #000000 269.61deg, #0174CD 337.3deg, #000000 358.05deg, #C37B1D 371.07deg);
+      border-radius: 35px 35px 0px 0px; }
+      .main__footer__2__rectangulo__logo {
+        position: absolute;
+        width: 180px;
+        height: 180px;
+        margin: 5vw 0 0 3vw;
+        z-index: 1; }
+      .main__footer__2__rectangulo__menu__nav {
+        position: absolute;
+        width: 400px;
+        height: 225px;
+        background: #212121;
+        border-radius: 25px;
+        margin: 2vw 0 0 35vw; }
+        .main__footer__2__rectangulo__menu__nav__nav {
+          position: absolute;
+          width: 300px;
+          height: 211px;
+          font-size: 25px;
+          margin: 0.5vw 0 0 0; }
+          .main__footer__2__rectangulo__menu__nav__nav ul {
+            list-style-type: none; }
+            .main__footer__2__rectangulo__menu__nav__nav ul a {
+              text-decoration: none;
+              color: #FFFFFF; } }
+
 @media (min-width: 992px) {
   /* Empieza Mercado Cripto */
   .mercado__cripto__rectangulo {
     position: absolute;
     width: 1400px;
     height: 850px;
-    margin: -5vw 0 0 4vw;
+    margin: 0 0 0 13vw;
     background: rgba(0, 0, 0, 0.75);
     border-radius: 22px;
     text-align: center;
@@ -10090,13 +10191,13 @@ textarea.form-control-lg {
             text-decoration: none;
             color: #FFFFFF; }
 
-@media (min-width: 992px) {
+@media (min-width: 576px) {
   /* Empieza Mercado NFTs */
   .mercado__nfts__rectangulo {
     position: absolute;
-    width: 1400px;
-    height: 1050px;
-    margin: -5vw 0 0 4vw;
+    width: 750px;
+    height: 1200px;
+    margin: 5vw 0 0 5vw;
     background: rgba(0, 0, 0, 0.75);
     border-radius: 22px;
     text-align: center;
@@ -10112,7 +10213,7 @@ textarea.form-control-lg {
       width: 160px;
       height: 40px;
       margin-top: 2vw;
-      background-color: #2750aa;
+      background-color: #0174CD;
       border-style: hidden;
       border-radius: 20px;
       color: #FFFFFF;
@@ -10124,7 +10225,191 @@ textarea.form-control-lg {
       box-shadow: 0px 5px 0 #005ba0; }
       .mercado__nfts__rectangulo__btn:active {
         bottom: -5px;
-        box-shadow: 0 0 0 #0086ec, inset 0 0 5px rgba(0, 0, 0, 0.4); }
+        box-shadow: 0 0 0 #0174CD, inset 0 0 5px rgba(0, 0, 0, 0.4); }
+    .mercado__nfts__rectangulo__cards {
+      display: grid;
+      grid-template-areas: "card01 card02 card03" "card05 card06 card07" "card04 card08 card08";
+      margin: 3.5vw 0 0 3vw;
+      row-gap: 1vw; }
+      .mercado__nfts__rectangulo__cards__card-1 {
+        display: grid;
+        justify-content: center;
+        grid-template-rows: 1fr 1fr 1fr;
+        width: 225px;
+        height: 320px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 22px;
+        grid-area: card01; }
+      .mercado__nfts__rectangulo__cards__card-2 {
+        display: grid;
+        justify-content: center;
+        grid-template-rows: 1fr 1fr 1fr;
+        width: 225px;
+        height: 320px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 22px;
+        grid-area: card02; }
+      .mercado__nfts__rectangulo__cards__card-3 {
+        display: grid;
+        justify-content: center;
+        grid-template-rows: 1fr 1fr 1fr;
+        width: 225px;
+        height: 320px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 22px;
+        grid-area: card03; }
+      .mercado__nfts__rectangulo__cards__card-4 {
+        display: grid;
+        justify-content: center;
+        grid-template-rows: 1fr 1fr 1fr;
+        width: 225px;
+        height: 320px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 22px;
+        grid-area: card04; }
+      .mercado__nfts__rectangulo__cards__card-5 {
+        display: grid;
+        justify-content: center;
+        grid-template-rows: 1fr 1fr 1fr;
+        width: 225px;
+        height: 320px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 22px;
+        grid-area: card05; }
+      .mercado__nfts__rectangulo__cards__card-6 {
+        display: grid;
+        justify-content: center;
+        grid-template-rows: 1fr 1fr 1fr;
+        width: 225px;
+        height: 320px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 22px;
+        grid-area: card06; }
+      .mercado__nfts__rectangulo__cards__card-7 {
+        display: grid;
+        justify-content: center;
+        grid-template-rows: 1fr 1fr 1fr;
+        width: 225px;
+        height: 320px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 22px;
+        grid-area: card07; }
+      .mercado__nfts__rectangulo__cards__card-8 {
+        display: grid;
+        justify-content: center;
+        grid-template-rows: 1fr 1fr 1fr;
+        width: 225px;
+        height: 320px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 22px;
+        grid-area: card08; }
+      .mercado__nfts__rectangulo__cards__card__image {
+        margin: 2vw 0 0 0;
+        width: 200px;
+        height: 180px; }
+      .mercado__nfts__rectangulo__cards__card__info {
+        display: grid;
+        grid-template-columns: 1fr 1fr; }
+        .mercado__nfts__rectangulo__cards__card__info__title {
+          display: grid;
+          margin: 0.5vw 0 0 0.5vw;
+          font-size: 22px; }
+        .mercado__nfts__rectangulo__cards__card__info__price {
+          display: grid;
+          justify-content: end;
+          margin: 0.5vw 1vw 0 0;
+          font-size: 22px; }
+      .mercado__nfts__rectangulo__cards__card__button {
+        display: grid;
+        margin: 0.5vw 0 0 4.5vw;
+        width: 125px;
+        height: 40px;
+        border-radius: 20px;
+        background: linear-gradient(97.86deg, #89C6FF -38.38%, #3633D0 71.88%);
+        color: #FFFFFF;
+        font-size: 20px;
+        border-style: hidden;
+        transition: all 0.20s linear;
+        -webkit-transition: all 0.20s linear;
+        -moz-transition: all 0.20s linear;
+        position: relative;
+        bottom: 0;
+        box-shadow: 0px 5px 0 #3633D0; }
+        .mercado__nfts__rectangulo__cards__card__button:active {
+          bottom: -5px;
+          box-shadow: 0 0 0 #3633D0, inset 0 0 5px rgba(0, 0, 0, 0.4); }
+  /* Termina Mercado NFTs */
+  /* Empieza Pie de Pagina Mercado Cripto*/
+  .main__footer__3 {
+    margin: 165vw 0 0 0; }
+    .main__footer__3__rectangulo {
+      position: absolute;
+      width: 100%;
+      height: 250px;
+      margin: 0vw 0 0 0;
+      background: conic-gradient(from 180deg at 50% 50%, #000000 -1.95deg, #C37B1D 11.07deg, #000000 40deg, #DB8A21 97.79deg, #000000 166.91deg, #C37B1D 205.98deg, #000000 269.61deg, #0174CD 337.3deg, #000000 358.05deg, #C37B1D 371.07deg);
+      border-radius: 35px 35px 0px 0px; }
+      .main__footer__3__rectangulo__logo {
+        position: absolute;
+        width: 180px;
+        height: 180px;
+        margin: 5vw 0 0 3vw;
+        z-index: 1; }
+      .main__footer__3__rectangulo__menu__nav {
+        position: absolute;
+        width: 400px;
+        height: 225px;
+        background: #212121;
+        border-radius: 25px;
+        margin: 2vw 0 0 35vw; }
+        .main__footer__3__rectangulo__menu__nav__nav {
+          position: absolute;
+          width: 300px;
+          height: 211px;
+          font-size: 25px;
+          margin: 0.5vw 0 0 0; }
+          .main__footer__3__rectangulo__menu__nav__nav ul {
+            list-style-type: none; }
+            .main__footer__3__rectangulo__menu__nav__nav ul a {
+              text-decoration: none;
+              color: #FFFFFF; } }
+
+/* Termina Pie de Pagina Mercado Cripto*/
+@media (min-width: 992px) {
+  /* Empieza Mercado NFTs */
+  .mercado__nfts__rectangulo {
+    position: absolute;
+    width: 1400px;
+    height: 1100px;
+    margin: -2vw 0 0 13vw;
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 5%;
+    overflow: scroll; }
+    .mercado__nfts__rectangulo::-webkit-scrollbar {
+      width: 0; }
+    .mercado__nfts__rectangulo__title {
+      font-size: 30px;
+      margin: -4vw 0 0 0; }
+    .mercado__nfts__rectangulo__btn {
+      width: 160px;
+      height: 40px;
+      margin-top: 2vw;
+      background-color: #0174CD;
+      border-style: hidden;
+      border-radius: 20px;
+      color: #FFFFFF;
+      transition: all 0.20s linear;
+      -webkit-transition: all 0.20s linear;
+      -moz-transition: all 0.20s linear;
+      position: relative;
+      bottom: 0;
+      box-shadow: 0px 5px 0 #005ba0; }
+      .mercado__nfts__rectangulo__btn:active {
+        bottom: -5px;
+        box-shadow: 0 0 0 #0174CD, inset 0 0 5px rgba(0, 0, 0, 0.4); }
     .mercado__nfts__rectangulo__cards {
       display: grid;
       grid-template-areas: "card01 card02 card03 card04" "card05 card06 card07 card08";
@@ -10212,19 +10497,19 @@ textarea.form-control-lg {
         .mercado__nfts__rectangulo__cards__card__info__title {
           display: grid;
           margin: 0.5vw 0 0 0.5vw;
-          font-size: 25px; }
+          font-size: 30px; }
         .mercado__nfts__rectangulo__cards__card__info__price {
           display: grid;
           justify-content: end;
           margin: 0.5vw 1vw 0 0;
-          font-size: 25px; }
+          font-size: 30px; }
       .mercado__nfts__rectangulo__cards__card__button {
         display: grid;
-        margin: 0.5vw 0 0 5vw;
-        width: 150px;
-        height: 30px;
+        margin: 0.5vw 0 0 4.5vw;
+        width: 6vw;
+        height: 1.5vw;
         border-radius: 20px;
-        background: linear-gradient(97.86deg, #89C6FF -38.38%, #2750aa 71.88%);
+        background: linear-gradient(97.86deg, #89C6FF -38.38%, #3633D0 71.88%);
         color: #FFFFFF;
         font-size: 20px;
         border-style: hidden;
@@ -10240,7 +10525,7 @@ textarea.form-control-lg {
   /* Termina Mercado NFTs */
   /* Empieza Pie de Pagina Mercado Cripto*/
   .main__footer__3 {
-    margin: 65vw 0 0 0; }
+    margin: 60vw 0 0 0; }
     .main__footer__3__rectangulo {
       position: absolute;
       width: 100%;
@@ -10650,6 +10935,381 @@ textarea.form-control-lg {
           color: #FFFFFF; }
 
 /* Termina Pie de Pagina */
+@media (min-width: 576px) {
+  /* Empieza Ganancias Cripto */
+  .main__ganancias__cripto {
+    display: grid;
+    grid-template-areas: "title title " "card01 card02" "card03 card04" "card05 card06";
+    position: absolute;
+    width: 700px;
+    height: 550px;
+    margin: 5vw 0 0 6.5vw;
+    background: rgba(0, 0, 0, 0.76);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    border-radius: 22px;
+    text-align: center;
+    padding: 2vw 0 0 13vw; }
+    .main__ganancias__cripto__title {
+      margin: 0 0 0 -10vw;
+      color: #FFFFFF;
+      font-size: 25px;
+      grid-area: title; }
+    .main__ganancias__cripto__card-1 {
+      display: grid;
+      grid-template-areas: "logo logo" "currency margin" "quantity quantity" "graph graph";
+      width: 200px;
+      height: 125px;
+      background: linear-gradient(180.23deg, rgba(117, 191, 240, 0.76) 36.57%, rgba(255, 0, 0, 0.516) 117.01%);
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      border-radius: 20px;
+      grid-area: card01; }
+    .main__ganancias__cripto__card-2 {
+      display: grid;
+      grid-template-areas: "logo logo" "currency margin" "quantity quantity" "graph graph";
+      width: 200px;
+      height: 125px;
+      background: linear-gradient(180deg, rgba(117, 191, 240, 0.6) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      border-radius: 20px;
+      grid-area: card02; }
+    .main__ganancias__cripto__card-3 {
+      display: grid;
+      grid-template-areas: "logo logo" "currency margin" "quantity quantity" "graph graph";
+      width: 200px;
+      height: 125px;
+      background: linear-gradient(180.23deg, rgba(117, 191, 240, 0.76) 36.57%, rgba(255, 0, 0, 0.516) 117.01%);
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      border-radius: 20px;
+      grid-area: card03; }
+    .main__ganancias__cripto__card-4 {
+      display: grid;
+      grid-template-areas: "logo logo" "currency margin" "quantity quantity" "graph graph";
+      width: 200px;
+      height: 125px;
+      background: linear-gradient(180deg, rgba(117, 191, 240, 0.6) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      border-radius: 20px;
+      grid-area: card04; }
+    .main__ganancias__cripto__card-5 {
+      display: grid;
+      grid-template-areas: "logo logo" "currency margin" "quantity quantity" "graph graph";
+      width: 200px;
+      height: 125px;
+      background: linear-gradient(180deg, rgba(117, 191, 240, 0.6) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      border-radius: 20px;
+      grid-area: card05; }
+    .main__ganancias__cripto__currency {
+      display: grid;
+      font-size: 15px;
+      grid-area: currency;
+      margin: 0 0 0 -3vw; }
+    .main__ganancias__cripto__margin {
+      display: grid;
+      grid-area: margin; }
+    .main__ganancias__cripto__quantity {
+      display: grid;
+      grid-area: quantity;
+      margin: 0 0 0 -15vw; }
+    .main__ganancias__cripto__graph {
+      display: grid;
+      grid-area: graph;
+      width: 150px;
+      height: 150px;
+      margin: -8vw 0 0 2vw; }
+    .main__ganancias__cripto__token {
+      width: 55px;
+      height: 55px;
+      margin: -2.5vw 0 0 9vw; }
+    .main__ganancias__cripto__venta {
+      position: absolute;
+      width: 100%;
+      height: 320px;
+      margin: 85vw 0 0 0;
+      background: rgba(0, 0, 0, 0.93);
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+      border-radius: 25px;
+      text-align: center; }
+      .main__ganancias__cripto__venta__token {
+        position: absolute;
+        width: 220px;
+        height: 160px;
+        margin: 10vw 0 0 6vw;
+        background: rgba(255, 109, 3, 0.6);
+        border: hidden;
+        border-radius: 20px; }
+        .main__ganancias__cripto__venta__token__image {
+          width: 55px;
+          height: 55px;
+          margin: -3vw 0 0 0; }
+        .main__ganancias__cripto__venta__token__name {
+          margin: -0.3vw 0 0 0;
+          font-size: 20px; }
+        .main__ganancias__cripto__venta__token__available {
+          font-size: 20px;
+          color: rgba(255, 255, 255, 0.7); }
+        .main__ganancias__cripto__venta__token__cuantity-1 {
+          position: absolute;
+          width: 120px;
+          height: 40px;
+          margin: 2vw 0 0 -7vw;
+          color: #FFFFFF;
+          background: rgba(0, 0, 0, 0.93);
+          box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+          border-radius: 25px;
+          text-align: center; }
+      .main__ganancias__cripto__venta__change {
+        font-size: 25px;
+        margin: 12vw 0 0 1.5vw; }
+      .main__ganancias__cripto__venta__button {
+        position: absolute;
+        width: 130px;
+        height: 45px;
+        margin: 5vw 0 0 0;
+        border-radius: 20px;
+        background: linear-gradient(97.86deg, rgba(184, 77, 0, 0.6) -38.38%, #b94e02 71.88%);
+        color: #FFFFFF;
+        font-size: 20px;
+        border-style: hidden;
+        transition: all 0.20s linear;
+        -webkit-transition: all 0.20s linear;
+        -moz-transition: all 0.20s linear;
+        position: relative;
+        bottom: 0;
+        box-shadow: 0px 5px 0 rgba(216, 50, 0, 0.6); }
+        .main__ganancias__cripto__venta__button:active {
+          bottom: -5px;
+          box-shadow: 0 0 0 rgba(216, 50, 0, 0.6), inset 0 0 5px rgba(0, 0, 0, 0.4); }
+      .main__ganancias__cripto__venta__to__change {
+        position: absolute;
+        width: 220px;
+        height: 160px;
+        margin: -17.5vw 0 0 68vw;
+        background: rgba(255, 109, 3, 0.6);
+        border: hidden;
+        border-radius: 20px; }
+        .main__ganancias__cripto__venta__to__change__image {
+          width: 55px;
+          height: 55px;
+          margin: -3vw 0 0 0; }
+        .main__ganancias__cripto__venta__to__change__name {
+          margin: -0.3vw 0 0 0;
+          font-size: 20px; }
+        .main__ganancias__cripto__venta__to__change__available {
+          font-size: 20px;
+          color: rgba(255, 255, 255, 0.7); }
+        .main__ganancias__cripto__venta__to__change__cuantity-2 {
+          position: absolute;
+          width: 120px;
+          height: 40px;
+          margin: 2vw 0 0 -7vw;
+          color: #FFFFFF;
+          background: rgba(0, 0, 0, 0.93);
+          box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+          border-radius: 25px;
+          text-align: center; }
+  /* Termina Ganancias Cripto */
+  /* Empieza Ganancias NFTs */
+  .main__ganancias__nfts {
+    display: grid;
+    grid-template-areas: "title title" "card01 card02" "card03 card04" "card05 card05";
+    position: absolute;
+    width: 700px;
+    height: 750px;
+    margin: 150vw 0 0 6.5vw;
+    background: rgba(0, 0, 0, 0.76);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    border-radius: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 30px;
+    padding-left: 8vw;
+    padding-bottom: 0; }
+    .main__ganancias__nfts__title {
+      margin: 2vw 0 0 -5vw;
+      grid-area: title;
+      font-size: 22px; }
+    .main__ganancias__nfts__card-1 {
+      display: grid;
+      grid-area: card01;
+      grid-template-areas: "image-nft image-nft" "name-nft price-nft";
+      justify-content: center;
+      width: 250px;
+      height: 180px;
+      background: linear-gradient(180deg, rgba(90, 150, 187, 0.6) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
+      border: 1px solid #E5E5E5;
+      box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.05);
+      border-radius: 10px; }
+    .main__ganancias__nfts__card-2 {
+      display: grid;
+      grid-area: card02;
+      grid-template-areas: "image-nft image-nft" "name-nft price-nft";
+      justify-content: center;
+      width: 250px;
+      height: 180px;
+      background: linear-gradient(180deg, rgba(90, 150, 187, 0.6) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
+      border: 1px solid #E5E5E5;
+      box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.05);
+      border-radius: 10px; }
+    .main__ganancias__nfts__card-3 {
+      display: grid;
+      grid-area: card03;
+      grid-template-areas: "image-nft image-nft" "name-nft price-nft";
+      justify-content: center;
+      width: 250px;
+      height: 180px;
+      background: linear-gradient(180deg, rgba(90, 150, 187, 0.6) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
+      border: 1px solid #E5E5E5;
+      box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.05);
+      border-radius: 10px; }
+    .main__ganancias__nfts__card-4 {
+      display: grid;
+      grid-area: card04;
+      grid-template-areas: "image-nft image-nft" "name-nft price-nft";
+      justify-content: center;
+      width: 250px;
+      height: 180px;
+      background: linear-gradient(180deg, rgba(90, 150, 187, 0.6) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
+      border: 1px solid #E5E5E5;
+      box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.05);
+      border-radius: 10px; }
+    .main__ganancias__nfts__card-5 {
+      display: grid;
+      grid-area: card05;
+      grid-template-areas: "image-nft image-nft" "name-nft price-nft";
+      justify-content: center;
+      width: 250px;
+      height: 180px;
+      background: linear-gradient(180deg, rgba(90, 150, 187, 0.6) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
+      border: 1px solid #E5E5E5;
+      box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.05);
+      border-radius: 10px;
+      margin: 0 0 0 22vw; }
+    .main__ganancias__nfts__image {
+      display: grid;
+      grid-area: image-nft;
+      margin: -3.5vw 0 0 1.5vw;
+      width: 200px;
+      height: 200px; }
+    .main__ganancias__nfts__name {
+      display: grid;
+      grid-area: name-nft;
+      font-size: 18px;
+      margin: -5vw 0 0 0.5vw; }
+    .main__ganancias__nfts__price {
+      display: grid;
+      grid-area: price-nft;
+      margin: -5vw 0 0 3vw;
+      font-size: 18px; }
+  .main__ganancias__nfts__venta {
+    position: absolute;
+    width: 100%;
+    height: 481px;
+    margin: 260vw 0 0 0;
+    background: rgba(0, 0, 0, 0.76);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    border-radius: 25px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 25px; }
+    .main__ganancias__nfts__venta__title {
+      margin: 2vw 0 0 0; }
+    .main__ganancias__nfts__venta__card__nft {
+      display: grid;
+      grid-template-areas: "image-nft image-nft" "name-nft price-nft";
+      justify-content: center;
+      margin: 12vw 0 0 8vw;
+      width: 280px;
+      height: 180px;
+      background: linear-gradient(180deg, rgba(255, 109, 3, 0.6) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
+      border: 1px solid #E5E5E5;
+      box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.05);
+      border-radius: 10px; }
+    .main__ganancias__nfts__venta__image {
+      display: grid;
+      grid-area: image-nft;
+      margin: -5vw 0 0 3vw;
+      width: 220px;
+      height: 220px; }
+    .main__ganancias__nfts__venta__name {
+      display: grid;
+      grid-area: name-nft;
+      font-size: 18px;
+      margin: -5vw 0 0 0; }
+    .main__ganancias__nfts__venta__price {
+      display: grid;
+      grid-area: price-nft;
+      margin: -5vw 0 0 3vw;
+      font-size: 18px; }
+    .main__ganancias__nfts__venta__card-1 {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      width: 280px;
+      height: 71px;
+      background: linear-gradient(180deg, rgba(255, 109, 3, 0.6) 27.43%, rgba(255, 255, 255, 0) 171.71%);
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      transform: matrix(1, 0, -0.08, 1, 0, 0);
+      margin: -25vw 0 0 55vw; }
+    .main__ganancias__nfts__venta__card-2 {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      width: 280px;
+      height: 71px;
+      background: linear-gradient(180deg, rgba(255, 109, 3, 0.6) 27.43%, rgba(255, 255, 255, 0) 171.71%);
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      transform: matrix(1, 0, -0.08, 1, 0, 0);
+      margin: 2vw 0 0 55vw; }
+    .main__ganancias__nfts__venta__card-3 {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      width: 280px;
+      height: 71px;
+      background: linear-gradient(180deg, rgba(255, 109, 3, 0.6) 27.43%, rgba(255, 255, 255, 0) 171.71%);
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      transform: matrix(1, 0, -0.08, 1, 0, 0);
+      margin: 2vw 0 0 55vw; }
+    .main__ganancias__nfts__venta__card__amigo__image {
+      margin: 00 0 0 2vw;
+      width: 65px;
+      height: 65px; }
+    .main__ganancias__nfts__venta__card__amigo__info {
+      margin: -0.2vw 0 0 -3vw;
+      display: grid;
+      grid-template-rows: 1fr 1fr; }
+  /* Empieza Pie de Pagina */
+  .main__footer__4__rectangulo {
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    margin: 335vw 0 0 0;
+    background: conic-gradient(from 180deg at 50% 50%, #000000 -1.95deg, #C37B1D 11.07deg, #000000 40deg, #DB8A21 97.79deg, #000000 166.91deg, #C37B1D 205.98deg, #000000 269.61deg, #0174CD 337.3deg, #000000 358.05deg, #C37B1D 371.07deg);
+    border-radius: 35px 35px 0px 0px; }
+    .main__footer__4__rectangulo__logo {
+      position: absolute;
+      width: 150px;
+      height: 150px;
+      margin: 7vw 0 0 5vw;
+      z-index: 1; }
+    .main__footer__4__rectangulo__menu__nav {
+      position: absolute;
+      width: 400px;
+      height: 225px;
+      background: #212121;
+      border-radius: 25px;
+      margin: 2vw 0 0 35vw; }
+      .main__footer__4__rectangulo__menu__nav__nav {
+        position: absolute;
+        width: 300px;
+        height: 211px;
+        font-size: 25px;
+        margin: 0.5vw 0 0 0; }
+        .main__footer__4__rectangulo__menu__nav__nav ul {
+          list-style-type: none; }
+          .main__footer__4__rectangulo__menu__nav__nav ul a {
+            text-decoration: none;
+            color: #FFFFFF; } }
+
+/* Termina Pie de Pagina */
 @media (min-width: 992px) {
   /* Empieza Ganancias Cripto */
   .main__ganancias__cripto {
@@ -10658,9 +11318,9 @@ textarea.form-control-lg {
     position: absolute;
     width: 1067.56px;
     height: 759.42px;
-    margin: -5vw 0 0 15vw;
+    margin: -5vw 0 0 22vw;
     background: rgba(0, 0, 0, 0.76);
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 22px;
     text-align: center;
     padding: 0 0 0 5vw; }
@@ -10674,7 +11334,7 @@ textarea.form-control-lg {
       grid-template-areas: "logo logo" "currency margin" "quantity quantity" "graph graph";
       width: 250px;
       height: 190px;
-      background: linear-gradient(180.23deg, rgba(255, 108, 3, 0.904) 36.57%, rgba(255, 0, 0, 0.516) 117.01%);
+      background: linear-gradient(180.23deg, rgba(117, 191, 240, 0.76) 36.57%, rgba(255, 0, 0, 0.516) 117.01%);
       border: 1px solid rgba(255, 255, 255, 0.5);
       border-radius: 20px;
       grid-area: card01; }
@@ -10683,7 +11343,7 @@ textarea.form-control-lg {
       grid-template-areas: "logo logo" "currency margin" "quantity quantity" "graph graph";
       width: 250px;
       height: 190px;
-      background: linear-gradient(180deg, rgba(255, 108, 3, 0.904) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
+      background: linear-gradient(180deg, rgba(117, 191, 240, 0.6) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
       border: 1px solid rgba(255, 255, 255, 0.5);
       border-radius: 20px;
       grid-area: card02; }
@@ -10692,7 +11352,7 @@ textarea.form-control-lg {
       grid-template-areas: "logo logo" "currency margin" "quantity quantity" "graph graph";
       width: 250px;
       height: 190px;
-      background: linear-gradient(180.23deg, rgba(255, 108, 3, 0.904) 36.57%, rgba(255, 0, 0, 0.516) 117.01%);
+      background: linear-gradient(180.23deg, rgba(117, 191, 240, 0.76) 36.57%, rgba(255, 0, 0, 0.516) 117.01%);
       border: 1px solid rgba(255, 255, 255, 0.5);
       border-radius: 20px;
       grid-area: card03; }
@@ -10701,7 +11361,7 @@ textarea.form-control-lg {
       grid-template-areas: "logo logo" "currency margin" "quantity quantity" "graph graph";
       width: 250px;
       height: 190px;
-      background: linear-gradient(180deg, rgba(255, 108, 3, 0.904) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
+      background: linear-gradient(180deg, rgba(117, 191, 240, 0.6) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
       border: 1px solid rgba(255, 255, 255, 0.5);
       border-radius: 20px;
       grid-area: card04; }
@@ -10710,7 +11370,7 @@ textarea.form-control-lg {
       grid-template-areas: "logo logo" "currency margin" "quantity quantity" "graph graph";
       width: 250px;
       height: 190px;
-      background: linear-gradient(180deg, rgba(255, 108, 3, 0.904) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
+      background: linear-gradient(180deg, rgba(117, 191, 240, 0.6) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
       border: 1px solid rgba(255, 255, 255, 0.5);
       border-radius: 20px;
       grid-area: card05; }
@@ -10728,34 +11388,32 @@ textarea.form-control-lg {
     .main__ganancias__cripto__graph {
       display: grid;
       grid-area: graph;
-      width: 185px;
-      height: 185px;
-      margin: -3vw 0 0 2vw; }
+      margin: -1vw 0 0 1vw; }
     .main__ganancias__cripto__token {
       width: 70px;
       height: 70px;
-      margin: -2vw 0 0 5.5vw; }
+      margin: -2vw 0 0 4.5vw; }
     .main__ganancias__cripto__venta {
       position: absolute;
       width: 100%;
       height: 481px;
-      margin: 48vw 0 0 0;
+      margin: 40vw 0 0 0;
       background: rgba(0, 0, 0, 0.93);
-      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
       border-radius: 25px;
       text-align: center; }
       .main__ganancias__cripto__venta__token {
         position: absolute;
         width: 387px;
         height: 240px;
-        margin: 8vw 0 0 8vw;
-        background: rgba(255, 108, 3, 0.904);
+        margin: 5vw 0 0 8vw;
+        background: rgba(255, 109, 3, 0.6);
         border: hidden;
         border-radius: 20px; }
         .main__ganancias__cripto__venta__token__image {
           width: 85px;
           height: 85px;
-          margin: -2.5vw 0 0 0; }
+          margin: -2vw 0 0 0; }
         .main__ganancias__cripto__venta__token__name {
           margin: -0.3vw 0 0 0;
           font-size: 32px; }
@@ -10766,22 +11424,22 @@ textarea.form-control-lg {
           position: absolute;
           width: 180px;
           height: 50px;
-          margin: 3vw 0 0 -5.8vw;
+          margin: 3vw 0 0 -4.8vw;
           color: #FFFFFF;
           background: rgba(0, 0, 0, 0.93);
-          box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
           border-radius: 25px;
           text-align: center; }
       .main__ganancias__cripto__venta__change {
         font-size: 25px;
-        margin: 10vw 0 0 -2vw; }
+        margin: 7vw 0 0 -4vw; }
       .main__ganancias__cripto__venta__button {
         position: absolute;
         width: 130px;
         height: 45px;
-        margin: 4vw 0 0 -2vw;
+        margin: 5vw 0 0 -4.2vw;
         border-radius: 20px;
-        background: linear-gradient(97.86deg, #ff1403 -38.38%, rgba(255, 108, 3, 0.904) 71.88%);
+        background: linear-gradient(97.86deg, rgba(184, 77, 0, 0.6) -38.38%, #b94e02 71.88%);
         color: #FFFFFF;
         font-size: 20px;
         border-style: hidden;
@@ -10790,22 +11448,22 @@ textarea.form-control-lg {
         -moz-transition: all 0.20s linear;
         position: relative;
         bottom: 0;
-        box-shadow: 0px 5px 0 #ff6803; }
+        box-shadow: 0px 5px 0 rgba(216, 50, 0, 0.6); }
         .main__ganancias__cripto__venta__button:active {
           bottom: -5px;
-          box-shadow: 0 0 0 #ff6803, inset 0 0 5px rgba(0, 0, 0, 0.4); }
+          box-shadow: 0 0 0 rgba(216, 50, 0, 0.6), inset 0 0 5px rgba(0, 0, 0, 0.4); }
       .main__ganancias__cripto__venta__to__change {
         position: absolute;
         width: 387px;
         height: 240px;
-        margin: -11vw 0 0 65vw;
-        background: rgba(255, 108, 3, 0.904);
+        margin: -11vw 0 0 68vw;
+        background: rgba(255, 109, 3, 0.6);
         border: hidden;
         border-radius: 20px; }
         .main__ganancias__cripto__venta__to__change__image {
           width: 85px;
           height: 85px;
-          margin: -2.5vw 0 0 0; }
+          margin: -2vw 0 0 0; }
         .main__ganancias__cripto__venta__to__change__name {
           margin: -0.3vw 0 0 0;
           font-size: 32px; }
@@ -10816,10 +11474,10 @@ textarea.form-control-lg {
           position: absolute;
           width: 180px;
           height: 50px;
-          margin: 3vw 0 0 -5.5vw;
+          margin: 3vw 0 0 -4.8vw;
           color: #FFFFFF;
           background: rgba(0, 0, 0, 0.93);
-          box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
           border-radius: 25px;
           text-align: center; }
   /* Termina Ganancias Cripto */
@@ -10830,17 +11488,18 @@ textarea.form-control-lg {
     position: absolute;
     width: 1067.56px;
     height: 759.42px;
-    margin: 90vw 0 0 15vw;
+    margin: 70vw 0 0 22vw;
     background: rgba(0, 0, 0, 0.76);
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 22px;
     text-align: center;
     color: #FFFFFF;
-    padding-left: 1.5vw; }
+    font-size: 30px;
+    padding-left: 1.5vw;
+    padding-bottom: 2vw; }
     .main__ganancias__nfts__title {
       margin: 1vw 0 0 -2vw;
-      grid-area: title;
-      font-size: 30px; }
+      grid-area: title; }
     .main__ganancias__nfts__card-1 {
       display: grid;
       grid-area: card01;
@@ -10848,7 +11507,7 @@ textarea.form-control-lg {
       justify-content: center;
       width: 318px;
       height: 208px;
-      background: linear-gradient(180deg, rgba(255, 108, 3, 0.904) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
+      background: linear-gradient(180deg, rgba(90, 150, 187, 0.6) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
       border: 1px solid #E5E5E5;
       box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.05);
       border-radius: 10px; }
@@ -10859,7 +11518,7 @@ textarea.form-control-lg {
       justify-content: center;
       width: 318px;
       height: 208px;
-      background: linear-gradient(180deg, rgba(255, 108, 3, 0.904) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
+      background: linear-gradient(180deg, rgba(90, 150, 187, 0.6) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
       border: 1px solid #E5E5E5;
       box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.05);
       border-radius: 10px; }
@@ -10870,7 +11529,7 @@ textarea.form-control-lg {
       justify-content: center;
       width: 318px;
       height: 208px;
-      background: linear-gradient(180deg, rgba(255, 108, 3, 0.904) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
+      background: linear-gradient(180deg, rgba(90, 150, 187, 0.6) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
       border: 1px solid #E5E5E5;
       box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.05);
       border-radius: 10px; }
@@ -10881,7 +11540,7 @@ textarea.form-control-lg {
       justify-content: center;
       width: 318px;
       height: 208px;
-      background: linear-gradient(180deg, rgba(255, 108, 3, 0.904) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
+      background: linear-gradient(180deg, rgba(90, 150, 187, 0.6) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
       border: 1px solid #E5E5E5;
       box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.05);
       border-radius: 10px; }
@@ -10892,7 +11551,7 @@ textarea.form-control-lg {
       justify-content: center;
       width: 318px;
       height: 208px;
-      background: linear-gradient(180deg, rgba(255, 108, 3, 0.904) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
+      background: linear-gradient(180deg, rgba(90, 150, 187, 0.6) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
       border: 1px solid #E5E5E5;
       box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.05);
       border-radius: 10px;
@@ -10900,26 +11559,26 @@ textarea.form-control-lg {
     .main__ganancias__nfts__image {
       display: grid;
       grid-area: image-nft;
-      margin: -3vw 0 0 0;
+      margin: -2.5vw 0 0 0;
       width: 280px;
       height: 280px; }
     .main__ganancias__nfts__name {
       display: grid;
       grid-area: name-nft;
       font-size: medium;
-      margin: -3.5vw 0 0 0; }
+      margin: -2.8vw 0 0 0; }
     .main__ganancias__nfts__price {
       display: grid;
       grid-area: price-nft;
-      margin: -3.5vw 0 0 3vw;
+      margin: -2.8vw 0 0 3vw;
       font-size: medium; }
   .main__ganancias__nfts__venta {
     position: absolute;
     width: 100%;
     height: 481px;
-    margin: 145vw 0 0 0;
+    margin: 115vw 0 0 0;
     background: rgba(0, 0, 0, 0.76);
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 25px;
     text-align: center;
     line-height: 100px;
@@ -10930,10 +11589,10 @@ textarea.form-control-lg {
       display: grid;
       grid-template-areas: "image-nft image-nft" "name-nft price-nft";
       justify-content: center;
-      margin: 5vw 0 0 8vw;
+      margin: 3vw 0 0 8vw;
       width: 318px;
       height: 208px;
-      background: linear-gradient(180deg, rgba(255, 108, 3, 0.904) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
+      background: linear-gradient(180deg, rgba(255, 109, 3, 0.6) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
       border: 1px solid #E5E5E5;
       box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.05);
       border-radius: 10px; }
@@ -10947,27 +11606,27 @@ textarea.form-control-lg {
       display: grid;
       grid-area: name-nft;
       font-size: medium;
-      margin: -3.5vw 0 0 0; }
+      margin: -3vw 0 0 0; }
     .main__ganancias__nfts__venta__price {
       display: grid;
       grid-area: price-nft;
-      margin: -3.5vw 0 0 3vw;
+      margin: -3vw 0 0 3vw;
       font-size: medium; }
     .main__ganancias__nfts__venta__card-1 {
       display: grid;
       grid-template-columns: 1fr 2fr;
       width: 573px;
       height: 71px;
-      background: linear-gradient(180deg, rgba(255, 108, 3, 0.904) 27.43%, rgba(255, 255, 255, 0) 171.71%);
+      background: linear-gradient(180deg, rgba(255, 109, 3, 0.6) 27.43%, rgba(255, 255, 255, 0) 171.71%);
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
       transform: matrix(1, 0, -0.08, 1, 0, 0);
-      margin: -15vw 0 0 35vw; }
+      margin: -12vw 0 0 35vw; }
     .main__ganancias__nfts__venta__card-2 {
       display: grid;
       grid-template-columns: 1fr 2fr;
       width: 573px;
       height: 71px;
-      background: linear-gradient(180deg, rgba(255, 108, 3, 0.904) 27.43%, rgba(255, 255, 255, 0) 171.71%);
+      background: linear-gradient(180deg, rgba(255, 109, 3, 0.6) 27.43%, rgba(255, 255, 255, 0) 171.71%);
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
       transform: matrix(1, 0, -0.08, 1, 0, 0);
       margin: 1vw 0 0 35vw; }
@@ -10976,7 +11635,7 @@ textarea.form-control-lg {
       grid-template-columns: 1fr 2fr;
       width: 573px;
       height: 71px;
-      background: linear-gradient(180deg, rgba(255, 108, 3, 0.904) 27.43%, rgba(255, 255, 255, 0) 171.71%);
+      background: linear-gradient(180deg, rgba(255, 109, 3, 0.6) 27.43%, rgba(255, 255, 255, 0) 171.71%);
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
       transform: matrix(1, 0, -0.08, 1, 0, 0);
       margin: 1vw 0 0 35vw; }
@@ -10994,7 +11653,7 @@ textarea.form-control-lg {
     position: absolute;
     width: 100%;
     height: 370px;
-    margin: 185vw 0 0 0;
+    margin: 150vw 0 0 0;
     background: conic-gradient(from 180deg at 50% 50%, #000000 -1.95deg, #C37B1D 11.07deg, #000000 40deg, #DB8A21 97.79deg, #000000 166.91deg, #C37B1D 205.98deg, #000000 269.61deg, #0174CD 337.3deg, #000000 358.05deg, #C37B1D 371.07deg);
     border-radius: 35px 35px 0px 0px; }
     .main__footer__4__rectangulo__logo {
@@ -11158,13 +11817,13 @@ textarea.form-control-lg {
             text-decoration: none;
             color: #FFFFFF; }
 
-@media (min-width: 992px) {
+@media (min-width: 576px) {
   /* Empieza Menu Amigos */
   .menu__amigos {
     position: absolute;
-    width: 1300px;
-    height: 800px;
-    margin: -3vw 0 0 8vw;
+    width: 750px;
+    height: 830px;
+    margin: 5vw 0 0 5vw;
     background: rgba(0, 0, 0, 0.75);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 22px; }
@@ -11172,7 +11831,7 @@ textarea.form-control-lg {
       margin: 3vw 0 0 7vw;
       width: 190px;
       height: 60px;
-      background: linear-gradient(97.86deg, rgba(255, 108, 3, 0.904) -38.38%, #b94e02 71.88%);
+      background: linear-gradient(97.86deg, rgba(184, 77, 0, 0.6) -38.38%, #b94e02 71.88%);
       border-style: hidden;
       border-radius: 20px;
       color: #FFFFFF;
@@ -11181,15 +11840,15 @@ textarea.form-control-lg {
       -moz-transition: all 0.20s linear;
       position: relative;
       bottom: 0;
-      box-shadow: 0px 5px 0 rgba(255, 108, 3, 0.904); }
+      box-shadow: 0px 5px 0 rgba(216, 50, 0, 0.6); }
       .menu__amigos__contactos:active {
         bottom: -5px;
-        box-shadow: 0 0 0 rgba(255, 108, 3, 0.904), inset 0 0 5px rgba(0, 0, 0, 0.4); }
+        box-shadow: 0 0 0 rgba(216, 50, 0, 0.6), inset 0 0 5px rgba(0, 0, 0, 0.4); }
     .menu__amigos__mensajes {
-      margin: 0 0 0 15vw;
+      margin: 0 0 0 5vw;
       width: 190px;
       height: 60px;
-      background: linear-gradient(97.86deg, rgba(255, 108, 3, 0.904) -38.38%, #b94e02 71.88%);
+      background: linear-gradient(97.86deg, rgba(184, 77, 0, 0.6) -38.38%, #b94e02 71.88%);
       border-style: hidden;
       border-radius: 20px;
       color: #FFFFFF;
@@ -11198,15 +11857,15 @@ textarea.form-control-lg {
       -moz-transition: all 0.20s linear;
       position: relative;
       bottom: 0;
-      box-shadow: 0px 5px 0 rgba(255, 108, 3, 0.904); }
+      box-shadow: 0px 5px 0 rgba(216, 50, 0, 0.6); }
       .menu__amigos__mensajes:active {
         bottom: -5px;
-        box-shadow: 0 0 0 rgba(255, 108, 3, 0.904), inset 0 0 5px rgba(0, 0, 0, 0.4); }
+        box-shadow: 0 0 0 rgba(216, 50, 0, 0.6), inset 0 0 5px rgba(0, 0, 0, 0.4); }
     .menu__amigos__solicitudes {
-      margin: 0 0 0 15vw;
+      margin: 0 0 0 5vw;
       width: 190px;
       height: 60px;
-      background: linear-gradient(97.86deg, rgba(255, 108, 3, 0.904) -38.38%, #b94e02 71.88%);
+      background: linear-gradient(97.86deg, rgba(184, 77, 0, 0.6) -38.38%, #b94e02 71.88%);
       border-style: hidden;
       border-radius: 20px;
       color: #FFFFFF;
@@ -11215,26 +11874,26 @@ textarea.form-control-lg {
       -moz-transition: all 0.20s linear;
       position: relative;
       bottom: 0;
-      box-shadow: 0px 5px 0 rgba(255, 108, 3, 0.904); }
+      box-shadow: 0px 5px 0 rgba(216, 50, 0, 0.6); }
       .menu__amigos__solicitudes:active {
         bottom: -5px;
-        box-shadow: 0 0 0 rgba(255, 108, 3, 0.904), inset 0 0 5px rgba(0, 0, 0, 0.4); }
+        box-shadow: 0 0 0 rgba(216, 50, 0, 0.6), inset 0 0 5px rgba(0, 0, 0, 0.4); }
     .menu__amigos__cards__card-1 {
-      width: 350px;
+      width: 280px;
       height: 71px;
-      background: linear-gradient(180deg, rgba(255, 108, 3, 0.904) 27.43%, rgba(255, 255, 255, 0) 171.71%);
+      background: linear-gradient(180deg, rgba(216, 50, 0, 0.6) 27.43%, rgba(255, 255, 255, 0) 171.71%);
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-      margin: 8vw 0 0 2.8vw; }
+      margin: 15vw 0 0 2.8vw; }
     .menu__amigos__cards__card-2 {
-      width: 350px;
+      width: 280px;
       height: 71px;
-      background: linear-gradient(180deg, rgba(255, 108, 3, 0.904) 27.43%, rgba(255, 255, 255, 0) 171.71%);
+      background: linear-gradient(180deg, rgba(216, 50, 0, 0.6) 27.43%, rgba(255, 255, 255, 0) 171.71%);
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
       margin: 2vw 0 0 0; }
     .menu__amigos__cards__card-3 {
-      width: 350px;
+      width: 280px;
       height: 71px;
-      background: linear-gradient(180deg, rgba(255, 108, 3, 0.904) 27.43%, rgba(255, 255, 255, 0) 171.71%);
+      background: linear-gradient(180deg, rgba(216, 50, 0, 0.6) 27.43%, rgba(255, 255, 255, 0) 171.71%);
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
       margin: 2vw 0 0 0; }
     .menu__amigos__cards__card__image {
@@ -11242,24 +11901,158 @@ textarea.form-control-lg {
       width: 75px;
       height: 75px; }
     .menu__amigos__cards__card__info {
-      margin: -5vw 0 0 6.5vw; }
+      margin: -9vw 0 0 12vw; }
     .menu__amigos__separador {
       position: absolute;
-      margin: 9vw 0 0 8vw;
+      margin: 20vw 0 0 6vw;
       width: 600px;
       height: 0px;
-      border: 5px solid rgba(255, 108, 3, 0.904);
+      border: 5px solid rgba(216, 50, 0, 0.6);
       transform: rotate(89.85deg); }
     .menu__amigos__mensaje {
       position: absolute;
-      width: 580px;
+      width: 350px;
       height: 50px;
-      margin: 22vw 0 0 38vw;
+      margin: 50vw 0 0 46vw;
       color: #FFFFFF;
       background: rgba(0, 0, 0, 0.93);
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-      border-radius: 25px;
-      text-align: center; }
+      border-radius: 25px; }
+  /* Termina Menu Amigos */
+  .main__footer__5 {
+    margin: 140vw 0 0 0; }
+    .main__footer__5__rectangulo {
+      position: absolute;
+      width: 100%;
+      height: 250px;
+      margin: 0 0 0 0;
+      background: conic-gradient(from 180deg at 50% 50%, #000000 -1.95deg, #C37B1D 11.07deg, #000000 40deg, #DB8A21 97.79deg, #000000 166.91deg, #C37B1D 205.98deg, #000000 269.61deg, #0174CD 337.3deg, #000000 358.05deg, #C37B1D 371.07deg);
+      border-radius: 35px 35px 0px 0px; }
+      .main__footer__5__rectangulo__logo {
+        position: absolute;
+        width: 180px;
+        height: 180px;
+        margin: 5vw 0 0 4vw; }
+      .main__footer__5__rectangulo__menu__nav {
+        position: absolute;
+        width: 400px;
+        height: 225px;
+        background: #212121;
+        border-radius: 25px;
+        margin: 2vw 0 0 35vw; }
+        .main__footer__5__rectangulo__menu__nav__nav {
+          position: absolute;
+          width: 300px;
+          height: 211px;
+          font-size: 25px;
+          margin: 0.5vw 0 0 0; }
+          .main__footer__5__rectangulo__menu__nav__nav ul {
+            list-style-type: none; }
+            .main__footer__5__rectangulo__menu__nav__nav ul a {
+              text-decoration: none;
+              color: #FFFFFF; } }
+
+@media (min-width: 992px) {
+  /* Empieza Menu Amigos */
+  .menu__amigos {
+    position: absolute;
+    width: 1450px;
+    height: 830px;
+    margin: 0 0 0 12vw;
+    background: rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 22px; }
+    .menu__amigos__contactos {
+      margin: 3vw 0 0 7vw;
+      width: 190px;
+      height: 60px;
+      background: linear-gradient(97.86deg, rgba(184, 77, 0, 0.6) -38.38%, #b94e02 71.88%);
+      border-style: hidden;
+      border-radius: 20px;
+      color: #FFFFFF;
+      transition: all 0.20s linear;
+      -webkit-transition: all 0.20s linear;
+      -moz-transition: all 0.20s linear;
+      position: relative;
+      bottom: 0;
+      box-shadow: 0px 5px 0 rgba(216, 50, 0, 0.6); }
+      .menu__amigos__contactos:active {
+        bottom: -5px;
+        box-shadow: 0 0 0 rgba(216, 50, 0, 0.6), inset 0 0 5px rgba(0, 0, 0, 0.4); }
+    .menu__amigos__mensajes {
+      margin: 0 0 0 15vw;
+      width: 190px;
+      height: 60px;
+      background: linear-gradient(97.86deg, rgba(184, 77, 0, 0.6) -38.38%, #b94e02 71.88%);
+      border-style: hidden;
+      border-radius: 20px;
+      color: #FFFFFF;
+      transition: all 0.20s linear;
+      -webkit-transition: all 0.20s linear;
+      -moz-transition: all 0.20s linear;
+      position: relative;
+      bottom: 0;
+      box-shadow: 0px 5px 0 rgba(216, 50, 0, 0.6); }
+      .menu__amigos__mensajes:active {
+        bottom: -5px;
+        box-shadow: 0 0 0 rgba(216, 50, 0, 0.6), inset 0 0 5px rgba(0, 0, 0, 0.4); }
+    .menu__amigos__solicitudes {
+      margin: 0 0 0 15vw;
+      width: 190px;
+      height: 60px;
+      background: linear-gradient(97.86deg, rgba(184, 77, 0, 0.6) -38.38%, #b94e02 71.88%);
+      border-style: hidden;
+      border-radius: 20px;
+      color: #FFFFFF;
+      transition: all 0.20s linear;
+      -webkit-transition: all 0.20s linear;
+      -moz-transition: all 0.20s linear;
+      position: relative;
+      bottom: 0;
+      box-shadow: 0px 5px 0 rgba(216, 50, 0, 0.6); }
+      .menu__amigos__solicitudes:active {
+        bottom: -5px;
+        box-shadow: 0 0 0 rgba(216, 50, 0, 0.6), inset 0 0 5px rgba(0, 0, 0, 0.4); }
+    .menu__amigos__cards__card-1 {
+      width: 350px;
+      height: 71px;
+      background: linear-gradient(180deg, rgba(216, 50, 0, 0.6) 27.43%, rgba(255, 255, 255, 0) 171.71%);
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      margin: 5vw 0 0 2.8vw; }
+    .menu__amigos__cards__card-2 {
+      width: 350px;
+      height: 71px;
+      background: linear-gradient(180deg, rgba(216, 50, 0, 0.6) 27.43%, rgba(255, 255, 255, 0) 171.71%);
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      margin: 2vw 0 0 0; }
+    .menu__amigos__cards__card-3 {
+      width: 350px;
+      height: 71px;
+      background: linear-gradient(180deg, rgba(216, 50, 0, 0.6) 27.43%, rgba(255, 255, 255, 0) 171.71%);
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      margin: 2vw 0 0 0; }
+    .menu__amigos__cards__card__image {
+      margin: 0 0 0 1vw;
+      width: 75px;
+      height: 75px; }
+    .menu__amigos__cards__card__info {
+      margin: -4vw 0 0 6.5vw; }
+    .menu__amigos__separador {
+      position: absolute;
+      margin: 8vw 0 0 8vw;
+      width: 600px;
+      height: 0px;
+      border: 5px solid rgba(216, 50, 0, 0.6);
+      transform: rotate(89.85deg); }
+    .menu__amigos__mensaje {
+      position: absolute;
+      width: 500px;
+      height: 50px;
+      margin: 20vw 0 0 35vw;
+      color: #FFFFFF;
+      background: rgba(0, 0, 0, 0.93);
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 25px; }
   /* Termina Menu Amigos */
   .main__footer__5 {
     margin: 55vw 0 0 0; }
@@ -11369,12 +12162,12 @@ textarea.form-control-lg {
     bottom: -5px;
     box-shadow: 0 0 0 rgba(216, 50, 0, 0.6), inset 0 0 5px rgba(0, 0, 0, 0.4); }
 
-@media (min-width: 992px) {
+@media (min-width: 576px) {
   .formulario__registro__name {
     position: absolute;
-    width: 240px;
-    height: 40px;
-    margin: 0 0 0 34vw;
+    width: 340px;
+    height: 45px;
+    margin: 10vw 0 0 8vw;
     color: #FFFFFF;
     background: rgba(0, 0, 0, 0.93);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -11382,9 +12175,9 @@ textarea.form-control-lg {
     text-align: center; }
   .formulario__registro__surname {
     position: absolute;
-    width: 240px;
-    height: 40px;
-    margin: 0 0 0 52vw;
+    width: 340px;
+    height: 45px;
+    margin: 10vw 0 0 53vw;
     color: #FFFFFF;
     background: rgba(0, 0, 0, 0.93);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -11392,9 +12185,9 @@ textarea.form-control-lg {
     text-align: center; }
   .formulario__registro__username {
     position: absolute;
-    width: 240px;
-    height: 40px;
-    margin: 5vw 0 0 43vw;
+    width: 340px;
+    height: 45px;
+    margin: 20vw 0 0 30vw;
     color: #FFFFFF;
     background: rgba(0, 0, 0, 0.93);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -11402,9 +12195,9 @@ textarea.form-control-lg {
     text-align: center; }
   .formulario__registro__email {
     position: absolute;
-    width: 320px;
-    height: 40px;
-    margin: 10vw 0 0 40.5vw;
+    width: 420px;
+    height: 45px;
+    margin: 30vw 0 0 25vw;
     color: #FFFFFF;
     background: rgba(0, 0, 0, 0.93);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -11412,9 +12205,9 @@ textarea.form-control-lg {
     text-align: center; }
   .formulario__registro__password {
     position: absolute;
-    width: 240px;
-    height: 40px;
-    margin: 15vw 0 0 43vw;
+    width: 340px;
+    height: 45px;
+    margin: 40vw 0 0 30vw;
     color: #FFFFFF;
     background: rgba(0, 0, 0, 0.93);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -11424,7 +12217,78 @@ textarea.form-control-lg {
     position: absolute;
     width: 200px;
     height: 45px;
-    margin: 20vw 0 0 44.5vw;
+    margin: 50vw 0 0 39.5vw;
+    border-radius: 20px;
+    background: linear-gradient(97.86deg, rgba(184, 77, 0, 0.6) -38.38%, #b94e02 71.88%);
+    color: #FFFFFF;
+    font-size: 20px;
+    border-style: hidden;
+    transition: all 0.20s linear;
+    -webkit-transition: all 0.20s linear;
+    -moz-transition: all 0.20s linear;
+    position: relative;
+    bottom: 0;
+    box-shadow: 0px 5px 0 rgba(216, 50, 0, 0.6); }
+    .formulario__registro__boton__registrarse:active {
+      bottom: -5px;
+      box-shadow: 0 0 0 rgba(216, 50, 0, 0.6), inset 0 0 5px rgba(0, 0, 0, 0.4); } }
+
+@media (min-width: 992px) {
+  .formulario__registro__name {
+    position: absolute;
+    width: 340px;
+    height: 45px;
+    margin: 0 0 0 34vw;
+    color: #FFFFFF;
+    background: rgba(0, 0, 0, 0.93);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    text-align: center; }
+  .formulario__registro__surname {
+    position: absolute;
+    width: 340px;
+    height: 45px;
+    margin: 0 0 0 55vw;
+    color: #FFFFFF;
+    background: rgba(0, 0, 0, 0.93);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    text-align: center; }
+  .formulario__registro__username {
+    position: absolute;
+    width: 340px;
+    height: 45px;
+    margin: 5vw 0 0 45vw;
+    color: #FFFFFF;
+    background: rgba(0, 0, 0, 0.93);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    text-align: center; }
+  .formulario__registro__email {
+    position: absolute;
+    width: 420px;
+    height: 45px;
+    margin: 10vw 0 0 43vw;
+    color: #FFFFFF;
+    background: rgba(0, 0, 0, 0.93);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    text-align: center; }
+  .formulario__registro__password {
+    position: absolute;
+    width: 340px;
+    height: 45px;
+    margin: 15vw 0 0 45vw;
+    color: #FFFFFF;
+    background: rgba(0, 0, 0, 0.93);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    text-align: center; }
+  .formulario__registro__boton__registrarse {
+    position: absolute;
+    width: 200px;
+    height: 45px;
+    margin: 20vw 0 0 49vw;
     border-radius: 20px;
     background: linear-gradient(97.86deg, rgba(184, 77, 0, 0.6) -38.38%, #b94e02 71.88%);
     color: #FFFFFF;
@@ -11482,12 +12346,12 @@ textarea.form-control-lg {
     bottom: -5px;
     box-shadow: 0 0 0 rgba(216, 50, 0, 0.6), inset 0 0 5px rgba(0, 0, 0, 0.4); }
 
-@media (min-width: 992px) {
+@media (min-width: 576px) {
   .formulario__micuenta__email {
     position: absolute;
-    width: 320px;
-    height: 40px;
-    margin: 0 0 0 28vw;
+    width: 400px;
+    height: 45px;
+    margin: 15vw 0 0 28vw;
     color: #FFFFFF;
     background: rgba(0, 0, 0, 0.93);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -11495,9 +12359,9 @@ textarea.form-control-lg {
     text-align: center; }
   .formulario__micuenta__password {
     position: absolute;
-    width: 240px;
-    height: 40px;
-    margin: 0 0 0 52vw;
+    width: 340;
+    height: 45px;
+    margin: 25vw 0 0 38vw;
     color: #FFFFFF;
     background: rgba(0, 0, 0, 0.93);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -11507,7 +12371,48 @@ textarea.form-control-lg {
     position: absolute;
     width: 200px;
     height: 45px;
-    margin: 8vw 0 0 43vw;
+    margin: 35vw 0 0 41vw;
+    border-radius: 20px;
+    background: linear-gradient(97.86deg, rgba(184, 77, 0, 0.6) -38.38%, #b94e02 71.88%);
+    color: #FFFFFF;
+    font-size: 20px;
+    border-style: hidden;
+    transition: all 0.20s linear;
+    -webkit-transition: all 0.20s linear;
+    -moz-transition: all 0.20s linear;
+    position: relative;
+    bottom: 0;
+    box-shadow: 0px 5px 0 rgba(216, 50, 0, 0.6); }
+    .formulario__micuenta__iniciar-sesion:active {
+      bottom: -5px;
+      box-shadow: 0 0 0 rgba(216, 50, 0, 0.6), inset 0 0 5px rgba(0, 0, 0, 0.4); } }
+
+@media (min-width: 992px) {
+  .formulario__micuenta__email {
+    position: absolute;
+    width: 400px;
+    height: 45px;
+    margin: 0 0 0 30vw;
+    color: #FFFFFF;
+    background: rgba(0, 0, 0, 0.93);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    text-align: center; }
+  .formulario__micuenta__password {
+    position: absolute;
+    width: 340;
+    height: 45px;
+    margin: 0 0 0 55vw;
+    color: #FFFFFF;
+    background: rgba(0, 0, 0, 0.93);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    text-align: center; }
+  .formulario__micuenta__iniciar-sesion {
+    position: absolute;
+    width: 200px;
+    height: 45px;
+    margin: 8vw 0 0 45vw;
     border-radius: 20px;
     background: linear-gradient(97.86deg, rgba(184, 77, 0, 0.6) -38.38%, #b94e02 71.88%);
     color: #FFFFFF;

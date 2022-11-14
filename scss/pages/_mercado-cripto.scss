@@ -1,4 +1,4 @@
-// /* Empieza Mercado Cripto */
+/* Empieza Mercado Cripto */
     
 .mercado__cripto__rectangulo{
     width: 355px;
@@ -67,6 +67,80 @@
     }
 }
 }
+
+@media (min-width: 576px){
+
+ /* Empieza Mercado Cripto */
+    
+.mercado__cripto__rectangulo{
+    width: 700px;
+    height: 550px;
+    margin: 20vw 0 0 7vw;
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 22px;
+    text-align: center;
+    overflow: none;
+    color: #FFFFFF;
+    &__title{
+        font-size: 22px;
+        margin: 2vw 0 0 5vw;
+    }
+    
+    &__tabla__de__criptos{
+        width: 650px;
+        height: 450px;
+        margin: 2vw 0 0 3vw;
+        color: #FFFFFF;
+    }
+}
+/* Termina Mercado Cripto */
+/* Empieza Pie de Pagina Mercado Cripto*/
+.main__footer__2{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    height: 100px;
+    &__rectangulo{
+        position: absolute;
+        width: 100%;
+        height: 250px;
+        margin: 20vw 0 0 0;
+        background: conic-gradient(from 180deg at 50% 50%, #000000 -1.95deg, #C37B1D 11.07deg, #000000 40deg, #DB8A21 97.79deg, #000000 166.91deg, #C37B1D 205.98deg, #000000 269.61deg, #0174CD 337.3deg, #000000 358.05deg, #C37B1D 371.07deg);
+        border-radius: 35px 35px 0px 0px;
+    
+    &__logo{
+        position: absolute;
+        width: 180px;
+        height: 180px;
+        margin: 5vw 0 0 3vw;
+        z-index: 1;
+    }
+    &__menu__nav{
+        position: absolute;
+        width: 400px;
+        height: 225px;
+        background: #212121;
+        border-radius: 25px;
+        margin: 2vw 0 0 35vw;
+        &__nav{
+            position: absolute;
+            width: 300px;
+            height: 211px;
+            font-size: 25px;
+            margin: 0.5vw 0 0 0;
+            ul{
+                list-style-type: none;
+                a{
+                    text-decoration: none;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+}
+}
+}
+
 // Termina pie de Pagina Mercado Cripto//
 @media (min-width: 992px){
 
@@ -76,7 +150,7 @@
         position: absolute;
         width: 1400px;
         height: 850px;
-        margin: -5vw 0 0 4vw;
+        margin: 0 0 0 13vw;
         background: rgba(0, 0, 0, 0.75);
         border-radius: 22px;
         text-align: center;
@@ -134,7 +208,7 @@
                     }
                 }
             }
-        }
+        } 
     }
 }
     /* Termina Pie de Pagina Mercado Cripto*/
