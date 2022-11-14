@@ -8731,7 +8731,7 @@ textarea.form-control-lg {
     grid-template-areas: "logo logo" "currency margin" "quantity quantity" "graph graph";
     width: 225px;
     height: 145px;
-    background: linear-gradient(180deg, rgba(117, 191, 240, 0.6) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
+    background: linear-gradient(180deg, rgba(117, 191, 240, 0.76) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 20px;
     grid-area: card2;
@@ -8751,7 +8751,7 @@ textarea.form-control-lg {
     grid-template-areas: "logo logo" "currency margin" "quantity quantity" "graph graph";
     width: 225px;
     height: 145px;
-    background: linear-gradient(180deg, rgba(117, 191, 240, 0.6) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
+    background: linear-gradient(180deg, rgba(117, 191, 240, 0.76) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 20px;
     grid-area: card4;
@@ -8761,7 +8761,7 @@ textarea.form-control-lg {
     grid-template-areas: "logo logo" "currency margin" "quantity quantity" "graph graph";
     width: 225px;
     height: 145px;
-    background: linear-gradient(180deg, rgba(117, 191, 240, 0.6) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
+    background: linear-gradient(180deg, rgba(117, 191, 240, 0.76) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 20px;
     grid-area: card5;
@@ -8813,7 +8813,7 @@ textarea.form-control-lg {
     justify-content: center;
     width: 280px;
     height: 200px;
-    background: linear-gradient(180deg, rgba(90, 150, 187, 0.6) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
+    background: linear-gradient(180deg, rgba(117, 191, 240, 0.76) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
     border: 1px solid #E5E5E5;
     box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
@@ -8825,7 +8825,7 @@ textarea.form-control-lg {
     justify-content: center;
     width: 280px;
     height: 200px;
-    background: linear-gradient(180deg, rgba(90, 150, 187, 0.6) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
+    background: linear-gradient(180deg, rgba(117, 191, 240, 0.76) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
     border: 1px solid #E5E5E5;
     box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
@@ -8837,7 +8837,7 @@ textarea.form-control-lg {
     justify-content: center;
     width: 280px;
     height: 200px;
-    background: linear-gradient(180deg, rgba(90, 150, 187, 0.6) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
+    background: linear-gradient(180deg, rgba(117, 191, 240, 0.76) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
     border: 1px solid #E5E5E5;
     box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
@@ -8906,7 +8906,7 @@ textarea.form-control-lg {
       width: 250px;
       height: 25px;
       border-radius: 20px;
-      background: linear-gradient(97.86deg, #b84d00 -38.38%, #b94e02 71.88%);
+      background: linear-gradient(97.86deg, rgba(255, 108, 3, 0.904) -38.38%, rgba(255, 108, 3, 0.904) 71.88%);
       color: #FFFFFF;
       font-size: 20px;
       border-style: hidden;
@@ -8915,10 +8915,10 @@ textarea.form-control-lg {
       -moz-transition: all 0.20s linear;
       position: relative;
       bottom: 0;
-      box-shadow: 0px 5px 0 rgba(216, 50, 0, 0.6); }
+      box-shadow: 0px 5px 0 rgba(255, 108, 3, 0.904); }
       .main__footer__formulario__nav li:active {
         bottom: -5px;
-        box-shadow: 0 0 0 rgba(216, 50, 0, 0.6), inset 0 0 5px rgba(0, 0, 0, 0.4); }
+        box-shadow: 0 0 0 rgba(255, 108, 3, 0.904), inset 0 0 5px rgba(0, 0, 0, 0.4); }
       .main__footer__formulario__nav li a {
         text-decoration: none;
         color: #FFFFFF;
@@ -9120,7 +9120,7 @@ textarea.form-control-lg {
         grid-template-columns: 1fr 2fr;
         width: 300px;
         height: 65px;
-        background: linear-gradient(180deg, rgba(106, 185, 236, 0.7) 27.43%, rgba(255, 255, 255, 0) 171.71%);
+        background: linear-gradient(180deg, rgba(117, 191, 240, 0.76) 27.43%, rgba(255, 255, 255, 0) 171.71%);
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         transform: matrix(1, 0, -0.08, 1, 0, 0);
         margin: -8vw 0 0 3vw; }
@@ -9173,7 +9173,7 @@ textarea.form-control-lg {
       grid-template-areas: "logo logo" "currency margin" "quantity quantity" "graph graph";
       width: 180px;
       height: 125px;
-      background: linear-gradient(180deg, rgba(117, 191, 240, 0.6) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
+      background: linear-gradient(180deg, rgba(117, 191, 240, 0.76) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
       border: 1px solid rgba(255, 255, 255, 0.5);
       border-radius: 20px;
       grid-area: card2;
@@ -9193,7 +9193,7 @@ textarea.form-control-lg {
       grid-template-areas: "logo logo" "currency margin" "quantity quantity" "graph graph";
       width: 180px;
       height: 125px;
-      background: linear-gradient(180deg, rgba(117, 191, 240, 0.6) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
+      background: linear-gradient(180deg, rgba(117, 191, 240, 0.76) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
       border: 1px solid rgba(255, 255, 255, 0.5);
       border-radius: 20px;
       grid-area: card4;
@@ -9203,7 +9203,7 @@ textarea.form-control-lg {
       grid-template-areas: "logo logo" "currency margin" "quantity quantity" "graph graph";
       width: 180px;
       height: 125px;
-      background: linear-gradient(180deg, rgba(117, 191, 240, 0.6) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
+      background: linear-gradient(180deg, rgba(117, 191, 240, 0.76) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
       border: 1px solid rgba(255, 255, 255, 0.5);
       border-radius: 20px;
       grid-area: card5;
@@ -9255,7 +9255,7 @@ textarea.form-control-lg {
       justify-content: center;
       width: 250px;
       height: 160px;
-      background: linear-gradient(180deg, rgba(90, 150, 187, 0.6) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
+      background: linear-gradient(180deg, rgba(117, 191, 240, 0.76) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
       border: 1px solid #E5E5E5;
       box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.05);
       border-radius: 10px;
@@ -9267,7 +9267,7 @@ textarea.form-control-lg {
       justify-content: center;
       width: 250px;
       height: 160px;
-      background: linear-gradient(180deg, rgba(90, 150, 187, 0.6) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
+      background: linear-gradient(180deg, rgba(117, 191, 240, 0.76) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
       border: 1px solid #E5E5E5;
       box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.05);
       border-radius: 10px;
@@ -9279,7 +9279,7 @@ textarea.form-control-lg {
       justify-content: center;
       width: 250px;
       height: 160px;
-      background: linear-gradient(180deg, rgba(90, 150, 187, 0.6) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
+      background: linear-gradient(180deg, rgba(117, 191, 240, 0.76) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
       border: 1px solid #E5E5E5;
       box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.05);
       border-radius: 10px;
@@ -9347,7 +9347,7 @@ textarea.form-control-lg {
         width: 220px;
         height: 25px;
         border-radius: 20px;
-        background: linear-gradient(97.86deg, #b84d00 -38.38%, #b94e02 71.88%);
+        background: linear-gradient(97.86deg, rgba(255, 108, 3, 0.904) -38.38%, rgba(255, 108, 3, 0.904) 71.88%);
         color: #FFFFFF;
         font-size: 20px;
         border-style: hidden;
@@ -9356,10 +9356,10 @@ textarea.form-control-lg {
         -moz-transition: all 0.20s linear;
         position: relative;
         bottom: 0;
-        box-shadow: 0px 5px 0 rgba(216, 50, 0, 0.6); }
+        box-shadow: 0px 5px 0 rgba(255, 108, 3, 0.904); }
         .main__footer__formulario__nav li:active {
           bottom: -5px;
-          box-shadow: 0 0 0 rgba(216, 50, 0, 0.6), inset 0 0 5px rgba(0, 0, 0, 0.4); }
+          box-shadow: 0 0 0 rgba(255, 108, 3, 0.904), inset 0 0 5px rgba(0, 0, 0, 0.4); }
         .main__footer__formulario__nav li a {
           text-decoration: none;
           color: #FFFFFF;
@@ -9585,7 +9585,7 @@ textarea.form-control-lg {
         grid-template-columns: 1fr 2fr;
         width: 573px;
         height: 71px;
-        background: linear-gradient(180deg, rgba(106, 185, 236, 0.7) 27.43%, rgba(255, 255, 255, 0) 171.71%);
+        background: linear-gradient(180deg, rgba(117, 191, 240, 0.76) 27.43%, rgba(255, 255, 255, 0) 171.71%);
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         transform: matrix(1, 0, -0.08, 1, 0, 0);
         margin: -1vw 0 0 2.8vw; }
@@ -9641,7 +9641,7 @@ textarea.form-control-lg {
       grid-template-areas: "logo logo" "currency margin" "quantity quantity" "graph graph";
       width: 225px;
       height: 145px;
-      background: linear-gradient(180deg, rgba(117, 191, 240, 0.6) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
+      background: linear-gradient(180deg, rgba(117, 191, 240, 0.76) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
       border: 1px solid rgba(255, 255, 255, 0.5);
       border-radius: 20px;
       grid-area: card2;
@@ -9661,7 +9661,7 @@ textarea.form-control-lg {
       grid-template-areas: "logo logo" "currency margin" "quantity quantity" "graph graph";
       width: 225px;
       height: 145px;
-      background: linear-gradient(180deg, rgba(117, 191, 240, 0.6) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
+      background: linear-gradient(180deg, rgba(117, 191, 240, 0.76) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
       border: 1px solid rgba(255, 255, 255, 0.5);
       border-radius: 20px;
       grid-area: card4;
@@ -9671,7 +9671,7 @@ textarea.form-control-lg {
       grid-template-areas: "logo logo" "currency margin" "quantity quantity" "graph graph";
       width: 225px;
       height: 145px;
-      background: linear-gradient(180deg, rgba(117, 191, 240, 0.6) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
+      background: linear-gradient(180deg, rgba(117, 191, 240, 0.76) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
       border: 1px solid rgba(255, 255, 255, 0.5);
       border-radius: 20px;
       grid-area: card5;
@@ -9723,7 +9723,7 @@ textarea.form-control-lg {
       justify-content: center;
       width: 318px;
       height: 208px;
-      background: linear-gradient(180deg, rgba(90, 150, 187, 0.6) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
+      background: linear-gradient(180deg, rgba(117, 191, 240, 0.76) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
       border: 1px solid #E5E5E5;
       box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.05);
       border-radius: 10px;
@@ -9735,7 +9735,7 @@ textarea.form-control-lg {
       justify-content: center;
       width: 318px;
       height: 208px;
-      background: linear-gradient(180deg, rgba(90, 150, 187, 0.6) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
+      background: linear-gradient(180deg, rgba(117, 191, 240, 0.76) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
       border: 1px solid #E5E5E5;
       box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.05);
       border-radius: 10px;
@@ -9747,7 +9747,7 @@ textarea.form-control-lg {
       justify-content: center;
       width: 318px;
       height: 208px;
-      background: linear-gradient(180deg, rgba(90, 150, 187, 0.6) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
+      background: linear-gradient(180deg, rgba(117, 191, 240, 0.76) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
       border: 1px solid #E5E5E5;
       box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.05);
       border-radius: 10px;
@@ -9812,7 +9812,7 @@ textarea.form-control-lg {
         width: 400px;
         height: 45px;
         border-radius: 20px;
-        background: linear-gradient(97.86deg, #b84d00 -38.38%, #b94e02 71.88%);
+        background: linear-gradient(97.86deg, rgba(255, 108, 3, 0.904) -38.38%, rgba(255, 108, 3, 0.904) 71.88%);
         color: #FFFFFF;
         font-size: 20px;
         border-style: hidden;
@@ -9821,10 +9821,10 @@ textarea.form-control-lg {
         -moz-transition: all 0.20s linear;
         position: relative;
         bottom: 0;
-        box-shadow: 0px 5px 0 rgba(216, 50, 0, 0.6); }
+        box-shadow: 0px 5px 0 rgba(255, 108, 3, 0.904); }
         .main__footer__formulario__nav li:active {
           bottom: -5px;
-          box-shadow: 0 0 0 rgba(216, 50, 0, 0.6), inset 0 0 5px rgba(0, 0, 0, 0.4); }
+          box-shadow: 0 0 0 rgba(255, 108, 3, 0.904), inset 0 0 5px rgba(0, 0, 0, 0.4); }
         .main__footer__formulario__nav li a {
           text-decoration: none;
           color: #FFFFFF;
@@ -10138,7 +10138,7 @@ textarea.form-control-lg {
       width: 85px;
       height: 20px;
       border-radius: 20px;
-      background: linear-gradient(97.86deg, #89C6FF -38.38%, #3633D0 71.88%);
+      background: linear-gradient(97.86deg, #89C6FF -38.38%, #2750aa 71.88%);
       color: #FFFFFF;
       font-size: 15px;
       border-style: hidden;
@@ -10147,10 +10147,10 @@ textarea.form-control-lg {
       -moz-transition: all 0.20s linear;
       position: relative;
       bottom: 0;
-      box-shadow: 0px 5px 0 #3633D0; }
+      box-shadow: 0px 5px 0 #2750aa; }
       .mercado__nfts__rectangulo__cards__card__button:active {
         bottom: -5px;
-        box-shadow: 0 0 0 #3633D0, inset 0 0 5px rgba(0, 0, 0, 0.4); }
+        box-shadow: 0 0 0 #2750aa, inset 0 0 5px rgba(0, 0, 0, 0.4); }
 
 /* Empieza Pie de Pagina Mercado Cripto*/
 .main__footer__3 {
@@ -10213,7 +10213,7 @@ textarea.form-control-lg {
       width: 160px;
       height: 40px;
       margin-top: 2vw;
-      background-color: #0174CD;
+      background-color: #2750aa;
       border-style: hidden;
       border-radius: 20px;
       color: #FFFFFF;
@@ -10509,7 +10509,7 @@ textarea.form-control-lg {
         width: 6vw;
         height: 1.5vw;
         border-radius: 20px;
-        background: linear-gradient(97.86deg, #89C6FF -38.38%, #3633D0 71.88%);
+        background: linear-gradient(97.86deg, rgba(117, 191, 240, 0.76) -38.38%, #3633D0 71.88%);
         color: #FFFFFF;
         font-size: 20px;
         border-style: hidden;
@@ -10581,7 +10581,7 @@ textarea.form-control-lg {
     grid-template-areas: "logo logo" "currency margin" "quantity quantity" "graph graph";
     width: 160px;
     height: 120px;
-    background: linear-gradient(180.23deg, rgba(117, 191, 240, 0.76) 36.57%, rgba(255, 0, 0, 0.516) 117.01%);
+    background: linear-gradient(180.23deg, rgba(255, 108, 3, 0.904) 36.57%, rgba(255, 0, 0, 0.516) 117.01%);
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 20px;
     grid-area: card01; }
@@ -10590,7 +10590,7 @@ textarea.form-control-lg {
     grid-template-areas: "logo logo" "currency margin" "quantity quantity" "graph graph";
     width: 160px;
     height: 120px;
-    background: linear-gradient(180deg, rgba(117, 191, 240, 0.6) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
+    background: linear-gradient(180deg, rgba(255, 108, 3, 0.904) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 20px;
     grid-area: card02; }
@@ -10599,7 +10599,7 @@ textarea.form-control-lg {
     grid-template-areas: "logo logo" "currency margin" "quantity quantity" "graph graph";
     width: 160px;
     height: 120px;
-    background: linear-gradient(180.23deg, rgba(117, 191, 240, 0.76) 36.57%, rgba(255, 0, 0, 0.516) 117.01%);
+    background: linear-gradient(180.23deg, rgba(255, 108, 3, 0.904) 36.57%, rgba(255, 0, 0, 0.516) 117.01%);
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 20px;
     grid-area: card03; }
@@ -10608,7 +10608,7 @@ textarea.form-control-lg {
     grid-template-areas: "logo logo" "currency margin" "quantity quantity" "graph graph";
     width: 160px;
     height: 120px;
-    background: linear-gradient(180deg, rgba(117, 191, 240, 0.6) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
+    background: linear-gradient(180deg, rgba(255, 108, 3, 0.904) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 20px;
     grid-area: card04; }
@@ -10617,7 +10617,7 @@ textarea.form-control-lg {
     grid-template-areas: "logo logo" "currency margin" "quantity quantity" "graph graph";
     width: 160px;
     height: 120px;
-    background: linear-gradient(180deg, rgba(117, 191, 240, 0.6) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
+    background: linear-gradient(180deg, rgba(255, 108, 3, 0.904) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 20px;
     grid-area: card05; }
@@ -10657,7 +10657,7 @@ textarea.form-control-lg {
       width: 160px;
       height: 120px;
       margin: 22vw 0 0 4vw;
-      background: rgba(255, 109, 3, 0.6);
+      background: rgba(255, 108, 3, 0.904);
       border: hidden;
       border-radius: 20px; }
       .main__ganancias__cripto__venta__token__image {
@@ -10689,7 +10689,7 @@ textarea.form-control-lg {
       height: 45px;
       margin: 45vw 0 0 0;
       border-radius: 20px;
-      background: linear-gradient(97.86deg, rgba(184, 77, 0, 0.6) -38.38%, #b94e02 71.88%);
+      background: linear-gradient(97.86deg, rgba(255, 108, 3, 0.904) -38.38%, #b94e02 71.88%);
       color: #FFFFFF;
       font-size: 20px;
       border-style: hidden;
@@ -10707,7 +10707,7 @@ textarea.form-control-lg {
       width: 160px;
       height: 120px;
       margin: -52vw 0 0 55vw;
-      background: rgba(255, 109, 3, 0.6);
+      background: rgba(255, 108, 3, 0.904);
       border: hidden;
       border-radius: 20px; }
       .main__ganancias__cripto__venta__to__change__image {
@@ -10759,7 +10759,7 @@ textarea.form-control-lg {
     justify-content: center;
     width: 160px;
     height: 110px;
-    background: linear-gradient(180deg, rgba(90, 150, 187, 0.6) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
+    background: linear-gradient(180deg, rgba(255, 108, 3, 0.904) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
     border: 1px solid #E5E5E5;
     box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.05);
     border-radius: 10px; }
@@ -10770,7 +10770,7 @@ textarea.form-control-lg {
     justify-content: center;
     width: 160px;
     height: 110px;
-    background: linear-gradient(180deg, rgba(90, 150, 187, 0.6) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
+    background: linear-gradient(180deg, rgba(255, 108, 3, 0.904) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
     border: 1px solid #E5E5E5;
     box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.05);
     border-radius: 10px; }
@@ -10781,7 +10781,7 @@ textarea.form-control-lg {
     justify-content: center;
     width: 160px;
     height: 110px;
-    background: linear-gradient(180deg, rgba(90, 150, 187, 0.6) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
+    background: linear-gradient(180deg, rgba(255, 108, 3, 0.904) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
     border: 1px solid #E5E5E5;
     box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.05);
     border-radius: 10px; }
@@ -10792,7 +10792,7 @@ textarea.form-control-lg {
     justify-content: center;
     width: 160px;
     height: 110px;
-    background: linear-gradient(180deg, rgba(90, 150, 187, 0.6) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
+    background: linear-gradient(180deg, rgba(255, 108, 3, 0.904) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
     border: 1px solid #E5E5E5;
     box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.05);
     border-radius: 10px; }
@@ -10803,7 +10803,7 @@ textarea.form-control-lg {
     justify-content: center;
     width: 160px;
     height: 110px;
-    background: linear-gradient(180deg, rgba(90, 150, 187, 0.6) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
+    background: linear-gradient(180deg, rgba(255, 108, 3, 0.904) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
     border: 1px solid #E5E5E5;
     box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
@@ -10845,7 +10845,7 @@ textarea.form-control-lg {
     margin: 3vw 0 0 23vw;
     width: 200px;
     height: 140px;
-    background: linear-gradient(180deg, rgba(255, 109, 3, 0.6) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
+    background: linear-gradient(180deg, rgba(255, 108, 3, 0.904) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
     border: 1px solid #E5E5E5;
     box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.05);
     border-radius: 10px; }
@@ -10870,7 +10870,7 @@ textarea.form-control-lg {
     grid-template-columns: 1fr 2fr;
     width: 280px;
     height: 71px;
-    background: linear-gradient(180deg, rgba(255, 109, 3, 0.6) 27.43%, rgba(255, 255, 255, 0) 171.71%);
+    background: linear-gradient(180deg, rgba(255, 108, 3, 0.904) 27.43%, rgba(255, 255, 255, 0) 171.71%);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     transform: matrix(1, 0, -0.08, 1, 0, 0);
     margin: 5vw 0 0 13vw; }
@@ -10879,7 +10879,7 @@ textarea.form-control-lg {
     grid-template-columns: 1fr 2fr;
     width: 280px;
     height: 71px;
-    background: linear-gradient(180deg, rgba(255, 109, 3, 0.6) 27.43%, rgba(255, 255, 255, 0) 171.71%);
+    background: linear-gradient(180deg, rgba(255, 108, 3, 0.904) 27.43%, rgba(255, 255, 255, 0) 171.71%);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     transform: matrix(1, 0, -0.08, 1, 0, 0);
     margin: 2vw 0 0 13vw; }
@@ -10888,7 +10888,7 @@ textarea.form-control-lg {
     grid-template-columns: 1fr 2fr;
     width: 280px;
     height: 71px;
-    background: linear-gradient(180deg, rgba(255, 109, 3, 0.6) 27.43%, rgba(255, 255, 255, 0) 171.71%);
+    background: linear-gradient(180deg, rgba(255, 108, 3, 0.904) 27.43%, rgba(255, 255, 255, 0) 171.71%);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     transform: matrix(1, 0, -0.08, 1, 0, 0);
     margin: 2vw 0 0 13vw; }
@@ -10959,7 +10959,7 @@ textarea.form-control-lg {
       grid-template-areas: "logo logo" "currency margin" "quantity quantity" "graph graph";
       width: 200px;
       height: 125px;
-      background: linear-gradient(180.23deg, rgba(117, 191, 240, 0.76) 36.57%, rgba(255, 0, 0, 0.516) 117.01%);
+      background: linear-gradient(180.23deg, rgba(255, 108, 3, 0.904) 36.57%, rgba(255, 0, 0, 0.516) 117.01%);
       border: 1px solid rgba(255, 255, 255, 0.5);
       border-radius: 20px;
       grid-area: card01; }
@@ -10968,7 +10968,7 @@ textarea.form-control-lg {
       grid-template-areas: "logo logo" "currency margin" "quantity quantity" "graph graph";
       width: 200px;
       height: 125px;
-      background: linear-gradient(180deg, rgba(117, 191, 240, 0.6) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
+      background: linear-gradient(180deg, rgba(255, 108, 3, 0.904) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
       border: 1px solid rgba(255, 255, 255, 0.5);
       border-radius: 20px;
       grid-area: card02; }
@@ -10977,7 +10977,7 @@ textarea.form-control-lg {
       grid-template-areas: "logo logo" "currency margin" "quantity quantity" "graph graph";
       width: 200px;
       height: 125px;
-      background: linear-gradient(180.23deg, rgba(117, 191, 240, 0.76) 36.57%, rgba(255, 0, 0, 0.516) 117.01%);
+      background: linear-gradient(180.23deg, rgba(255, 108, 3, 0.904) 36.57%, rgba(255, 0, 0, 0.516) 117.01%);
       border: 1px solid rgba(255, 255, 255, 0.5);
       border-radius: 20px;
       grid-area: card03; }
@@ -10986,7 +10986,7 @@ textarea.form-control-lg {
       grid-template-areas: "logo logo" "currency margin" "quantity quantity" "graph graph";
       width: 200px;
       height: 125px;
-      background: linear-gradient(180deg, rgba(117, 191, 240, 0.6) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
+      background: linear-gradient(180deg, rgba(255, 108, 3, 0.904) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
       border: 1px solid rgba(255, 255, 255, 0.5);
       border-radius: 20px;
       grid-area: card04; }
@@ -10995,7 +10995,7 @@ textarea.form-control-lg {
       grid-template-areas: "logo logo" "currency margin" "quantity quantity" "graph graph";
       width: 200px;
       height: 125px;
-      background: linear-gradient(180deg, rgba(117, 191, 240, 0.6) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
+      background: linear-gradient(180deg, rgba(255, 108, 3, 0.904) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
       border: 1px solid rgba(255, 255, 255, 0.5);
       border-radius: 20px;
       grid-area: card05; }
@@ -11035,7 +11035,7 @@ textarea.form-control-lg {
         width: 220px;
         height: 160px;
         margin: 10vw 0 0 6vw;
-        background: rgba(255, 109, 3, 0.6);
+        background: rgba(255, 108, 3, 0.904);
         border: hidden;
         border-radius: 20px; }
         .main__ganancias__cripto__venta__token__image {
@@ -11067,7 +11067,7 @@ textarea.form-control-lg {
         height: 45px;
         margin: 5vw 0 0 0;
         border-radius: 20px;
-        background: linear-gradient(97.86deg, rgba(184, 77, 0, 0.6) -38.38%, #b94e02 71.88%);
+        background: linear-gradient(97.86deg, rgba(255, 108, 3, 0.904) -38.38%, #b94e02 71.88%);
         color: #FFFFFF;
         font-size: 20px;
         border-style: hidden;
@@ -11085,7 +11085,7 @@ textarea.form-control-lg {
         width: 220px;
         height: 160px;
         margin: -17.5vw 0 0 68vw;
-        background: rgba(255, 109, 3, 0.6);
+        background: rgba(255, 108, 3, 0.904);
         border: hidden;
         border-radius: 20px; }
         .main__ganancias__cripto__venta__to__change__image {
@@ -11136,7 +11136,7 @@ textarea.form-control-lg {
       justify-content: center;
       width: 250px;
       height: 180px;
-      background: linear-gradient(180deg, rgba(90, 150, 187, 0.6) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
+      background: linear-gradient(180deg, rgba(255, 108, 3, 0.904) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
       border: 1px solid #E5E5E5;
       box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.05);
       border-radius: 10px; }
@@ -11147,7 +11147,7 @@ textarea.form-control-lg {
       justify-content: center;
       width: 250px;
       height: 180px;
-      background: linear-gradient(180deg, rgba(90, 150, 187, 0.6) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
+      background: linear-gradient(180deg, rgba(255, 108, 3, 0.904) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
       border: 1px solid #E5E5E5;
       box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.05);
       border-radius: 10px; }
@@ -11158,7 +11158,7 @@ textarea.form-control-lg {
       justify-content: center;
       width: 250px;
       height: 180px;
-      background: linear-gradient(180deg, rgba(90, 150, 187, 0.6) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
+      background: linear-gradient(180deg, rgba(255, 108, 3, 0.904) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
       border: 1px solid #E5E5E5;
       box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.05);
       border-radius: 10px; }
@@ -11169,7 +11169,7 @@ textarea.form-control-lg {
       justify-content: center;
       width: 250px;
       height: 180px;
-      background: linear-gradient(180deg, rgba(90, 150, 187, 0.6) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
+      background: linear-gradient(180deg, rgba(255, 108, 3, 0.904) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
       border: 1px solid #E5E5E5;
       box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.05);
       border-radius: 10px; }
@@ -11180,7 +11180,7 @@ textarea.form-control-lg {
       justify-content: center;
       width: 250px;
       height: 180px;
-      background: linear-gradient(180deg, rgba(90, 150, 187, 0.6) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
+      background: linear-gradient(180deg, rgba(255, 108, 3, 0.904) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
       border: 1px solid #E5E5E5;
       box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.05);
       border-radius: 10px;
@@ -11221,7 +11221,7 @@ textarea.form-control-lg {
       margin: 12vw 0 0 8vw;
       width: 280px;
       height: 180px;
-      background: linear-gradient(180deg, rgba(255, 109, 3, 0.6) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
+      background: linear-gradient(180deg, rgba(255, 108, 3, 0.904) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
       border: 1px solid #E5E5E5;
       box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.05);
       border-radius: 10px; }
@@ -11246,7 +11246,7 @@ textarea.form-control-lg {
       grid-template-columns: 1fr 2fr;
       width: 280px;
       height: 71px;
-      background: linear-gradient(180deg, rgba(255, 109, 3, 0.6) 27.43%, rgba(255, 255, 255, 0) 171.71%);
+      background: linear-gradient(180deg, rgba(255, 108, 3, 0.904) 27.43%, rgba(255, 255, 255, 0) 171.71%);
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
       transform: matrix(1, 0, -0.08, 1, 0, 0);
       margin: -25vw 0 0 55vw; }
@@ -11255,7 +11255,7 @@ textarea.form-control-lg {
       grid-template-columns: 1fr 2fr;
       width: 280px;
       height: 71px;
-      background: linear-gradient(180deg, rgba(255, 109, 3, 0.6) 27.43%, rgba(255, 255, 255, 0) 171.71%);
+      background: linear-gradient(180deg, rgba(255, 108, 3, 0.904) 27.43%, rgba(255, 255, 255, 0) 171.71%);
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
       transform: matrix(1, 0, -0.08, 1, 0, 0);
       margin: 2vw 0 0 55vw; }
@@ -11264,7 +11264,7 @@ textarea.form-control-lg {
       grid-template-columns: 1fr 2fr;
       width: 280px;
       height: 71px;
-      background: linear-gradient(180deg, rgba(255, 109, 3, 0.6) 27.43%, rgba(255, 255, 255, 0) 171.71%);
+      background: linear-gradient(180deg, rgba(255, 108, 3, 0.904) 27.43%, rgba(255, 255, 255, 0) 171.71%);
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
       transform: matrix(1, 0, -0.08, 1, 0, 0);
       margin: 2vw 0 0 55vw; }
@@ -11334,7 +11334,7 @@ textarea.form-control-lg {
       grid-template-areas: "logo logo" "currency margin" "quantity quantity" "graph graph";
       width: 250px;
       height: 190px;
-      background: linear-gradient(180.23deg, rgba(117, 191, 240, 0.76) 36.57%, rgba(255, 0, 0, 0.516) 117.01%);
+      background: linear-gradient(180.23deg, rgba(255, 108, 3, 0.904) 36.57%, rgba(255, 0, 0, 0.516) 117.01%);
       border: 1px solid rgba(255, 255, 255, 0.5);
       border-radius: 20px;
       grid-area: card01; }
@@ -11343,7 +11343,7 @@ textarea.form-control-lg {
       grid-template-areas: "logo logo" "currency margin" "quantity quantity" "graph graph";
       width: 250px;
       height: 190px;
-      background: linear-gradient(180deg, rgba(117, 191, 240, 0.6) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
+      background: linear-gradient(180deg, rgba(255, 108, 3, 0.904) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
       border: 1px solid rgba(255, 255, 255, 0.5);
       border-radius: 20px;
       grid-area: card02; }
@@ -11352,7 +11352,7 @@ textarea.form-control-lg {
       grid-template-areas: "logo logo" "currency margin" "quantity quantity" "graph graph";
       width: 250px;
       height: 190px;
-      background: linear-gradient(180.23deg, rgba(117, 191, 240, 0.76) 36.57%, rgba(255, 0, 0, 0.516) 117.01%);
+      background: linear-gradient(180.23deg, rgba(255, 108, 3, 0.904) 36.57%, rgba(255, 0, 0, 0.516) 117.01%);
       border: 1px solid rgba(255, 255, 255, 0.5);
       border-radius: 20px;
       grid-area: card03; }
@@ -11361,7 +11361,7 @@ textarea.form-control-lg {
       grid-template-areas: "logo logo" "currency margin" "quantity quantity" "graph graph";
       width: 250px;
       height: 190px;
-      background: linear-gradient(180deg, rgba(117, 191, 240, 0.6) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
+      background: linear-gradient(180deg, rgba(255, 108, 3, 0.904) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
       border: 1px solid rgba(255, 255, 255, 0.5);
       border-radius: 20px;
       grid-area: card04; }
@@ -11370,7 +11370,7 @@ textarea.form-control-lg {
       grid-template-areas: "logo logo" "currency margin" "quantity quantity" "graph graph";
       width: 250px;
       height: 190px;
-      background: linear-gradient(180deg, rgba(117, 191, 240, 0.6) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
+      background: linear-gradient(180deg, rgba(255, 108, 3, 0.904) 53.65%, rgba(42, 185, 39, 0.76) 99.99%, rgba(117, 191, 240, 0) 100%);
       border: 1px solid rgba(255, 255, 255, 0.5);
       border-radius: 20px;
       grid-area: card05; }
@@ -11407,7 +11407,7 @@ textarea.form-control-lg {
         width: 387px;
         height: 240px;
         margin: 5vw 0 0 8vw;
-        background: rgba(255, 109, 3, 0.6);
+        background: rgba(255, 108, 3, 0.904);
         border: hidden;
         border-radius: 20px; }
         .main__ganancias__cripto__venta__token__image {
@@ -11439,7 +11439,7 @@ textarea.form-control-lg {
         height: 45px;
         margin: 5vw 0 0 -4.2vw;
         border-radius: 20px;
-        background: linear-gradient(97.86deg, rgba(184, 77, 0, 0.6) -38.38%, #b94e02 71.88%);
+        background: linear-gradient(97.86deg, rgba(255, 108, 3, 0.904) -38.38%, #b94e02 71.88%);
         color: #FFFFFF;
         font-size: 20px;
         border-style: hidden;
@@ -11457,7 +11457,7 @@ textarea.form-control-lg {
         width: 387px;
         height: 240px;
         margin: -11vw 0 0 68vw;
-        background: rgba(255, 109, 3, 0.6);
+        background: rgba(255, 108, 3, 0.904);
         border: hidden;
         border-radius: 20px; }
         .main__ganancias__cripto__venta__to__change__image {
@@ -11507,7 +11507,7 @@ textarea.form-control-lg {
       justify-content: center;
       width: 318px;
       height: 208px;
-      background: linear-gradient(180deg, rgba(90, 150, 187, 0.6) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
+      background: linear-gradient(180deg, rgba(255, 108, 3, 0.904) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
       border: 1px solid #E5E5E5;
       box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.05);
       border-radius: 10px; }
@@ -11518,7 +11518,7 @@ textarea.form-control-lg {
       justify-content: center;
       width: 318px;
       height: 208px;
-      background: linear-gradient(180deg, rgba(90, 150, 187, 0.6) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
+      background: linear-gradient(180deg, rgba(255, 108, 3, 0.904) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
       border: 1px solid #E5E5E5;
       box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.05);
       border-radius: 10px; }
@@ -11529,7 +11529,7 @@ textarea.form-control-lg {
       justify-content: center;
       width: 318px;
       height: 208px;
-      background: linear-gradient(180deg, rgba(90, 150, 187, 0.6) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
+      background: linear-gradient(180deg, rgba(255, 108, 3, 0.904) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
       border: 1px solid #E5E5E5;
       box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.05);
       border-radius: 10px; }
@@ -11540,7 +11540,7 @@ textarea.form-control-lg {
       justify-content: center;
       width: 318px;
       height: 208px;
-      background: linear-gradient(180deg, rgba(90, 150, 187, 0.6) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
+      background: linear-gradient(180deg, rgba(255, 108, 3, 0.904) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
       border: 1px solid #E5E5E5;
       box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.05);
       border-radius: 10px; }
@@ -11551,7 +11551,7 @@ textarea.form-control-lg {
       justify-content: center;
       width: 318px;
       height: 208px;
-      background: linear-gradient(180deg, rgba(90, 150, 187, 0.6) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
+      background: linear-gradient(180deg, rgba(255, 108, 3, 0.904) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
       border: 1px solid #E5E5E5;
       box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.05);
       border-radius: 10px;
@@ -11592,7 +11592,7 @@ textarea.form-control-lg {
       margin: 3vw 0 0 8vw;
       width: 318px;
       height: 208px;
-      background: linear-gradient(180deg, rgba(255, 109, 3, 0.6) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
+      background: linear-gradient(180deg, rgba(255, 108, 3, 0.904) 56.88%, rgba(122, 233, 133, 0.342) 92.71%);
       border: 1px solid #E5E5E5;
       box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.05);
       border-radius: 10px; }
@@ -11617,7 +11617,7 @@ textarea.form-control-lg {
       grid-template-columns: 1fr 2fr;
       width: 573px;
       height: 71px;
-      background: linear-gradient(180deg, rgba(255, 109, 3, 0.6) 27.43%, rgba(255, 255, 255, 0) 171.71%);
+      background: linear-gradient(180deg, rgba(255, 108, 3, 0.904) 27.43%, rgba(255, 255, 255, 0) 171.71%);
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
       transform: matrix(1, 0, -0.08, 1, 0, 0);
       margin: -12vw 0 0 35vw; }
@@ -11626,7 +11626,7 @@ textarea.form-control-lg {
       grid-template-columns: 1fr 2fr;
       width: 573px;
       height: 71px;
-      background: linear-gradient(180deg, rgba(255, 109, 3, 0.6) 27.43%, rgba(255, 255, 255, 0) 171.71%);
+      background: linear-gradient(180deg, rgba(255, 108, 3, 0.904) 27.43%, rgba(255, 255, 255, 0) 171.71%);
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
       transform: matrix(1, 0, -0.08, 1, 0, 0);
       margin: 1vw 0 0 35vw; }
@@ -11635,7 +11635,7 @@ textarea.form-control-lg {
       grid-template-columns: 1fr 2fr;
       width: 573px;
       height: 71px;
-      background: linear-gradient(180deg, rgba(255, 109, 3, 0.6) 27.43%, rgba(255, 255, 255, 0) 171.71%);
+      background: linear-gradient(180deg, rgba(255, 108, 3, 0.904) 27.43%, rgba(255, 255, 255, 0) 171.71%);
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
       transform: matrix(1, 0, -0.08, 1, 0, 0);
       margin: 1vw 0 0 35vw; }
@@ -12332,7 +12332,7 @@ textarea.form-control-lg {
   height: 45px;
   margin: 40vw 0 0 25vw;
   border-radius: 20px;
-  background: linear-gradient(97.86deg, rgba(184, 77, 0, 0.6) -38.38%, #b94e02 71.88%);
+  background: linear-gradient(97.86deg, rgba(255, 108, 3, 0.904) -38.38%, rgba(255, 108, 3, 0.904) 71.88%);
   color: #FFFFFF;
   font-size: 20px;
   border-style: hidden;
@@ -12341,10 +12341,10 @@ textarea.form-control-lg {
   -moz-transition: all 0.20s linear;
   position: relative;
   bottom: 0;
-  box-shadow: 0px 5px 0 rgba(216, 50, 0, 0.6); }
+  box-shadow: 0px 5px 0 rgba(255, 108, 3, 0.904); }
   .formulario__micuenta__iniciar-sesion:active {
     bottom: -5px;
-    box-shadow: 0 0 0 rgba(216, 50, 0, 0.6), inset 0 0 5px rgba(0, 0, 0, 0.4); }
+    box-shadow: 0 0 0 rgba(255, 108, 3, 0.904), inset 0 0 5px rgba(0, 0, 0, 0.4); }
 
 @media (min-width: 576px) {
   .formulario__micuenta__email {
@@ -12373,7 +12373,7 @@ textarea.form-control-lg {
     height: 45px;
     margin: 35vw 0 0 41vw;
     border-radius: 20px;
-    background: linear-gradient(97.86deg, rgba(184, 77, 0, 0.6) -38.38%, #b94e02 71.88%);
+    background: linear-gradient(97.86deg, rgba(255, 108, 3, 0.904) -38.38%, rgba(255, 108, 3, 0.904) 71.88%);
     color: #FFFFFF;
     font-size: 20px;
     border-style: hidden;
@@ -12382,10 +12382,10 @@ textarea.form-control-lg {
     -moz-transition: all 0.20s linear;
     position: relative;
     bottom: 0;
-    box-shadow: 0px 5px 0 rgba(216, 50, 0, 0.6); }
+    box-shadow: 0px 5px 0 rgba(255, 108, 3, 0.904); }
     .formulario__micuenta__iniciar-sesion:active {
       bottom: -5px;
-      box-shadow: 0 0 0 rgba(216, 50, 0, 0.6), inset 0 0 5px rgba(0, 0, 0, 0.4); } }
+      box-shadow: 0 0 0 rgba(255, 108, 3, 0.904), inset 0 0 5px rgba(0, 0, 0, 0.4); } }
 
 @media (min-width: 992px) {
   .formulario__micuenta__email {
@@ -12414,7 +12414,7 @@ textarea.form-control-lg {
     height: 45px;
     margin: 8vw 0 0 45vw;
     border-radius: 20px;
-    background: linear-gradient(97.86deg, rgba(184, 77, 0, 0.6) -38.38%, #b94e02 71.88%);
+    background: linear-gradient(97.86deg, rgba(255, 108, 3, 0.904) -38.38%, rgba(255, 108, 3, 0.904) 71.88%);
     color: #FFFFFF;
     font-size: 20px;
     border-style: hidden;
@@ -12423,7 +12423,7 @@ textarea.form-control-lg {
     -moz-transition: all 0.20s linear;
     position: relative;
     bottom: 0;
-    box-shadow: 0px 5px 0 rgba(216, 50, 0, 0.6); }
+    box-shadow: 0px 5px 0 rgba(255, 108, 3, 0.904); }
     .formulario__micuenta__iniciar-sesion:active {
       bottom: -5px;
-      box-shadow: 0 0 0 rgba(216, 50, 0, 0.6), inset 0 0 5px rgba(0, 0, 0, 0.4); } }
+      box-shadow: 0 0 0 rgba(255, 108, 3, 0.904), inset 0 0 5px rgba(0, 0, 0, 0.4); } }

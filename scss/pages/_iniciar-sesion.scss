@@ -27,7 +27,7 @@
         height: 45px;
         margin: 40vw 0 0 25vw;
         border-radius: 20px;
-        background: linear-gradient(97.86deg, rgba(184, 77, 0, 0.6) -38.38%, rgb(185, 78, 2) 71.88%);
+        background: linear-gradient(97.86deg, $secondary -38.38%, $secondary 71.88%);
         color: #FFFFFF;
         font-size: 20px;
         border-style: hidden;
@@ -36,10 +36,10 @@
         -moz-transition: all 0.20s linear;
         position: relative;
         bottom: 0;
-        box-shadow: 0px 5px 0 rgba(216, 50, 0, 0.6);
+        box-shadow: 0px 5px 0 $secondary;
         &:active{
             bottom: -5px;
-            box-shadow:0 0 0 rgba(216, 50, 0, 0.6), inset 0 0 5px rgba(0, 0, 0, 0.4);
+            box-shadow:0 0 0 $secondary, inset 0 0 5px rgba(0, 0, 0, 0.4);
         }
     }
 }
@@ -74,7 +74,7 @@
             height: 45px;
             margin: 35vw 0 0 41vw;
             border-radius: 20px;
-            background: linear-gradient(97.86deg, rgba(184, 77, 0, 0.6) -38.38%, rgb(185, 78, 2) 71.88%);
+            background: linear-gradient(97.86deg, $secondary -38.38%, $secondary 71.88%);
             color: #FFFFFF;
             font-size: 20px;
             border-style: hidden;
@@ -83,10 +83,10 @@
             -moz-transition: all 0.20s linear;
             position: relative;
             bottom: 0;
-            box-shadow: 0px 5px 0 rgba(216, 50, 0, 0.6);
+            box-shadow: 0px 5px 0 $secondary;
             &:active{
                 bottom: -5px;
-                box-shadow:0 0 0 rgba(216, 50, 0, 0.6), inset 0 0 5px rgba(0, 0, 0, 0.4);
+                box-shadow:0 0 0 $secondary, inset 0 0 5px rgba(0, 0, 0, 0.4);
             }
         }
     }
@@ -122,7 +122,7 @@
             height: 45px;
             margin: 8vw 0 0 45vw;
             border-radius: 20px;
-            background: linear-gradient(97.86deg, rgba(184, 77, 0, 0.6) -38.38%, rgb(185, 78, 2) 71.88%);
+            background: linear-gradient(97.86deg, $secondary -38.38%, $secondary 71.88%);
             color: #FFFFFF;
             font-size: 20px;
             border-style: hidden;
@@ -131,10 +131,10 @@
             -moz-transition: all 0.20s linear;
             position: relative;
             bottom: 0;
-            box-shadow: 0px 5px 0 rgba(216, 50, 0, 0.6);
+            box-shadow: 0px 5px 0 $secondary;
             &:active{
                 bottom: -5px;
-                box-shadow:0 0 0 rgba(216, 50, 0, 0.6), inset 0 0 5px rgba(0, 0, 0, 0.4);
+                box-shadow:0 0 0 $secondary, inset 0 0 5px rgba(0, 0, 0, 0.4);
             }
         }
     }
